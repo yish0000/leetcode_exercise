@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "TestCase.h"
+#include <vector>
 
 struct ListNode {
 	int val;
@@ -7,8 +7,30 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
-class Solution {
+class Solution
+{
+protected:
+	std::vector<ListNode*> lists;
+
+	void FreeList(ListNode* l)
+	{
+		ListNode* cur = l;
+		while (cur)
+		{
+			ListNode* next = cur->next;
+			free(cur);
+			cur = next;
+		}
+	}
+
 public:
+	~Solution()
+	{
+		std::vector<ListNode*>::iterator it;
+		for (it = lists.begin(); it != lists.end(); ++it)
+			FreeList(*it);
+	}
+
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 		int carry = 0;
 		ListNode* ret = NULL;
@@ -66,7 +88,8 @@ public:
 		ListNode* first = NULL;
 		ListNode* cur = NULL;
 		if (number == 0)
-			return new ListNode(0);
+			first = new ListNode(0);
+
 		while (number > 0)
 		{
 			int curNum = number % 10;
@@ -85,30 +108,35 @@ public:
 			number = number / 10;
 		}
 
+		lists.push_back(first);
 		return first;
 	}
 
-	void FreeList(ListNode* l)
+	bool ListEqual(ListNode* l, int arr[])
 	{
+		int i = 0;
 		ListNode* cur = l;
 		while (cur)
 		{
-			ListNode* next = cur->next;
-			free(cur);
-			cur = next;
+			if (cur->val != arr[i])
+				return false;
+
+			i++;
+			cur = cur->next;
 		}
+
+		return true;
 	}
 };
 
-void Test_AddTwoNumbers()
+RUN_TESTCASE(AddTwoNumbers)
 {
 	Solution sln;
 	int num1 = 786;
 	int num2 = 823;
+	int result[] = { 9, 0, 6, 1 };
 	ListNode* l1 = sln.BuildList(num1);
 	ListNode* l2 = sln.BuildList(num2);
 	ListNode* ret = sln.addTwoNumbers(l1, l2);
-	sln.FreeList(l1);
-	sln.FreeList(l2);
-	sln.FreeList(ret);
+	TESTCASE_ASSERT(sln.ListEqual(ret, result));
 }

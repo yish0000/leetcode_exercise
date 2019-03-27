@@ -149,7 +149,12 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="WildcardMatching.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestCase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

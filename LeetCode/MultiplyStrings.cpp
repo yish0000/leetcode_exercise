@@ -1,3 +1,4 @@
+#include "TestCase.h"
 #include <string>
 #include <iostream>
 
@@ -92,16 +93,16 @@ protected:
 	}
 };
 
-void Test_MultiplyStrings()
+RUN_TESTCASE(MultiplyStrings)
 {
 	Solution sln;
 	string A = "8866983";
 	string B = "18612484806";
 	string C = sln.add(A, B);
-	cout << C << endl;
+	TESTCASE_ASSERT(C == "18621351789");
 
 	A = "91022";
 	B = "8866983";
 	C = sln.multiply(A, B);
-	cout << C << endl;
+	TESTCASE_ASSERT(C == "807090526626");
 }

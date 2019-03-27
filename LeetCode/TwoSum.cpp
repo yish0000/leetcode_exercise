@@ -1,3 +1,4 @@
+#include "TestCase.h"
 #include <vector>
 #include <iostream>
 #include <unordered_map>
@@ -10,7 +11,7 @@ public:
 		vector<int> result;
 		unordered_map<int, int> indexMap;
 
-		for (int i = 0; i < nums.size(); ++i)
+		for (size_t i = 0; i < nums.size(); ++i)
 		{
 			if (indexMap.find(target - nums[i]) != indexMap.end())
 			{
@@ -26,10 +27,10 @@ public:
 	}
 };
 
-void Test_TwoSum()
+RUN_TESTCASE(TwoSum)
 {
 	Solution sln;
 	vector<int> arr = { 1,2,3,4,5,6,7,8,9 };
 	vector<int> ret = sln.twoSum(arr, 11);
-	cout << ret[0] << ", " << ret[1] << endl;
+	TESTCASE_ASSERT((ret[0] == 4 && ret[1] == 5) || (ret[0] == 5 && ret[1] == 4));
 }

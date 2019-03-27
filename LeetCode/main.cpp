@@ -1,14 +1,17 @@
 #include <iostream>
-
-extern void Test_AddTwoNumbers();
-extern void Test_MultiplyStrings();
-extern void Test_TwoSum();
+#include "TestCase.h"
 
 void main()
 {
-	Test_AddTwoNumbers();
-	Test_MultiplyStrings();
-	Test_TwoSum();
+	for (size_t i = 0; i < UnitTestCount(); i++)
+	{
+		TestCase* pTestCase = GetTestCase(i);
+		std::cout << "--------------------------------------------------------------------" << std::endl;
+		std::cout << "TestCase: " << pTestCase->GetName() << " Start." << std::endl;
+		pTestCase->RunTest();
+		std::cout << "--------------------------------------------------------------------" << std::endl;
+	}
 
+	CleanTestCase();
 	std::cin.get();
 }
