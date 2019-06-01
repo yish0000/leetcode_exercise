@@ -15,12 +15,12 @@ public:
 		{
 			if (indexMap.find(target - nums[i]) != indexMap.end())
 			{
-				result.push_back(i);
+				result.push_back((int)i);
 				result.push_back(indexMap[target - nums[i]]);
 				return result;
 			}
 			else
-				indexMap[nums[i]] = i;
+				indexMap[nums[i]] = (int)i;
 		}
 
 		return result;
