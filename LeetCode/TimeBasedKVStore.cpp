@@ -31,7 +31,7 @@ public:
 		if (it != time_map.end())
 		{
 			const vector<Data>& arr = it->second;
-			int index = BinarySearch(arr, timestamp, 0, arr.size() - 1);
+			int index = BinarySearch(arr, timestamp, 0, (int)arr.size() - 1);
 			if (index >= 0 && index < arr.size())
 				return arr[index].value;
 		}
@@ -44,23 +44,22 @@ protected:
 	int BinarySearch(const vector<Data>& arr, int timestamp, int low, int high)
 	{
 		if (low > high)
-			return -1;
+        {
+            if (low - 1 < 0)
+                return -1;
+            else
+                return low - 1;
+        }
 		int mid = low + (high - low) / 2;
 		if (timestamp == arr[mid].timestamp)
 			return mid;
 		else if (timestamp > arr[mid].timestamp)
 		{
-			if (mid > low)
-				return BinarySearch(arr, timestamp, low, mid);
-			else
-				return mid;
+            return BinarySearch(arr, timestamp, mid+1, high);
 		}
 		else
 		{
-			if (mid <= 0)
-				return -1;
-			else
-				return mid - 1;
+            return BinarySearch(arr, timestamp, low, mid-1);
 		}
 	}
 };
@@ -77,7 +76,7 @@ RUN_TESTCASE(TimeBasedKVStore)
 	TimeMap kv;
 	kv.set("foo", "bar", 1); // store the key "foo" and value "bar" along with timestamp = 1   
 	TESTCASE_ASSERT(kv.get("foo", 1) == "bar");  // output "bar"   
-	TESTCASE_ASSERT(kv.get("foo", 3) == "bar"); // output "bar" since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 ie "bar"   
+	TESTCASE_ASSERT(kv.get("foo", 3) == "bar"); // output "bar" since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 ie "bar"
 	kv.set("foo", "bar2", 4);
 	TESTCASE_ASSERT(kv.get("foo", 4) == "bar2"); // output "bar2"   
 	TESTCASE_ASSERT(kv.get("foo", 5) == "bar2"); //output "bar2"  
