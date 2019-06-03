@@ -37,6 +37,9 @@
     <ClCompile Include="BST2GST.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="TimeBasedKVStore.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -153,6 +153,7 @@
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
+    <ClCompile Include="TimeBasedKVStore.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
   </ItemGroup>
