@@ -103,7 +103,7 @@ public:
         if (root)
         {
             int max_depth = CalcDepth(root);
-            int count = pow(2, max_depth) - 1;
+            int count = (int)pow(2, max_depth) - 1;
             queue.push(root);
             while (queue.size() > 0 && count > 0)
             {

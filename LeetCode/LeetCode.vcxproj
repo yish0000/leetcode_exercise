@@ -22,13 +22,13 @@
     <ProjectGuid>{1051B995-D547-4C0B-BEBF-04DE11C5C7A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -146,9 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />

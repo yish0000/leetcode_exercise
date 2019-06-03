@@ -28,6 +28,15 @@
     <ClCompile Include="TestCase.cpp">
       <Filter>TestSuite</Filter>
     </ClCompile>
+    <ClCompile Include="StrStr.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="3Sum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BST2GST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
