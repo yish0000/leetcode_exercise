@@ -12,6 +12,7 @@
 		E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */; };
 		E6AAE7F622A81DBD00A071F3 /* PartionGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F422A81DBD00A071F3 /* PartionGet.cpp */; };
 		E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F522A81DBD00A071F3 /* MaximumSubArray.cpp */; };
+		E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */; };
 		E6B9FBC922A20C4500361BFE /* TestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC122A20C4500361BFE /* TestCase.cpp */; };
 		E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC222A20C4500361BFE /* MultiplyStrings.cpp */; };
 		E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC322A20C4500361BFE /* AddTwoNumbers.cpp */; };
@@ -39,6 +40,7 @@
 		E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeBasedKVStore.cpp; sourceTree = "<group>"; };
 		E6AAE7F422A81DBD00A071F3 /* PartionGet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartionGet.cpp; sourceTree = "<group>"; };
 		E6AAE7F522A81DBD00A071F3 /* MaximumSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubArray.cpp; sourceTree = "<group>"; };
+		E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		E6B9FBA722A20BBA00361BFE /* leetcode_exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B9FBC022A20C4500361BFE /* LeetCode.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LeetCode.vcxproj; sourceTree = "<group>"; };
 		E6B9FBC122A20C4500361BFE /* TestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCase.cpp; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				E6B9FBC722A20C4500361BFE /* main.cpp */,
 				E6B9FBC822A20C4500361BFE /* TwoSum.cpp */,
 				E6B9FBCF22A2157300361BFE /* BST2GST.cpp */,
+				E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
+				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
 				E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */,
 				E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */,
 				E6B9FBC922A20C4500361BFE /* TestCase.cpp in Sources */,
