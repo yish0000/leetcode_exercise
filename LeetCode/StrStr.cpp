@@ -25,7 +25,7 @@ public:
 				}
 
 				if (j == needle.length())
-					return i;
+					return (int)i;
 			}
 
 			return -1;

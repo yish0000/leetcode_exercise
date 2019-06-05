@@ -22,7 +22,7 @@ public:
 	{
 		max = std::numeric_limits<int>::min();
 		min = std::numeric_limits<int>::max();
-		PartionGet(arr, 0, arr.size() - 1, max, min);
+		PartionGet(arr, 0, (int)arr.size() - 1, max, min);
 	}
 
 	void PartionGet(const vector<int>& arr, int s, int e, int& max, int& min)

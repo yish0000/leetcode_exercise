@@ -17,13 +17,13 @@ public:
 			if (nums[i] > curSum + nums[i])
 			{
 				curSum = nums[i];
-				s = i;
-				e = i;
+				s = (int)i;
+				e = (int)i;
 			}
 			else
 			{
 				curSum += nums[i];
-				e = i;
+				e = (int)i;
 			}
 
 			if (curSum > totalSum)
