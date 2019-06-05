@@ -32,7 +32,7 @@ public:
 		{
 			const vector<Data>& arr = it->second;
 			int index = BinarySearch(arr, timestamp, 0, (int)arr.size() - 1);
-			if (index >= 0 && index < arr.size())
+			if (index >= 0 && index < (int)arr.size())
 				return arr[index].value;
 		}
 		return "";

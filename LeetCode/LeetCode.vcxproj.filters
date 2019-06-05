@@ -40,6 +40,12 @@
     <ClCompile Include="TimeBasedKVStore.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumSubArray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PartionGet.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

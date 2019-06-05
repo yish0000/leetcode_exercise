@@ -150,7 +150,9 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
