@@ -20,6 +20,7 @@
 		E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC722A20C4500361BFE /* main.cpp */; };
 		E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC822A20C4500361BFE /* TwoSum.cpp */; };
 		E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBCF22A2157300361BFE /* BST2GST.cpp */; };
+		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,7 @@
 		E6B9FBC722A20C4500361BFE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E6B9FBC822A20C4500361BFE /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		E6B9FBCF22A2157300361BFE /* BST2GST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST2GST.cpp; sourceTree = "<group>"; };
+		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E6B9FBC822A20C4500361BFE /* TwoSum.cpp */,
 				E6B9FBCF22A2157300361BFE /* BST2GST.cpp */,
 				E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */,
+				E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
 				E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */,
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
+				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
