@@ -153,6 +153,8 @@
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="PartionGet.cpp" />
+    <ClCompile Include="PriorityQueue.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />

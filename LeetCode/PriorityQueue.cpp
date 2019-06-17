@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 #include "TestCase.h"
-#include <stdio.h>
+#include <time.h>
+#include <assert.h>
 
 class PriorityQueue
 {
@@ -49,12 +50,12 @@ protected:
         std::swap(c[0], c[c.size()-1]);
         
         int curIndex = 1;
-        while(curIndex * 2 < c.size())
+        while(curIndex * 2 < (int)c.size())
         {
             int selChild = 0;
             int leftChild = curIndex * 2;
             int rightChild = curIndex * 2 + 1;
-            if (rightChild < c.size())
+            if (rightChild < (int)c.size())
             {
                 if (c[leftChild-1] < c[rightChild-1])
                     selChild = leftChild;
