@@ -149,6 +149,7 @@
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
