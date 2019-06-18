@@ -153,6 +153,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
