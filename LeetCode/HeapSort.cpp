@@ -7,7 +7,7 @@ class Solution
 public:
 	void HeapSort(std::vector<int>& arr)
 	{
-		int len = arr.size() - 1;
+		int len = (int)arr.size() - 1;
 		int beginIndex = (len - 1) >> 1;
 		for (int i = beginIndex; i >= 0; i--)
 		{
