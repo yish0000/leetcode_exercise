@@ -34,7 +34,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -153,6 +153,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />

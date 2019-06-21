@@ -58,6 +58,9 @@
     <ClCompile Include="PalindromeNumber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromeList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

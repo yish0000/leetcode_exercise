@@ -8,22 +8,14 @@ public:
 	bool isPalindrome(int x) {
 		if (x < 0) return false;
 		if (x < 10) return true;
-		std::vector<int> arr;
-		while (x > 0)
+		int input = x;
+		unsigned reverse = 0;
+		while (input > 0)
 		{
-			int part = x % 10;
-			arr.push_back(part);
-			x /= 10;
+			reverse = reverse * 10 + input % 10;
+			input /= 10;
 		}
-		int s = 0, e = arr.size() - 1;
-		while (s < e)
-		{
-			if (arr[s] != arr[e])
-				return false;
-			s++;
-			e--;
-		}
-		return true;
+		return reverse == x;
 	}
 };
 
