@@ -21,6 +21,8 @@
 		E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBC822A20C4500361BFE /* TwoSum.cpp */; };
 		E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B9FBCF22A2157300361BFE /* BST2GST.cpp */; };
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
+		E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */; };
+		E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +56,8 @@
 		E6B9FBC822A20C4500361BFE /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		E6B9FBCF22A2157300361BFE /* BST2GST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST2GST.cpp; sourceTree = "<group>"; };
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
+		E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */,
+				E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */,
 				E6AAE7F522A81DBD00A071F3 /* MaximumSubArray.cpp */,
 				E6AAE7F422A81DBD00A071F3 /* PartionGet.cpp */,
 				E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */,
@@ -168,10 +174,12 @@
 				E6AAE7F622A81DBD00A071F3 /* PartionGet.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
+				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
 				E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */,
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
+				E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
