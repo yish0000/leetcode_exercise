@@ -2,7 +2,7 @@
 #include <vector>
 #include "TestCase.h"
 
-class Solution
+class SolutionReverseInt
 {
 public:
     int reverse(int x) {
@@ -25,7 +25,7 @@ public:
 
 RUN_TESTCASE(ReverseInt)
 {
-    Solution sln;
+    SolutionReverseInt sln;
     TESTCASE_ASSERT(sln.reverse(123) == 321);
     TESTCASE_ASSERT(sln.reverse(-123) == -321);
     TESTCASE_ASSERT(sln.reverse(120) == 21);

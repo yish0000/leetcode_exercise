@@ -7,7 +7,7 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
-class Solution
+class SolutionAddTwoNumbers
 {
 protected:
 	std::vector<ListNode*> lists;
@@ -18,13 +18,13 @@ protected:
 		while (cur)
 		{
 			ListNode* next = cur->next;
-			free(cur);
+			delete cur;
 			cur = next;
 		}
 	}
 
 public:
-	~Solution()
+	~SolutionAddTwoNumbers()
 	{
 		std::vector<ListNode*>::iterator it;
 		for (it = lists.begin(); it != lists.end(); ++it)
@@ -131,7 +131,7 @@ public:
 
 RUN_TESTCASE(AddTwoNumbers)
 {
-	Solution sln;
+	SolutionAddTwoNumbers sln;
 	int num1 = 786;
 	int num2 = 823;
 	int result[] = { 9, 0, 6, 1 };
