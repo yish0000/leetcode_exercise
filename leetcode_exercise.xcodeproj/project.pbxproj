@@ -23,6 +23,7 @@
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
 		E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */; };
 		E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */; };
+		E6FDBC6122BDBCE300ACB295 /* ReverseInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,7 @@
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
 		E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
+		E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInt.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E6B9FBCF22A2157300361BFE /* BST2GST.cpp */,
 				E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */,
 				E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */,
+				E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6AAE7F222A5759B00A071F3 /* 3Sum.cpp in Sources */,
+				E6FDBC6122BDBCE300ACB295 /* ReverseInt.cpp in Sources */,
 				E6AAE7F622A81DBD00A071F3 /* PartionGet.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
