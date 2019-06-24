@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Solution {
+class SolutionMultiplyStrings {
 public:
 	string multiply(string num1, string num2) {
 		string C;
@@ -95,7 +95,7 @@ protected:
 
 RUN_TESTCASE(MultiplyStrings)
 {
-	Solution sln;
+	SolutionMultiplyStrings sln;
 	string A = "8866983";
 	string B = "18612484806";
 	string C = sln.add(A, B);
