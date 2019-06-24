@@ -158,6 +158,8 @@
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="RandomizedSelection.cpp" />
+    <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />

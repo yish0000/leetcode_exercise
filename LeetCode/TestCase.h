@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 class TestCase
 {
@@ -12,6 +13,8 @@ public:
 	const std::string& GetName() const { return Name; }
 
 	void assertTest(bool bValue, const char* message, const char* filename, int line);
+
+	static void PrintAssetFailed();
 
 protected:
 	std::string Name;

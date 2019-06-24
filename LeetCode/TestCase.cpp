@@ -2,12 +2,14 @@
 
 #include <vector>
 #include <iostream>
+#include <sstream>
 
 #if _WIN32
 #include <windows.h>
 #endif
 
-std::vector<TestCase*>* TestCaseList;
+static std::vector<TestCase*>* TestCaseList;
+static std::vector<std::string> assertFailed;
 
 static void AddTestCase(TestCase* testCase)
 {
@@ -34,12 +36,31 @@ void TestCase::assertTest(bool bValue, const char* message, const char* filename
 		SetConsoleTextAttribute(hdl, FOREGROUND_RED | FOREGROUND_INTENSITY);
 #endif
 
-		std::cout << filename << "(" << line << "): " << message << " assert failed!" << std::endl;
+		std::stringstream msg;
+		msg << std::string(filename) << "(" << line << "): " << message << " assert failed!";
+		std::cout << msg.str() << std::endl;
+
+		assertFailed.push_back(msg.str());
 
 #if _WIN32
 		SetConsoleTextAttribute(hdl, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 #endif
 	}
+}
+
+void TestCase::PrintAssetFailed()
+{
+#if _WIN32
+	HANDLE hdl = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hdl, FOREGROUND_RED | FOREGROUND_INTENSITY);
+#endif
+
+	for (std::vector<std::string>::const_iterator it = assertFailed.begin(); it != assertFailed.end(); ++it)
+		std::cout << *it << std::endl;
+
+#if _WIN32
+	SetConsoleTextAttribute(hdl, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
+#endif
 }
 
 size_t UnitTestCount()

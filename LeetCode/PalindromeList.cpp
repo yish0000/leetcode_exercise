@@ -105,6 +105,6 @@ RUN_TESTCASE(PalindromeList)
 	TESTCASE_ASSERT(!sln.isPalindrome(pList2));
 	sln.FreeList(pList2);
 	ListNode* pList3 = sln.BuildList({ 8 });
-	TESTCASE_ASSERT(!sln.isPalindrome(pList3));
+	TESTCASE_ASSERT(sln.isPalindrome(pList3));
 	sln.FreeList(pList3);
 }

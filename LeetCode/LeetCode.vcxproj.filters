@@ -61,6 +61,12 @@
     <ClCompile Include="PalindromeList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RandomizedSelection.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseInt.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
