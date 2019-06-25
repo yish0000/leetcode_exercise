@@ -67,6 +67,12 @@
     <ClCompile Include="ReverseInt.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedListII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

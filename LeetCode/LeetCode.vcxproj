@@ -160,6 +160,8 @@
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="ReverseInt.cpp" />
+    <ClCompile Include="ReverseLinkedList.cpp" />
+    <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
