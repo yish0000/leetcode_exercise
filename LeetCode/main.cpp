@@ -17,7 +17,6 @@ int main(int argc, char* argv[])
 	TestCase::PrintAssetFailed();
 	std::cout << "--------------------------------------------------------------------" << std::endl;
 
-
 	CleanTestCase();
 	return std::cin.get();
 }
