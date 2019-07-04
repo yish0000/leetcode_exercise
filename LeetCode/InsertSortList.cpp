@@ -102,7 +102,7 @@ public:
         ListNode* pCur = head;
         while(pCur)
         {
-            if (idx >= arr.size())
+            if (idx >= (int)arr.size())
                 return false;
             if (pCur->val != arr[idx])
                 return false;

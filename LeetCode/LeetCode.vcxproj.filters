@@ -73,6 +73,18 @@
     <ClCompile Include="ReverseLinkedListII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SortLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSortList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
