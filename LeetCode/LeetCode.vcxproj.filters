@@ -91,6 +91,9 @@
     <ClCompile Include="MergeTwoSortedList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LengthOfLongestSubstring.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
