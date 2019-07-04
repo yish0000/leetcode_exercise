@@ -154,6 +154,7 @@
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
@@ -173,6 +174,7 @@
     <ClCompile Include="WildcardMatching.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedListCommon.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

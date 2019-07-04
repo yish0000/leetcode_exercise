@@ -1,13 +1,7 @@
 #include "TestCase.h"
-#include <iostream>
+#include "LinkedListCommon.h"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
-class SolutionRemoveLinkedList
+class SolutionRemoveLinkedList : public LinkedListCommon
 {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -32,53 +26,6 @@ public:
             }
         }
         return head;
-    }
-    
-    ListNode* BuildList(const std::vector<int>& arr)
-    {
-        ListNode* pHead = NULL;
-        ListNode* pCur = NULL;
-        for (int i = 0; i < (int)arr.size(); i++)
-        {
-            if (!pHead)
-            {
-                pHead = new ListNode(arr[i]);
-                pCur = pHead;
-            }
-            else
-            {
-                pCur->next = new ListNode(arr[i]);
-                pCur = pCur->next;
-            }
-        }
-        return pHead;
-    }
-    
-    void FreeList(ListNode* pHead)
-    {
-        ListNode* pCur = pHead;
-        while (pCur)
-        {
-            ListNode* pNext = pCur->next;
-            delete pCur;
-            pCur = pNext;
-        }
-    }
-    
-    bool ListEqual(ListNode* head, const std::vector<int>& arr)
-    {
-        int idx = 0;
-        ListNode* pCur = head;
-        while(pCur)
-        {
-            if (idx >= (int)arr.size())
-                return false;
-            if (pCur->val != arr[idx])
-                return false;
-            pCur = pCur->next;
-            idx++;
-        }
-        return idx == arr.size();
     }
 };
 

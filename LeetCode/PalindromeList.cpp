@@ -1,14 +1,7 @@
-#include <iostream>
-#include <vector>
 #include "TestCase.h"
+#include "LinkedListCommon.h"
 
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
-
-class Solution
+class SolutionPalindromeList : public LinkedListCommon
 {
 public:
 	bool isPalindrome(ListNode* head) {
@@ -62,42 +55,11 @@ public:
 		}
 		return true;
 	}
-
-	ListNode* BuildList(const std::vector<int>& arr)
-	{
-		ListNode* pHead = NULL;
-		ListNode* pCur = NULL;
-		for (int i = 0; i < (int)arr.size(); i++)
-		{
-			if (!pHead)
-			{
-				pHead = new ListNode(arr[i]);
-				pCur = pHead;
-			}
-			else
-			{
-				pCur->next = new ListNode(arr[i]);
-				pCur = pCur->next;
-			}
-		}
-		return pHead;
-	}
-
-	void FreeList(ListNode* pHead)
-	{
-		ListNode* pCur = pHead;
-		while (pCur)
-		{
-			ListNode* pNext = pCur->next;
-			delete pCur;
-			pCur = pNext;
-		}
-	}
 };
 
 RUN_TESTCASE(PalindromeList)
 {
-	Solution sln;
+	SolutionPalindromeList sln;
 	ListNode* pList1 = sln.BuildList({ 8,6,7,1,1,7,6,8 });
 	TESTCASE_ASSERT(sln.isPalindrome(pList1));
 	sln.FreeList(pList1);
