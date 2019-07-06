@@ -45,7 +45,7 @@ public:
 			arr.push_back(pCur->val);
 			pCur = pCur->next;
 		}
-		int s = 0, e = arr.size() - 1;
+		int s = 0, e = (int)arr.size() - 1;
 		while (s < e)
 		{
 			if (arr[s] != arr[e])

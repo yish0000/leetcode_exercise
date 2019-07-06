@@ -51,7 +51,7 @@ public:
 			}
 			else
 			{
-				memset(chars, 0, size(chars));
+				memset(chars, 0, sizeof(chars));
 				len = 0;
 				start++;
 				it = s.begin() + start;
