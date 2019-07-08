@@ -14,6 +14,7 @@ public:
 
 	void assertTest(bool bValue, const char* message, const char* filename, int line);
 
+	static bool HaveAssetFailed();
 	static void PrintAssetFailed();
 
 protected:

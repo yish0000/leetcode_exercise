@@ -63,6 +63,11 @@ void TestCase::PrintAssetFailed()
 #endif
 }
 
+bool TestCase::HaveAssetFailed()
+{
+	return assertFailed.size() > 0;
+}
+
 size_t UnitTestCount()
 {
 	return TestCaseList->size();
