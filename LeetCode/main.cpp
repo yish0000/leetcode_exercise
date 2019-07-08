@@ -12,10 +12,17 @@ int main(int argc, char* argv[])
 		std::cout << "--------------------------------------------------------------------" << std::endl;
 	}
 
-	std::cout << "--------------------------------------------------------------------" << std::endl;
-	std::cout << "All assert failed messages:" << std::endl;
-	TestCase::PrintAssetFailed();
-	std::cout << "--------------------------------------------------------------------" << std::endl;
+	if (TestCase::HaveAssetFailed())
+	{
+		std::cout << "--------------------------------------------------------------------" << std::endl;
+		std::cout << "All assert failed messages:" << std::endl;
+		TestCase::PrintAssetFailed();
+		std::cout << "--------------------------------------------------------------------" << std::endl;
+	}
+	else
+	{
+		std::cout << "Congratulations, all test case execute successfully!" << std::endl;
+	}
 
 	CleanTestCase();
 	return std::cin.get();
