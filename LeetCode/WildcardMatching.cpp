@@ -4,82 +4,89 @@
 
 using namespace std;
 
+#define USE_CPP 1
+
 class Solution {
 public:
 	bool isMatch(string s, string p) {
+#if USE_CPP == 0
+		const char* Input = s.c_str();
+		const char* Pattern = p.c_str();
+		const char* pp = Pattern;
+		const char* pinput = nullptr;
+
+		while (*Input != '\0')
+		{
+			if (*Pattern == '*')
+			{
+				if (*(++Pattern) == '\0')
+					return true;
+
+				pp = Pattern;
+				pinput = Input + 1;
+			}
+			else if ((*Pattern == '?') || (*Pattern == *Input))
+			{
+				Pattern++;
+				Input++;
+			}
+			else if (pinput == nullptr)
+				return false;
+			else
+			{
+				Pattern = pp;
+				Input = pinput++;
+			}
+		}
+
+		while (*Pattern == '*')
+			Pattern++;
+
+		if (*Pattern == '\0')
+			return true;
+
+		return false;
+#else
 		string::const_iterator itS = s.begin();
 		string::const_iterator itP = p.begin();
 		string::const_iterator lastItP = p.end();
+		string::const_iterator lastItS = p.end();
 
-		while (itS != s.end() && itP != p.end())
+		while (itS != s.end())
 		{
-			if (*itP == '*')
+			if (itP != p.end() && *itP == '*')
 			{
-				lastItP = itP;
-				while(itP != p.end() && *itP == '*')
-					itP++;
+				if (++itP == p.end())
+					return true;
 
-				if (itP == p.end())
-					itS = s.end();
-				else
-				{
-					if (*itP == '?')
-						continue;
-					else
-					{
-						while (itS != s.end() && *itS != *itP)
-							itS++;
-					}
-				}
+				lastItP = itP;
+				lastItS = itS + 1;
 			}
-			else if (*itP == '?')
+			else if (itP != p.end() && (*itP == '?' || *itP == *itS))
 			{
-				itS++;
 				itP++;
+				itS++;
 			}
+			else if (lastItP == p.end())
+				return false;
 			else
 			{
-				if (*itS != *itP)
-				{
-					if (lastItP != p.end())
-					{
-						// 回溯，尝试让上一个通配符*匹配掉当前的不匹配字符串
-						itP = lastItP;
-						lastItP = p.end();
-					}
-					else
-						return false;
-				}
-				else
-				{
-					itS++;
-					itP++;
-				}
-			}
-
-			if (itP == p.end() && itS != s.end())
-			{
-				// 通配符结束了，字符串还没结束，尝试回溯一下
 				itP = lastItP;
-				lastItP = p.end();
+				if (lastItS == s.end())
+					itS = lastItS;
+				else
+					itS = lastItS++;
 			}
 		}
 
-		if (itS == s.end() && itP == p.end())
-			return true;
-		else if (itS == s.end())
-		{
-			// 忽略掉剩余的*
-			for (; itP != p.end(); ++itP)
-			{
-				if (*itP != '*')
-					return false;
-			}
+		while (itP != p.end() && *itP == '*')
+			++itP;
 
+		if (itP == p.end())
 			return true;
-		}
-		
+
 		return false;
+#endif
 	}
 };
 
@@ -107,4 +114,8 @@ RUN_TESTCASE(WildcardMatching)
 	TESTCASE_ASSERT(sln.isMatch("hasdfasdfasdf", "*?*d?asdf"));
 	TESTCASE_ASSERT(sln.isMatch("cabdddab", "*ab"));
 	TESTCASE_ASSERT(sln.isMatch("hasdfasdfasdf", "*as*d?asdf"));
+	TESTCASE_ASSERT(sln.isMatch("aaaa", "***a"));
+	TESTCASE_ASSERT(sln.isMatch("mississippi", "m*issip*"));
+	TESTCASE_ASSERT(sln.isMatch("mississippi", "m*issip*i"));
+	TESTCASE_ASSERT(sln.isMatch("abcd", "ab*cd"));
 }
