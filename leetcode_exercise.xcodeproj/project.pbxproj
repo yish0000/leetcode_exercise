@@ -30,6 +30,7 @@
 		E6BC6BD622C2638D007B920D /* PalindromeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD522C2638D007B920D /* PalindromeList.cpp */; };
 		E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD722C26679007B920D /* InsertSortList.cpp */; };
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
+		E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */; };
 		E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */; };
 		E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */; };
 		E6FDBC6122BDBCE300ACB295 /* ReverseInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */; };
@@ -77,6 +78,7 @@
 		E6BC6BD522C2638D007B920D /* PalindromeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeList.cpp; sourceTree = "<group>"; };
 		E6BC6BD722C26679007B920D /* InsertSortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSortList.cpp; sourceTree = "<group>"; };
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RomanToNumber.cpp; sourceTree = "<group>"; };
 		E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInt.cpp; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				E6FDBC6222BF70ED00ACB295 /* RandomizedSelection.cpp */,
 				E6BC6BD322C262DC007B920D /* RemoveLinkedList.cpp */,
 				E6BC6BD722C26679007B920D /* InsertSortList.cpp */,
+				E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
 				E6BC6BD422C262DC007B920D /* RemoveLinkedList.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
+				E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */,
 				E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
