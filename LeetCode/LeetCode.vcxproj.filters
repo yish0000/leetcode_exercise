@@ -94,6 +94,9 @@
     <ClCompile Include="LengthOfLongestSubstring.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RomanToNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
