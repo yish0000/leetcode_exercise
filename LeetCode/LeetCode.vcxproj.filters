@@ -103,6 +103,9 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ZigZagConversion.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
