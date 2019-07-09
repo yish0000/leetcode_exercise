@@ -56,7 +56,7 @@ public:
 			{
 				destL = itL;
 				destR = itR;
-				max_len = (itR - itL + 1);
+				max_len = (int)(itR - itL + 1);
 			}
 
 			if (++itR == s.end())
