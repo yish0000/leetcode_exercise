@@ -154,6 +154,7 @@
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />

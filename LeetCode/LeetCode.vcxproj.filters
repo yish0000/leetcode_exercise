@@ -100,6 +100,9 @@
     <ClCompile Include="IntegerToRoman.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LongestPalindromicSubstring.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
