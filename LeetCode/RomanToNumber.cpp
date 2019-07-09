@@ -10,7 +10,7 @@ public:
         {
             if (*it == 'I')
             {
-                if (*(it+1) == 'V' || *(it+1) == 'X')
+                if (it+1 != s.end() && (*(it+1) == 'V' || *(it+1) == 'X'))
                     curNum -= 1;
                 else
                     curNum += 1;
@@ -19,7 +19,7 @@ public:
                 curNum += 5;
             else if (*it == 'X')
             {
-                if (*(it+1) == 'L' || *(it+1) == 'C')
+                if (it+1 != s.end() && (*(it+1) == 'L' || *(it+1) == 'C'))
                     curNum -= 10;
                 else
                     curNum += 10;
@@ -28,7 +28,7 @@ public:
                 curNum += 50;
             else if (*it == 'C')
             {
-                if (*(it+1) == 'D' || *(it+1) == 'M')
+                if (it+1 != s.end() && (*(it+1) == 'D' || *(it+1) == 'M'))
                     curNum -= 100;
                 else
                     curNum += 100;
