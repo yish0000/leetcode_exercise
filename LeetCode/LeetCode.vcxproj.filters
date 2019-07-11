@@ -109,12 +109,21 @@
     <ClCompile Include="ContainerMostWater.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
       <Filter>TestSuite</Filter>
     </ClInclude>
     <ClInclude Include="LinkedListCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeCommon.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

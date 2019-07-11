@@ -148,7 +148,9 @@
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
@@ -180,6 +182,7 @@
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeCommon.h" />
     <ClInclude Include="LinkedListCommon.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>
