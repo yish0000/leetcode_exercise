@@ -8,7 +8,7 @@ public:
         int result = 0;
         for (int l=0, r=(int)height.size()-1; l<r;)
         {
-            result = max(result, min(height[l], height[r]) * (r-l));
+            result = std::max(result, std::min(height[l], height[r]) * (r-l));
             if (height[l] < height[r])
                 l++;
             else
