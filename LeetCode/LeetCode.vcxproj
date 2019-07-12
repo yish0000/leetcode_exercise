@@ -149,9 +149,11 @@
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
+    <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
@@ -173,6 +175,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
+    <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
