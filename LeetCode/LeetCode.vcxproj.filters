@@ -115,6 +115,9 @@
     <ClCompile Include="BinaryTreeInorderTraversal.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="CountNumbersUniqueDigits.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

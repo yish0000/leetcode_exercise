@@ -152,6 +152,7 @@
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
+    <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
