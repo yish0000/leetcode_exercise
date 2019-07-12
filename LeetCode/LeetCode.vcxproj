@@ -175,6 +175,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
+    <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="TestCase.cpp" />
