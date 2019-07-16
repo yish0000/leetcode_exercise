@@ -36,6 +36,10 @@
 		E6E79CF922D4EF3A008A66AB /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF622D4EF3A008A66AB /* LongestPalindromicSubstring.cpp */; };
 		E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CFA22D4FA31008A66AB /* ContainerMostWater.cpp */; };
 		E6E79CFD22D64160008A66AB /* ConstructBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CFC22D64160008A66AB /* ConstructBinaryTree.cpp */; };
+		E6E79D0422D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79D0022D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp */; };
+		E6E79D0522D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79D0122D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp */; };
+		E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79D0222D8CCFE008A66AB /* ShoppingOffers.cpp */; };
+		E6E79D0722D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79D0322D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp */; };
 		E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */; };
 		E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */; };
 		E6FDBC6122BDBCE300ACB295 /* ReverseInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */; };
@@ -69,13 +73,11 @@
 		E6AAE7F522A81DBD00A071F3 /* MaximumSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubArray.cpp; sourceTree = "<group>"; };
 		E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		E6B9FBA722A20BBA00361BFE /* leetcode_exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_exercise; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6B9FBC022A20C4500361BFE /* LeetCode.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LeetCode.vcxproj; sourceTree = "<group>"; };
 		E6B9FBC122A20C4500361BFE /* TestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCase.cpp; sourceTree = "<group>"; };
 		E6B9FBC222A20C4500361BFE /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
 		E6B9FBC322A20C4500361BFE /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		E6B9FBC422A20C4500361BFE /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCase.h; sourceTree = "<group>"; };
 		E6B9FBC522A20C4500361BFE /* WildcardMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildcardMatching.cpp; sourceTree = "<group>"; };
-		E6B9FBC622A20C4500361BFE /* LeetCode.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LeetCode.vcxproj.filters; sourceTree = "<group>"; };
 		E6B9FBC722A20C4500361BFE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E6B9FBC822A20C4500361BFE /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		E6B9FBCF22A2157300361BFE /* BST2GST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST2GST.cpp; sourceTree = "<group>"; };
@@ -90,6 +92,10 @@
 		E6E79CFA22D4FA31008A66AB /* ContainerMostWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerMostWater.cpp; sourceTree = "<group>"; };
 		E6E79CFC22D64160008A66AB /* ConstructBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructBinaryTree.cpp; sourceTree = "<group>"; };
 		E6E79CFE22D64220008A66AB /* BinaryTreeCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeCommon.h; sourceTree = "<group>"; };
+		E6E79D0022D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePreorderTraversal.cpp; sourceTree = "<group>"; };
+		E6E79D0122D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountNumbersUniqueDigits.cpp; sourceTree = "<group>"; };
+		E6E79D0222D8CCFE008A66AB /* ShoppingOffers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShoppingOffers.cpp; sourceTree = "<group>"; };
+		E6E79D0322D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		E6FDBC5C22BA8E7700ACB295 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		E6FDBC5D22BA8E7700ACB295 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		E6FDBC6022BDBCE300ACB295 /* ReverseInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInt.cpp; sourceTree = "<group>"; };
@@ -126,12 +132,20 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E61E5E5E22D0377400534509 /* LinkedListCommon.h */,
+				E6B9FBC122A20C4500361BFE /* TestCase.cpp */,
+				E6B9FBC422A20C4500361BFE /* TestCase.h */,
+				E6B9FBC722A20C4500361BFE /* main.cpp */,
+				E6E79CFE22D64220008A66AB /* BinaryTreeCommon.h */,
+				E6E79D0322D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp */,
+				E6E79D0022D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp */,
+				E6E79D0122D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp */,
+				E6E79D0222D8CCFE008A66AB /* ShoppingOffers.cpp */,
 				E6E79CF422D4EF3A008A66AB /* IntegerToRoman.cpp */,
 				E6E79CF622D4EF3A008A66AB /* LongestPalindromicSubstring.cpp */,
 				E6E79CF522D4EF3A008A66AB /* ZigZagConversion.cpp */,
 				E61E5E5C22D0377300534509 /* InsertSort.cpp */,
 				E61E5E5F22D0377400534509 /* LengthOfLongestSubstring.cpp */,
-				E61E5E5E22D0377400534509 /* LinkedListCommon.h */,
 				E61E5E6022D0377400534509 /* MergeTwoSortedList.cpp */,
 				E61E5E5D22D0377400534509 /* ReverseLinkedList.cpp */,
 				E61E5E5B22D0377300534509 /* ReverseLinkedListII.cpp */,
@@ -144,14 +158,9 @@
 				E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */,
 				E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */,
 				E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */,
-				E6B9FBC022A20C4500361BFE /* LeetCode.vcxproj */,
-				E6B9FBC122A20C4500361BFE /* TestCase.cpp */,
 				E6B9FBC222A20C4500361BFE /* MultiplyStrings.cpp */,
 				E6B9FBC322A20C4500361BFE /* AddTwoNumbers.cpp */,
-				E6B9FBC422A20C4500361BFE /* TestCase.h */,
 				E6B9FBC522A20C4500361BFE /* WildcardMatching.cpp */,
-				E6B9FBC622A20C4500361BFE /* LeetCode.vcxproj.filters */,
-				E6B9FBC722A20C4500361BFE /* main.cpp */,
 				E6B9FBC822A20C4500361BFE /* TwoSum.cpp */,
 				E6B9FBCF22A2157300361BFE /* BST2GST.cpp */,
 				E6AAE7F822A81EEA00A071F3 /* QuickSort.cpp */,
@@ -163,7 +172,6 @@
 				E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */,
 				E6E79CFA22D4FA31008A66AB /* ContainerMostWater.cpp */,
 				E6E79CFC22D64160008A66AB /* ConstructBinaryTree.cpp */,
-				E6E79CFE22D64220008A66AB /* BinaryTreeCommon.h */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -232,7 +240,9 @@
 				E6FDBC6322BF70ED00ACB295 /* RandomizedSelection.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
+				E6E79D0722D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp in Sources */,
 				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
+				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
 				E61E5E6522D0377400534509 /* LengthOfLongestSubstring.cpp in Sources */,
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
@@ -241,6 +251,7 @@
 				E61E5E6722D0377400534509 /* SortLinkedList.cpp in Sources */,
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
 				E6BC6BD422C262DC007B920D /* RemoveLinkedList.cpp in Sources */,
+				E6E79D0422D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp in Sources */,
 				E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
 				E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */,
@@ -250,6 +261,7 @@
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
 				E61E5E6622D0377400534509 /* MergeTwoSortedList.cpp in Sources */,
 				E61E5E6322D0377400534509 /* InsertSort.cpp in Sources */,
+				E6E79D0522D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp in Sources */,
 				E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */,
 				E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */,
 				E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */,
