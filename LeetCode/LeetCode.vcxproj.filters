@@ -124,6 +124,9 @@
     <ClCompile Include="ShoppingOffers.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PermutationsII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
