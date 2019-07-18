@@ -13,6 +13,7 @@
 		E61E5E6522D0377400534509 /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E5F22D0377400534509 /* LengthOfLongestSubstring.cpp */; };
 		E61E5E6622D0377400534509 /* MergeTwoSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E6022D0377400534509 /* MergeTwoSortedList.cpp */; };
 		E61E5E6722D0377400534509 /* SortLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E6122D0377400534509 /* SortLinkedList.cpp */; };
+		E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E5A22DF7B3E0080AB05 /* KeysAndRooms.cpp */; };
 		E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */; };
 		E6AAE7F222A5759B00A071F3 /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */; };
 		E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */; };
@@ -66,6 +67,7 @@
 		E61E5E5F22D0377400534509 /* LengthOfLongestSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstring.cpp; sourceTree = "<group>"; };
 		E61E5E6022D0377400534509 /* MergeTwoSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedList.cpp; sourceTree = "<group>"; };
 		E61E5E6122D0377400534509 /* SortLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortLinkedList.cpp; sourceTree = "<group>"; };
+		E6567E5A22DF7B3E0080AB05 /* KeysAndRooms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeysAndRooms.cpp; sourceTree = "<group>"; };
 		E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrStr.cpp; sourceTree = "<group>"; };
 		E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
 		E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeBasedKVStore.cpp; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */,
 				E6E79CFA22D4FA31008A66AB /* ContainerMostWater.cpp */,
 				E6E79CFC22D64160008A66AB /* ConstructBinaryTree.cpp */,
+				E6567E5A22DF7B3E0080AB05 /* KeysAndRooms.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				E6E79CF722D4EF3A008A66AB /* IntegerToRoman.cpp in Sources */,
 				E6FDBC6322BF70ED00ACB295 /* RandomizedSelection.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
+				E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
 				E6E79D0722D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp in Sources */,
 				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
