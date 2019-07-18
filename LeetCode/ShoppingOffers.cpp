@@ -1,4 +1,5 @@
 #include "TestCase.h"
+#include <unordered_map>
 
 using namespace std;
 
@@ -11,7 +12,12 @@ public:
     
     int shopping(vector<int>& price, vector<vector<int>>& special, vector<int>& needs)
     {
-        int res = 0;
+		uint64_t hash = needs_hash(needs);
+		unordered_map<uint64_t, int>::const_iterator it = map.find(hash);
+		if (it != map.end())
+			return it->second;
+
+		int res = 0;
         for (size_t i=0;i<price.size();i++)
         {
             res += price[i]*needs[i];
@@ -35,8 +41,22 @@ public:
                 res = std::min(res, offer[j] + shopping(price, special, clone));
         }
         
+		map[hash] = res;
         return res;
     }
+
+	uint64_t needs_hash(vector<int>& needs)
+	{
+		uint64_t hash = 0LL;
+		for (size_t i = 0; i < needs.size(); i++)
+		{
+			hash |= ((uint64_t)needs[i] << (i * 8));
+		}
+		return hash;
+	}
+
+protected:
+	unordered_map<uint64_t, int> map;
 };
 
 RUN_TESTCASE(ShoppingOffers)
@@ -51,4 +71,9 @@ RUN_TESTCASE(ShoppingOffers)
 	vector<vector<int>> special2 = { { 1,1,0,4}, {2,2,1,9} };
 	vector<int> needs2 = { 1, 2, 1 };
 	TESTCASE_ASSERT(sln.shoppingOffers(prices2, special2, needs2) == 11);
+
+	vector<int> prices3 = { 4, 3, 2, 9, 8, 8 };
+	vector<vector<int>> special3 = { {1, 5, 5, 1, 4, 0, 18},{3, 3, 6, 6, 4, 2, 32 } };
+	vector<int> needs3 = { 6, 5, 5, 6, 4, 1 };
+	TESTCASE_ASSERT(sln.shoppingOffers(prices3, special3, needs3) == 91);
 }

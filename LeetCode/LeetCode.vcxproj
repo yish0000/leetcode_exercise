@@ -158,6 +158,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
+    <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
@@ -178,6 +180,7 @@
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="StrStr.cpp" />
+    <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
     <ClCompile Include="TwoSum.cpp" />
