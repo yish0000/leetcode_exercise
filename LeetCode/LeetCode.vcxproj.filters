@@ -130,6 +130,9 @@
     <ClCompile Include="KeysAndRooms.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SubArrayKDifferent.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
