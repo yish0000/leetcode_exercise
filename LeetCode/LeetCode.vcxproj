@@ -158,6 +158,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />

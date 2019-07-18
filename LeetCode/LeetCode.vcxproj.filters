@@ -127,6 +127,9 @@
     <ClCompile Include="PermutationsII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="KeysAndRooms.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
