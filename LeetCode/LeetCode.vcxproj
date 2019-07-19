@@ -177,8 +177,10 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
+    <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
+    <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="TestCase.cpp" />
