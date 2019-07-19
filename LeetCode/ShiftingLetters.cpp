@@ -22,6 +22,8 @@ public:
 RUN_TESTCASE(ShiftingLetters)
 {
 	SolutionShiftingLetters sln;
-	TESTCASE_ASSERT(sln.shiftingLetters("abc", vector<int>{3, 5, 9}) == "rpl");
-	TESTCASE_ASSERT(sln.shiftingLetters("ruu", vector<int>{26, 9, 17}) == "rul");
+    vector<int> arr1({3, 5, 9});
+    vector<int> arr2({26, 9, 17});
+	TESTCASE_ASSERT(sln.shiftingLetters("abc", arr1) == "rpl");
+	TESTCASE_ASSERT(sln.shiftingLetters("ruu", arr2) == "rul");
 }

@@ -1,4 +1,5 @@
 #include "TestCase.h"
+#include <math.h>
 
 class SolutionSqrt
 {

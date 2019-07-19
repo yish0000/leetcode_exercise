@@ -104,9 +104,12 @@ public:
 RUN_TESTCASE(SubArrayKDifferent)
 {
 	SolutionSubArrayKDifferent sln;
-	TESTCASE_ASSERT(sln.subarraysWithKDistinct(vector<int>{1, 2, 1}, 2) == 3);
-	TESTCASE_ASSERT(sln.subarraysWithKDistinct(vector<int>{ 1,2,1,2,3 }, 2) == 7);
-	TESTCASE_ASSERT(sln.subarraysWithKDistinct(vector<int>{ 1,2,1,3,4 }, 3) == 3);
+    vector<int> arr1({1, 2, 1});
+    vector<int> arr2({ 1,2,1,2,3 });
+    vector<int> arr3({ 1,2,1,3,4 });
+	TESTCASE_ASSERT(sln.subarraysWithKDistinct(arr1, 2) == 3);
+	TESTCASE_ASSERT(sln.subarraysWithKDistinct(arr2, 2) == 7);
+	TESTCASE_ASSERT(sln.subarraysWithKDistinct(arr3, 3) == 3);
 
 	vector<int> lv = {
 		993,4983,7796,5134,8507,3471,5590,5172,748,6464,8458,5387,8716,3492,5403,6355,
