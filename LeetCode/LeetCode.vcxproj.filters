@@ -133,6 +133,12 @@
     <ClCompile Include="SubArrayKDifferent.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Sqrt.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiftingLetters.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
