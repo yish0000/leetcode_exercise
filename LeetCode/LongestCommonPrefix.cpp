@@ -4,6 +4,42 @@ using namespace std;
 
 class SolutionLongestCommonPrefix {
 public:
+    string longestCommonPrefixBinary(vector<string>& strs) {
+        if (strs.empty()) return "";
+        return longestCommonPrefixHelper(strs, 0, (int)strs.size()-1);
+    }
+    
+    string twoStringCommonPrefix(string& str1, string& str2)
+    {
+        string res;
+        for (size_t i=0; i<str1.size(); i++)
+        {
+            char ch = str1[i];
+            if (str2.size() >= i + 1 && str2[i] == ch)
+                res.push_back(ch);
+            else
+                break;
+        }
+        return res;
+    }
+    
+    string longestCommonPrefixHelper(vector<string>& strs, int beg, int end) {
+        if (end - beg <= 1)
+        {
+            if (beg == end)
+                return strs[beg];
+            else
+                return twoStringCommonPrefix(strs[beg], strs[end]);
+        }
+        else
+        {
+            int mid = beg + (end - beg) / 2;
+            string res1 = longestCommonPrefixHelper(strs, beg, mid);
+            string res2 = longestCommonPrefixHelper(strs, mid+1, end);
+            return twoStringCommonPrefix(res1, res2);
+        }
+    }
+
     string longestCommonPrefix(vector<string>& strs) {
         string res;
         if (strs.empty()) return res;
