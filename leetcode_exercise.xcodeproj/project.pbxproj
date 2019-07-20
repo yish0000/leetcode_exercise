@@ -20,6 +20,8 @@
 		E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E5F22E20B0A0080AB05 /* PermutationsII.cpp */; };
 		E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E6422E20DDE0080AB05 /* LongestCommonPrefix.cpp */; };
 		E6567E6722E2CBD20080AB05 /* ValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E6622E2CBD20080AB05 /* ValidParentheses.cpp */; };
+		E6567E6922E2FDAB0080AB05 /* RemoveElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E6822E2FDAB0080AB05 /* RemoveElement.cpp */; };
+		E6567E6B22E30AE30080AB05 /* RemoveDuplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E6A22E30AE30080AB05 /* RemoveDuplicates.cpp */; };
 		E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */; };
 		E6AAE7F222A5759B00A071F3 /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */; };
 		E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */; };
@@ -80,6 +82,8 @@
 		E6567E5F22E20B0A0080AB05 /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationsII.cpp; sourceTree = "<group>"; };
 		E6567E6422E20DDE0080AB05 /* LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix.cpp; sourceTree = "<group>"; };
 		E6567E6622E2CBD20080AB05 /* ValidParentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidParentheses.cpp; sourceTree = "<group>"; };
+		E6567E6822E2FDAB0080AB05 /* RemoveElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveElement.cpp; sourceTree = "<group>"; };
+		E6567E6A22E30AE30080AB05 /* RemoveDuplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicates.cpp; sourceTree = "<group>"; };
 		E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrStr.cpp; sourceTree = "<group>"; };
 		E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
 		E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeBasedKVStore.cpp; sourceTree = "<group>"; };
@@ -193,6 +197,8 @@
 				E6567E5A22DF7B3E0080AB05 /* KeysAndRooms.cpp */,
 				E6567E6422E20DDE0080AB05 /* LongestCommonPrefix.cpp */,
 				E6567E6622E2CBD20080AB05 /* ValidParentheses.cpp */,
+				E6567E6822E2FDAB0080AB05 /* RemoveElement.cpp */,
+				E6567E6A22E30AE30080AB05 /* RemoveDuplicates.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 				E6567E6122E20B0A0080AB05 /* SubArrayKDifferent.cpp in Sources */,
 				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
+				E6567E6922E2FDAB0080AB05 /* RemoveElement.cpp in Sources */,
 				E61E5E6522D0377400534509 /* LengthOfLongestSubstring.cpp in Sources */,
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
 				E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */,
@@ -280,6 +287,7 @@
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
 				E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */,
 				E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */,
+				E6567E6B22E30AE30080AB05 /* RemoveDuplicates.cpp in Sources */,
 				E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */,
 				E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
