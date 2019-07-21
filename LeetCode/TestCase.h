@@ -3,18 +3,21 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <math.h>
 
 class TestCase
 {
 public:
 	TestCase(const std::string& name);
 
-	virtual void RunTest() = 0;
+    virtual void RunTest() = 0;
 
 	const std::string& GetName() const { return Name; }
 
 	void assertTest(bool bValue, const char* message, const char* filename, int line);
 
+    bool doubleEqual(double d1, double d2) { return abs(d1-d2) < 0.0001; }
+    
 	static bool HaveAssetFailed();
 	static void PrintAssetFailed();
 
