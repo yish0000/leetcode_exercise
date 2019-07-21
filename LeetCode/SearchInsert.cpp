@@ -36,6 +36,7 @@ RUN_TESTCASE(SearchInsert)
     TESTCASE_ASSERT(sln.searchInsert(arr1, 2) == 1);
     TESTCASE_ASSERT(sln.searchInsert(arr1, 7) == 4);
     TESTCASE_ASSERT(sln.searchInsert(arr1, 0) == 0);
+    
     vector<int> arr2 = {1,3,4,7,8,9,10,13,14,15,16,17,19,21,99};
     TESTCASE_ASSERT(sln.searchInsert(arr2, 12) == 7);
     TESTCASE_ASSERT(sln.searchInsert(arr2, 16) == 10);
