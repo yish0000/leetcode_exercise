@@ -162,6 +162,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />

@@ -172,6 +172,9 @@
     <ClCompile Include="RemoveNthFromEnd.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LetterCombinations.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
