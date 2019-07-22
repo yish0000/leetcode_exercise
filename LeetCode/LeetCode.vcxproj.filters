@@ -139,6 +139,33 @@
     <ClCompile Include="ShiftingLetters.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapNodesPairs.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsert.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicates.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Pow.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CountAndSay.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateImage.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
