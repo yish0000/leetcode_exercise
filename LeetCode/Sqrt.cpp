@@ -44,6 +44,20 @@ public:
 		}
 		return (int)x0;
 	}
+
+	double mySqrtInv(double x)
+	{
+		if (x == 0) return 0;
+		double x0 = x * 0.5;
+		for (int i = 0; i < 1000; i++)
+		{
+			double x1 = (x0 + 1.0 / (x * x0)) * 0.5;
+			if (fabs(x1 - x0) <= 0.00001)
+				return x1;
+			x0 = x1;
+		}
+		return x0;
+	}
 };
 
 RUN_TESTCASE(Sqrt)
@@ -54,4 +68,6 @@ RUN_TESTCASE(Sqrt)
 	TESTCASE_ASSERT(sln.mySqrtNewton(188) == 13);
 	TESTCASE_ASSERT(sln.mySqrtNewton(1582654520) == 39782);
 	TESTCASE_ASSERT(sln.mySqrtNewton(2147395599) == 46339);
+
+	TESTCASE_ASSERT(doubleEqual(sln.mySqrtInv(3.1415926), 0.5641895883597747));
 }
