@@ -178,6 +178,9 @@
     <ClCompile Include="GenerateParenthesis.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

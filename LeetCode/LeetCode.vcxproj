@@ -151,6 +151,7 @@
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
