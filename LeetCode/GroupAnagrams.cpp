@@ -41,9 +41,9 @@ RUN_TESTCASE(GroupAnagrams)
 	vector<string> arr = { "eat", "tea", "tan", "ate", "nat", "bat" };
 	vector<vector<string>> res = 
 	{
-		{"eat", "tea", "ate"},
-		{"tan", "nat"},
-		{"bat"},
+        {"bat"},
+        {"tan", "nat"},
+        {"eat", "tea", "ate"},
 	};
 
 	SolutionGroupAnagrams sln;

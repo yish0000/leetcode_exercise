@@ -23,7 +23,7 @@ public:
 				{
 					vector<int> newPath(path);
 					newPath.push_back(candidates[i]);
-					combinationSumHelper(res, candidates, target - candidates[i], newPath, i);
+					combinationSumHelper(res, candidates, target - candidates[i], newPath, (int)i);
 				}
 			}
 		}

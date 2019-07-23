@@ -18,7 +18,7 @@ public:
 	int find_edge(vector<int>& nums, int target, bool left)
 	{
 		int l = 0;
-		int r = nums.size();
+		int r = (int)nums.size();
 		while (l < r)
 		{
 			int mid = l + (r - l) / 2;
