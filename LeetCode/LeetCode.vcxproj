@@ -156,6 +156,7 @@
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
@@ -169,6 +170,7 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
@@ -196,6 +198,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
+    <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
     <ClCompile Include="TwoSum.cpp" />
