@@ -169,6 +169,7 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
