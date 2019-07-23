@@ -155,6 +155,7 @@
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
