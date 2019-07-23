@@ -156,6 +156,7 @@
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
