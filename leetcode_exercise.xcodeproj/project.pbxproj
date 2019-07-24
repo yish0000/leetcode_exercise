@@ -52,6 +52,7 @@
 		E6BC6BD622C2638D007B920D /* PalindromeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD522C2638D007B920D /* PalindromeList.cpp */; };
 		E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD722C26679007B920D /* InsertSortList.cpp */; };
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
+		E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */; };
 		E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */; };
 		E6E79CF722D4EF3A008A66AB /* IntegerToRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF422D4EF3A008A66AB /* IntegerToRoman.cpp */; };
 		E6E79CF822D4EF3A008A66AB /* ZigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF522D4EF3A008A66AB /* ZigZagConversion.cpp */; };
@@ -129,6 +130,7 @@
 		E6BC6BD522C2638D007B920D /* PalindromeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeList.cpp; sourceTree = "<group>"; };
 		E6BC6BD722C26679007B920D /* InsertSortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSortList.cpp; sourceTree = "<group>"; };
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8Queens.cpp; sourceTree = "<group>"; };
 		E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RomanToNumber.cpp; sourceTree = "<group>"; };
 		E6E79CF422D4EF3A008A66AB /* IntegerToRoman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerToRoman.cpp; sourceTree = "<group>"; };
 		E6E79CF522D4EF3A008A66AB /* ZigZagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZagConversion.cpp; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				E6567E6E22E3E25A0080AB05 /* SearchInsert.cpp */,
 				E6567E7022E42E1A0080AB05 /* CountAndSay.cpp */,
 				E6567E7222E44E5E0080AB05 /* Pow.cpp */,
+				E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
+				E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */,
 				E6567E6922E2FDAB0080AB05 /* RemoveElement.cpp in Sources */,
 				E61E5E6522D0377400534509 /* LengthOfLongestSubstring.cpp in Sources */,
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
