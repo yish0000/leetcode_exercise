@@ -28,7 +28,15 @@ TestCase::TestCase(const std::string& name)
 void TestCase::assertTest(bool bValue, const char* message, const char* filename, int line)
 {
 	if (bValue)
-		std::cout << message << " assert ok!" << std::endl;
+	{
+		std::stringstream msg;
+		msg << message << " assert ok!";
+		std::cout << msg.str() << std::endl;
+
+#if _WIN32
+		OutputDebugStringA((msg.str() + '\n').c_str());
+#endif
+	}
 	else
 	{
 #if _WIN32
@@ -39,6 +47,10 @@ void TestCase::assertTest(bool bValue, const char* message, const char* filename
 		std::stringstream msg;
 		msg << std::string(filename) << "(" << line << "): " << message << " assert failed!";
 		std::cout << msg.str() << std::endl;
+
+#if _WIN32
+		OutputDebugStringA((msg.str() + '\n').c_str());
+#endif
 
 		assertFailed.push_back(msg.str());
 
@@ -56,7 +68,13 @@ void TestCase::PrintAssetFailed()
 #endif
 
 	for (std::vector<std::string>::const_iterator it = assertFailed.begin(); it != assertFailed.end(); ++it)
+	{
 		std::cout << *it << std::endl;
+
+#if _WIN32
+		OutputDebugStringA((*it + '\n').c_str());
+#endif
+	}
 
 #if _WIN32
 	SetConsoleTextAttribute(hdl, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
@@ -67,6 +85,8 @@ bool TestCase::HaveAssetFailed()
 {
 	return assertFailed.size() > 0;
 }
+
+///////////////////////////////////////////////////////////////////////////
 
 size_t UnitTestCount()
 {

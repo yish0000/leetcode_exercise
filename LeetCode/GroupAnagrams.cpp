@@ -47,5 +47,5 @@ RUN_TESTCASE(GroupAnagrams)
 	};
 
 	SolutionGroupAnagrams sln;
-	TESTCASE_ASSERT(sln.groupAnagrams(arr) == res);
+	TESTCASE_ASSERT(vectorComboEqual(sln.groupAnagrams(arr), res));
 }
