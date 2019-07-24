@@ -203,6 +203,7 @@
     <ClCompile Include="TimeBasedKVStore.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>

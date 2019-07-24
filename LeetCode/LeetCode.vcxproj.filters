@@ -190,6 +190,9 @@
     <ClCompile Include="FindFLPositionInSortedArray.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ValidSudoku.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
