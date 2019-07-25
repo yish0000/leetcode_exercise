@@ -1,7 +1,5 @@
 #include "TestCase.h"
 
-#include <vector>
-#include <iostream>
 #include <sstream>
 
 #if _WIN32
