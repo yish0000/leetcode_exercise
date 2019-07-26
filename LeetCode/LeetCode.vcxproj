@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="8Queens.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -193,6 +194,7 @@
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
+    <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
@@ -203,6 +205,7 @@
     <ClCompile Include="TimeBasedKVStore.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>

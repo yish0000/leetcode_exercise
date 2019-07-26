@@ -1,8 +1,11 @@
 #include <iostream>
 #include "TestCase.h"
+#include <time.h>
 
 int main(int argc, char* argv[])
 {
+	srand((unsigned int)time(NULL));
+
 	for (size_t i = 0; i < UnitTestCount(); i++)
 	{
 		TestCase* pTestCase = GetTestCase(i);
