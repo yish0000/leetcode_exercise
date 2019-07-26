@@ -84,6 +84,27 @@ bool TestCase::HaveAssetFailed()
 	return assertFailed.size() > 0;
 }
 
+int TestCase::randomInt(int low, int high)
+{
+	if (low == high)
+		return low;
+	else
+		return rand() % (abs(high - low) + 1) + low;
+}
+
+float TestCase::randomUniform()
+{
+	return rand() / float(RAND_MAX);
+}
+
+float TestCase::randomFloat(float low, float high)
+{
+	if (low == high) return low;
+
+	float fRandom = (float)rand() / (float)RAND_MAX;
+	return fRandom * (float)fabs(high - low) + low;
+}
+
 ///////////////////////////////////////////////////////////////////////////
 
 size_t UnitTestCount()

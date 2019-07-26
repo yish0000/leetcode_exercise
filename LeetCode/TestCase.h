@@ -61,6 +61,10 @@ public:
 		return v1 == v2;
 	}
 
+	int randomInt(int low, int high);
+	float randomUniform();
+	float randomFloat(float low, float high);
+
 	static bool HaveAssetFailed();
 	static void PrintAssetFailed();
 

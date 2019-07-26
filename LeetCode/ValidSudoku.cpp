@@ -6,7 +6,7 @@ class SolutionValidSudoku
 {
 public:
 	bool isValidSudoku(vector<vector<char>>& board) {
-		int ss[9] = { false };
+		int ss[9] = { 0 };
 
 		// Horizontal
 		for (size_t i = 0; i < 9; i++)

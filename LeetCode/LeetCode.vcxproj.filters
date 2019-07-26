@@ -193,6 +193,12 @@
     <ClCompile Include="ValidSudoku.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SudokuSolver.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="8Queens.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
