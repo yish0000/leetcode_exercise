@@ -23,28 +23,27 @@ protected:
 			return true;
 		}
 
-		bool freeSlots[9] = { false };
-		if (checkExistInSquare(board, g, num, freeSlots))
-		{
-			return (g + 1 > 8) ? solveSudokuBacktrack(board, num + 1, 0) : solveSudokuBacktrack(board, num, g + 1);
-		}
-
 		bool isOK = false;
 		for (int i = 0; i < 9; i++)
 		{
-			if (!freeSlots[i]) continue;
 			int x = (g % 3) * 3 + (i % 3);
 			int y = (g / 3) * 3 + (i / 3);
-			if (checkValid(board, x, y, num))
+
+			if (board[y][x] == ('0' + num))
+				return (g + 1 > 8) ? solveSudokuBacktrack(board, num + 1, 0) : solveSudokuBacktrack(board, num, g + 1);
+			else if (board[y][x] == '.')
 			{
-				board[y][x] = '0' + num;
-				bool ok = (g + 1 > 8) ? solveSudokuBacktrack(board, num + 1, 0) : solveSudokuBacktrack(board, num, g + 1);
-				if (!ok)
-					board[y][x] = '.';
-				else
+				if (checkValid(board, x, y, num))
 				{
-					isOK = true;
-					break;
+					board[y][x] = '0' + num;
+					bool ok = (g + 1 > 8) ? solveSudokuBacktrack(board, num + 1, 0) : solveSudokuBacktrack(board, num, g + 1);
+					if (!ok)
+						board[y][x] = '.';
+					else
+					{
+						isOK = true;
+						break;
+					}
 				}
 			}
 		}
@@ -66,21 +65,6 @@ protected:
 		}
 
 		return true;
-	}
-
-	bool checkExistInSquare(vector<vector<char>>& board, int idx, int num, bool freeSlots[])
-	{
-		for (int i = 0; i < 9; i++)
-		{
-			int x = (idx % 3) * 3 + (i % 3);
-			int y = (idx / 3) * 3 + (i / 3);
-			if (board[y][x] == ('0' + num))
-				return true;
-			else if (board[y][x] == '.')
-				freeSlots[i] = true;
-		}
-
-		return false;
 	}
 
 	void printResult(vector<vector<char>>& board)
