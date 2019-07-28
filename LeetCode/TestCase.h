@@ -32,7 +32,7 @@ public:
 	}
 
 	template <class T>
-	bool vectorComboEqual(std::vector<std::vector<T>>& v1, std::vector<std::vector<T>>& v2)
+    bool vectorComboEqual(std::vector<std::vector<T>>& v1, std::vector<std::vector<T>>& v2)
 	{
 		if (v1.size() != v2.size())
 			return false;
