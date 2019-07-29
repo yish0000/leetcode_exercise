@@ -88,11 +88,11 @@ public:
 		int ss[9] = { 0 };
 
 		// Horizontal
-		for (size_t i = 0; i < 9; i++)
+		for (int i = 0; i < 9; i++)
 		{
 			memset(ss, 0, sizeof(ss));
 
-			for (size_t j = 0; j < 9; j++)
+			for (int j = 0; j < 9; j++)
 			{
 				// Horizontal
 				if (board[i][j] != '.')
