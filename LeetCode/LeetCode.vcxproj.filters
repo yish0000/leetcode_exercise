@@ -199,6 +199,18 @@
     <ClCompile Include="8Queens.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SearchRotatedSortedArray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueens.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueensII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
