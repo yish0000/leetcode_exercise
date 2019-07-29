@@ -7,6 +7,7 @@ class SolutionSolveSudoku
 public:
 	void solveSudoku(vector<vector<char>>& board)
 	{
+		foundOneResult = false;
 		solveSudokuBacktrack(board, 1, 0);
 	}
 
@@ -144,5 +145,20 @@ RUN_TESTCASE(SolveSudoku)
 
 	SolutionSolveSudoku sln;
 	sln.solveSudoku(chess);
+
+	vector<vector<char>> chess_empty = {
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+		{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
+	};
+	sln.solveSudoku(chess_empty);
+
+	TESTCASE_ASSERT(sln.isValidSudoku(chess_empty));
 	TESTCASE_ASSERT(sln.isValidSudoku(chess));
 }
