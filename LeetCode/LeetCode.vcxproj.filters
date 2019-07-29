@@ -208,6 +208,9 @@
     <ClCompile Include="NQueens.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="NQueensII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
