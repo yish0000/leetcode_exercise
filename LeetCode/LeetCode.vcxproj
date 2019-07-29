@@ -174,10 +174,12 @@
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
@@ -192,6 +194,7 @@
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
+    <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
