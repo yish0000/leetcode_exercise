@@ -211,6 +211,12 @@
     <ClCompile Include="NQueensII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="3SumClosest.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MostCommonWord.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
