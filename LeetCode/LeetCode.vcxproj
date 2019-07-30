@@ -194,6 +194,7 @@
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="SearchInsert.cpp" />

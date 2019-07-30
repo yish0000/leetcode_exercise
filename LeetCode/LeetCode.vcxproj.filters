@@ -217,6 +217,9 @@
     <ClCompile Include="MostCommonWord.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
