@@ -5,6 +5,22 @@ using namespace std;
 class SolutionSingleNonDuplicate {
 public:
 	int singleNonDuplicate(vector<int>& nums) {
+		if (nums.size() % 2 == 0)
+			return -1;
+		int h = (int)nums.size() / 2;
+		int l = 0;
+		while (l < h)
+		{
+			int mid = l + (h - l) / 2;
+			if (nums[mid * 2] == nums[mid * 2 + 1])
+				l = mid + 1;
+			else
+				h = mid;
+		}
+		return nums[l * 2];
+	}
+
+	int singleNonDuplicateOld(vector<int>& nums) {
 		int l = 0;
 		int r = (int)nums.size() - 1;
 		while (l <= r)
