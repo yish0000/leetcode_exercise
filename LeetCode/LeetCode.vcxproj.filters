@@ -220,6 +220,9 @@
     <ClCompile Include="ReverseString.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="KClosestPointsToOrigin.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
