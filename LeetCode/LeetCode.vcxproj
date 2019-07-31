@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="8Queens.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
@@ -164,6 +165,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
@@ -173,6 +175,7 @@
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
+    <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
@@ -192,6 +195,7 @@
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
