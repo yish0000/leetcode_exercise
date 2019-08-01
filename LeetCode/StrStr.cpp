@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Solution {
+class SolutionStrStr {
 public:
 	int strStr(string haystack, string needle) {
 		if (needle.empty())
@@ -35,7 +35,7 @@ public:
 
 RUN_TESTCASE(StrStr)
 {
-	Solution sln;
+	SolutionStrStr sln;
 	TESTCASE_ASSERT(sln.strStr("hello", "ll") == 2);
 	TESTCASE_ASSERT(sln.strStr("aaaaa", "bba") == -1);
 	TESTCASE_ASSERT(sln.strStr("hello world, hello world!!!", "orl") == 7);
