@@ -1,5 +1,4 @@
 #include "TestCase.h"
-#include <unordered_map>
 
 using namespace std;
 
@@ -8,83 +7,23 @@ class SolutionSubArrayKDifferent
 public:
 	int subarraysWithKDistinct(vector<int>& A, int K) {
 		int count = 0;
-		unordered_map<int, int> map;
-		for (int l = 0, r = 0; r < A.size(); r++)
+		vector<int> win1(A.size() + 1, 0);
+		vector<int> win2(A.size() + 1, 0);
+		int count1 = 0, count2 = 0;
+		int left1 = 0, left2 = 0;
+
+		for (int r = 0; r < A.size(); r++)
 		{
-			add_item(map, A[r]);
+			add_item(win1, A[r], count1);
+			add_item(win2, A[r], count2);
 
-			if (map.size() == K)
-			{
-				int cur = 0;
-				int i = l;
-				unordered_map<int, int> map2(map);
-				while (map2.size() >= K)
-				{
-					remove_item(map2, A[i++]);
-					cur++;
-				}
-				count += cur;
-			}
-			else if (map.size() > K)
-			{
-				while (map.size() > K)
-					remove_item(map, A[l++]);
-				count++;
-			}
+			while (count1 > K) remove_item(win1, A[left1++], count1);
+			while (count2 >= K) remove_item(win2, A[left2++], count2);
+
+			count += (left2 - left1);
 		}
+
 		return count;
-
-// 		int count = 0;
-// 		vector<int> win1(A.size() + 1, 0);
-// 		vector<int> win2(A.size() + 1, 0);
-// 		int count1 = 0, count2 = 0;
-// 		int left1 = 0, left2 = 0;
-// 
-// 		for (int r = 0; r < A.size(); r++)
-// 		{
-// 			add_item(win1, A[r], count1);
-// 			add_item(win2, A[r], count2);
-// 
-// 			while (count1 > K) remove_item(win1, A[left1++], count1);
-// 			while (count2 >= K) remove_item(win2, A[left2++], count2);
-// 
-// 			count += (left2 - left1);
-// 		}
-// 
-// 		return count;
-
-// 		int n = A.size();
-// 		int l = 0;
-// 		int r = 0;
-// 		int cnt = 0;
-// 		int res = 0;
-// 		vector<int> cnts(n + 1, 0);
-// 		for (int i = 0; i < n; ++i) {
-// 			if (i > 0 && --cnts[A[i - 1]] == 0) {
-// 				--cnt;
-// 			}
-// 			while (l < n && cnt < K) {
-// 				if (++cnts[A[l++]] == 1) {
-// 					++cnt;
-// 				}
-// 			}
-// 			while (r < n && cnts[A[r]] > 0) {
-// 				++r;
-// 			}
-// 			res += cnt == K ? r - l + 1 : 0;
-// 		}
-// 		return res;
-	}
-
-	void add_item(unordered_map<int, int>& map, int val)
-	{
-		map[val]++;
-	}
-
-	void remove_item(unordered_map<int, int>& map, int val)
-	{
-		if (--map[val] == 0)
-			map.erase(val);
 	}
 
 	void add_item(vector<int>& map, int val, int& count)
@@ -104,7 +43,7 @@ public:
 RUN_TESTCASE(SubArrayKDifferent)
 {
 	SolutionSubArrayKDifferent sln;
-    vector<int> arr1({1, 2, 1});
+	vector<int> arr1({ 1, 2, 1 });
     vector<int> arr2({ 1,2,1,2,3 });
     vector<int> arr3({ 1,2,1,3,4 });
 	TESTCASE_ASSERT(sln.subarraysWithKDistinct(arr1, 2) == 3);
