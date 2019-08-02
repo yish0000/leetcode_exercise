@@ -204,6 +204,7 @@
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
+    <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="Sqrt.cpp" />

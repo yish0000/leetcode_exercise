@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Solution {
+class SolutionTwoSum {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
 		vector<int> result;
@@ -29,7 +29,7 @@ public:
 
 RUN_TESTCASE(TwoSum)
 {
-	Solution sln;
+	SolutionTwoSum sln;
 	vector<int> arr = { 1,2,3,4,5,6,7,8,9 };
 	vector<int> ret = sln.twoSum(arr, 11);
 	TESTCASE_ASSERT((ret[0] == 4 && ret[1] == 5) || (ret[0] == 5 && ret[1] == 4));

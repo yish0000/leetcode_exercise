@@ -229,6 +229,9 @@
     <ClCompile Include="PathSumII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SubarraySumEqualsK.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
