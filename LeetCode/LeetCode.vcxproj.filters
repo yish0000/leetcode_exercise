@@ -223,6 +223,15 @@
     <ClCompile Include="KClosestPointsToOrigin.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SingleElementInSortedArray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SubarraySumEqualsK.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
