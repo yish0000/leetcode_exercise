@@ -63,6 +63,9 @@
 		E6DC591922F0A5BE00E9CD3D /* KClosestPointsToOrigin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC591822F0A5BE00E9CD3D /* KClosestPointsToOrigin.cpp */; };
 		E6DC591C22F1E0A600E9CD3D /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC591A22F1E0A500E9CD3D /* ReverseString.cpp */; };
 		E6DC591D22F1E0A600E9CD3D /* MostCommonWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC591B22F1E0A500E9CD3D /* MostCommonWord.cpp */; };
+		E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC591E22F4A93A00E9CD3D /* PathSumII.cpp */; };
+		E6DC592222F4A93A00E9CD3D /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC591F22F4A93A00E9CD3D /* SubarraySumEqualsK.cpp */; };
+		E6DC592322F4A93A00E9CD3D /* SingleElementInSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC592022F4A93A00E9CD3D /* SingleElementInSortedArray.cpp */; };
 		E6E79CF322D3A622008A66AB /* RomanToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */; };
 		E6E79CF722D4EF3A008A66AB /* IntegerToRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF422D4EF3A008A66AB /* IntegerToRoman.cpp */; };
 		E6E79CF822D4EF3A008A66AB /* ZigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E79CF522D4EF3A008A66AB /* ZigZagConversion.cpp */; };
@@ -151,6 +154,9 @@
 		E6DC591822F0A5BE00E9CD3D /* KClosestPointsToOrigin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KClosestPointsToOrigin.cpp; sourceTree = "<group>"; };
 		E6DC591A22F1E0A500E9CD3D /* ReverseString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseString.cpp; sourceTree = "<group>"; };
 		E6DC591B22F1E0A500E9CD3D /* MostCommonWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MostCommonWord.cpp; sourceTree = "<group>"; };
+		E6DC591E22F4A93A00E9CD3D /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
+		E6DC591F22F4A93A00E9CD3D /* SubarraySumEqualsK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubarraySumEqualsK.cpp; sourceTree = "<group>"; };
+		E6DC592022F4A93A00E9CD3D /* SingleElementInSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleElementInSortedArray.cpp; sourceTree = "<group>"; };
 		E6E79CF222D3A622008A66AB /* RomanToNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RomanToNumber.cpp; sourceTree = "<group>"; };
 		E6E79CF422D4EF3A008A66AB /* IntegerToRoman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerToRoman.cpp; sourceTree = "<group>"; };
 		E6E79CF522D4EF3A008A66AB /* ZigZagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZagConversion.cpp; sourceTree = "<group>"; };
@@ -198,6 +204,9 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6DC591E22F4A93A00E9CD3D /* PathSumII.cpp */,
+				E6DC592022F4A93A00E9CD3D /* SingleElementInSortedArray.cpp */,
+				E6DC591F22F4A93A00E9CD3D /* SubarraySumEqualsK.cpp */,
 				E6DC591B22F1E0A500E9CD3D /* MostCommonWord.cpp */,
 				E6DC591A22F1E0A500E9CD3D /* ReverseString.cpp */,
 				E6DC591222EFB4AB00E9CD3D /* NQueens.cpp */,
@@ -350,6 +359,7 @@
 				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E6DC591322EFB4AB00E9CD3D /* NQueensII.cpp in Sources */,
 				E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */,
+				E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
 				E6DC591D22F1E0A600E9CD3D /* MostCommonWord.cpp in Sources */,
 				E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */,
@@ -366,6 +376,7 @@
 				E6BC6BD422C262DC007B920D /* RemoveLinkedList.cpp in Sources */,
 				E6E79D0422D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp in Sources */,
 				E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */,
+				E6DC592222F4A93A00E9CD3D /* SubarraySumEqualsK.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
 				E6DC590C22ED9AC100E9CD3D /* ValidSudoku.cpp in Sources */,
 				E628DD9222E7616300FCB4DB /* FindFLPositionInSortedArray.cpp in Sources */,
@@ -389,6 +400,7 @@
 				E6DC591722EFB89A00E9CD3D /* 3SumClosest.cpp in Sources */,
 				E6567E7122E42E1A0080AB05 /* CountAndSay.cpp in Sources */,
 				E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */,
+				E6DC592322F4A93A00E9CD3D /* SingleElementInSortedArray.cpp in Sources */,
 				E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */,
 				E6DC591422EFB4AB00E9CD3D /* PlusOne.cpp in Sources */,
 				E6DC591522EFB4AB00E9CD3D /* NQueens.cpp in Sources */,
