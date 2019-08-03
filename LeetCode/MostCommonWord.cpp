@@ -64,6 +64,8 @@ public:
 RUN_TESTCASE(MostCommonWord)
 {
 	SolutionMostCommonWord sln;
-	TESTCASE_ASSERT(sln.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", vector<string>({"hit"})) == "ball");
-	TESTCASE_ASSERT(sln.mostCommonWord("Bob", vector<string>()) == "bob");
+    vector<string> banned1 = {"hit"};
+    vector<string> banned2;
+	TESTCASE_ASSERT(sln.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", banned1) == "ball");
+	TESTCASE_ASSERT(sln.mostCommonWord("Bob", banned2) == "bob");
 }
