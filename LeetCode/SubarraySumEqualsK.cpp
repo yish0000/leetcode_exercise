@@ -15,7 +15,7 @@ public:
         {
             sum += nums[i];
             if (m.find(sum - k) != m.end())
-                count++;
+                count += m[sum - k];
             m[sum]++;
         }
         return count;
@@ -41,8 +41,10 @@ RUN_TESTCASE(SubarraySumEqualsK)
 {
     vector<int> arr = {1,2,2,4,3,1,1,3,2,2};
     vector<int> arr2 = {3,4,7,2,-3,1,4,2};
+    vector<int> arr3 = {0,0,0,0,0,0,0,0,0,0};
     
     SolutionSubarraySumEqualsK sln;
     TESTCASE_ASSERT(sln.subarraySum(arr, 4) == 5);
     TESTCASE_ASSERT(sln.subarraySum(arr2, 7) == 4);
+    TESTCASE_ASSERT(sln.subarraySum(arr3, 0) == 55);
 }
