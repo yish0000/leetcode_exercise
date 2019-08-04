@@ -6,6 +6,29 @@ using namespace std;
 class SolutionContinuousSubarraySum
 {
 public:
+    bool checkSubarraySumSlow(vector<int>& nums, int k) {
+        for (int i=0; i<nums.size(); i++)
+        {
+            int sum = nums[i];
+            for (int j=i+1; j<nums.size(); j++)
+            {
+                if (k == 0)
+                {
+                    if (sum == nums[j])
+                        return true;
+                    sum = nums[j];
+                }
+                else
+                {
+                    sum += nums[j];
+                    if (sum % k == 0)
+                        return true;
+                }
+            }
+        }
+        return false;
+    }
+    
     bool checkSubarraySum(vector<int>& nums, int k) {
         if (nums.empty()) return false;
         unordered_map<int, int> sums;
