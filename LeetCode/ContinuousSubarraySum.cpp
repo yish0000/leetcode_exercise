@@ -7,10 +7,10 @@ class SolutionContinuousSubarraySum
 {
 public:
     bool checkSubarraySumSlow(vector<int>& nums, int k) {
-        for (int i=0; i<nums.size(); i++)
+        for (int i=0; i<(int)nums.size(); i++)
         {
             int sum = nums[i];
-            for (int j=i+1; j<nums.size(); j++)
+            for (int j=i+1; j<(int)nums.size(); j++)
             {
                 if (k == 0)
                 {
@@ -34,7 +34,7 @@ public:
         unordered_map<int, int> sums;
         int sum = nums[0];
         sums[sum] = 0;
-        for (int i=1; i<nums.size(); i++)
+        for (int i=1; i<(int)nums.size(); i++)
         {
             if (k == 0)
             {

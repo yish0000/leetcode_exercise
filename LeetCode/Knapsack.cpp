@@ -8,7 +8,7 @@ public:
     int knapsack(vector<int>& weights, vector<int>& prices, int capacity)
     {
         vector<vector<int>> dp((int)weights.size()+1, vector<int>(capacity+1, 0));
-        for(int i=1; i<=weights.size(); i++)
+        for(int i=1; i<=(int)weights.size(); i++)
         {
             for (int j=1; j<=capacity; j++)
             {

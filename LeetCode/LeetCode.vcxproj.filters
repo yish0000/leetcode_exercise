@@ -232,6 +232,21 @@
     <ClCompile Include="SubarraySumEqualsK.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MaxIncreaseKeepSkyline.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonSubsequence.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Knapsack.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinuousSubarraySum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="4SumII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
+    <ClCompile Include="4SumII.cpp" />
     <ClCompile Include="8Queens.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
+    <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
@@ -167,12 +169,15 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
+    <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
