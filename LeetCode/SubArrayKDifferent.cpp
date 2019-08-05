@@ -12,7 +12,7 @@ public:
 		int count1 = 0, count2 = 0;
 		int left1 = 0, left2 = 0;
 
-		for (int r = 0; r < A.size(); r++)
+		for (int r = 0; r < (int)A.size(); r++)
 		{
 			add_item(win1, A[r], count1);
 			add_item(win2, A[r], count2);

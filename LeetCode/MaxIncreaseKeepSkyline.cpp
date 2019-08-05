@@ -9,18 +9,18 @@ public:
         if (grid.empty()) return 0;
         vector<int> row_max(grid.size(), 0);
         vector<int> col_max(grid[0].size(), 0);
-        for (int i=0; i<grid.size(); i++)
+        for (int i=0; i<(int)grid.size(); i++)
         {
-            for (int j=0; j<grid.size(); j++)
+            for (int j=0; j<(int)grid.size(); j++)
             {
                 row_max[i] = std::max(grid[i][j], row_max[i]);
                 col_max[j] = std::max(grid[i][j], col_max[j]);
             }
         }
         int count = 0;
-        for (int i=0; i<grid.size(); i++)
+        for (int i=0; i<(int)grid.size(); i++)
         {
-            for (int j=0; j<grid.size(); j++)
+            for (int j=0; j<(int)grid.size(); j++)
             {
                 count += std::min(row_max[i], col_max[j]) - grid[i][j];
             }

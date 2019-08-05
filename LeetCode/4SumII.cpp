@@ -8,15 +8,15 @@ class Solution4SumII
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
         unordered_map<int, int> map;
-        for (int i=0; i<A.size(); i++)
+        for (int i=0; i<(int)A.size(); i++)
         {
-            for (int j=0; j<B.size(); j++)
+            for (int j=0; j<(int)B.size(); j++)
                 map[A[i]+B[j]]++;
         }
         int count = 0;
-        for (int i=0; i<C.size(); i++)
+        for (int i=0; i<(int)C.size(); i++)
         {
-            for (int j=0; j<D.size(); j++)
+            for (int j=0; j<(int)D.size(); j++)
             {
                 int sum = C[i] + D[j];
                 unordered_map<int, int>::const_iterator it = map.find(-sum);
