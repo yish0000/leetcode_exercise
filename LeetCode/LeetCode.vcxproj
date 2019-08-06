@@ -162,6 +162,7 @@
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
+    <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />

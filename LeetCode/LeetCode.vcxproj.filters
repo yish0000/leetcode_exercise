@@ -247,6 +247,9 @@
     <ClCompile Include="4SumII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="GenerateRandomPointInCircle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
