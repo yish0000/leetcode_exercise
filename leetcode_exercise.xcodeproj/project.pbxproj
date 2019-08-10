@@ -38,6 +38,7 @@
 		E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D522FCE26100563809 /* PlaceBrick.cpp */; };
 		E68BC0D822FEBFD100563809 /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D722FEBFD100563809 /* UniquePaths.cpp */; };
 		E68BC0DA22FED17100563809 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D922FED17100563809 /* MinimumPathSum.cpp */; };
+		E68BC0DC22FED8C500563809 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */; };
 		E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */; };
 		E6AAE7F222A5759B00A071F3 /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */; };
 		E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */; };
@@ -136,6 +137,7 @@
 		E68BC0D522FCE26100563809 /* PlaceBrick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaceBrick.cpp; sourceTree = "<group>"; };
 		E68BC0D722FEBFD100563809 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		E68BC0D922FED17100563809 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
+		E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrStr.cpp; sourceTree = "<group>"; };
 		E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
 		E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeBasedKVStore.cpp; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				E68BC0D522FCE26100563809 /* PlaceBrick.cpp */,
 				E68BC0D722FEBFD100563809 /* UniquePaths.cpp */,
 				E68BC0D922FED17100563809 /* MinimumPathSum.cpp */,
+				E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				E6DC592A22F6C65600E9CD3D /* LongestCommonSubsequence.cpp in Sources */,
 				E628DD8F22E7616300FCB4DB /* CombinationSum.cpp in Sources */,
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
+				E68BC0DC22FED8C500563809 /* ClimbingStairs.cpp in Sources */,
 				E6567E7322E44E5E0080AB05 /* Pow.cpp in Sources */,
 				E628DD9522E7616300FCB4DB /* RemoveNthFromEnd.cpp in Sources */,
 				E6567E6022E20B0A0080AB05 /* ShiftingLetters.cpp in Sources */,
