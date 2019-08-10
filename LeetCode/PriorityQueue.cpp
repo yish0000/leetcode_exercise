@@ -73,8 +73,6 @@ protected:
 
 RUN_TESTCASE(PriorityQueue)
 {
-    srand((unsigned int)time(0));
-    
     PriorityQueue queue;
     std::vector<int> nums = {82, 97, 34, 14, 15, 80, 5, 35, 19, 73};
     for (int i=0; i<10; i++)
