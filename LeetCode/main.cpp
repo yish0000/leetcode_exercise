@@ -2,6 +2,10 @@
 #include "TestCase.h"
 #include <time.h>
 
+extern size_t UnitTestCount();
+extern TestCase* GetTestCase(size_t i);
+extern void CleanTestCase();
+
 int main(int argc, char* argv[])
 {
 	srand((unsigned int)time(NULL));

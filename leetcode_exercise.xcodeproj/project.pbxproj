@@ -13,6 +13,7 @@
 		E61E5E6522D0377400534509 /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E5F22D0377400534509 /* LengthOfLongestSubstring.cpp */; };
 		E61E5E6622D0377400534509 /* MergeTwoSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E6022D0377400534509 /* MergeTwoSortedList.cpp */; };
 		E61E5E6722D0377400534509 /* SortLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61E5E6122D0377400534509 /* SortLinkedList.cpp */; };
+		E622EF562307E5AD00CE42EE /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E622EF552307E5AD00CE42EE /* Triangle.cpp */; };
 		E628DD8F22E7616300FCB4DB /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8622E7616200FCB4DB /* CombinationSum.cpp */; };
 		E628DD9022E7616300FCB4DB /* LetterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8722E7616200FCB4DB /* LetterCombinations.cpp */; };
 		E628DD9122E7616300FCB4DB /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8822E7616300FCB4DB /* GroupAnagrams.cpp */; };
@@ -38,6 +39,7 @@
 		E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D522FCE26100563809 /* PlaceBrick.cpp */; };
 		E68BC0D822FEBFD100563809 /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D722FEBFD100563809 /* UniquePaths.cpp */; };
 		E68BC0DA22FED17100563809 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D922FED17100563809 /* MinimumPathSum.cpp */; };
+		E68BC0DC22FED8C500563809 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */; };
 		E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */; };
 		E6AAE7F222A5759B00A071F3 /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */; };
 		E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */; };
@@ -111,6 +113,7 @@
 		E61E5E5F22D0377400534509 /* LengthOfLongestSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstring.cpp; sourceTree = "<group>"; };
 		E61E5E6022D0377400534509 /* MergeTwoSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedList.cpp; sourceTree = "<group>"; };
 		E61E5E6122D0377400534509 /* SortLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortLinkedList.cpp; sourceTree = "<group>"; };
+		E622EF552307E5AD00CE42EE /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		E628DD8622E7616200FCB4DB /* CombinationSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSum.cpp; sourceTree = "<group>"; };
 		E628DD8722E7616200FCB4DB /* LetterCombinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterCombinations.cpp; sourceTree = "<group>"; };
 		E628DD8822E7616300FCB4DB /* GroupAnagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 		E68BC0D522FCE26100563809 /* PlaceBrick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaceBrick.cpp; sourceTree = "<group>"; };
 		E68BC0D722FEBFD100563809 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		E68BC0D922FED17100563809 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
+		E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		E6AAE7EE22A5759B00A071F3 /* StrStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrStr.cpp; sourceTree = "<group>"; };
 		E6AAE7EF22A5759B00A071F3 /* 3Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
 		E6AAE7F022A5759B00A071F3 /* TimeBasedKVStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeBasedKVStore.cpp; sourceTree = "<group>"; };
@@ -307,6 +311,8 @@
 				E68BC0D522FCE26100563809 /* PlaceBrick.cpp */,
 				E68BC0D722FEBFD100563809 /* UniquePaths.cpp */,
 				E68BC0D922FED17100563809 /* MinimumPathSum.cpp */,
+				E68BC0DB22FED8C500563809 /* ClimbingStairs.cpp */,
+				E622EF552307E5AD00CE42EE /* Triangle.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -399,6 +405,7 @@
 				E6DC591922F0A5BE00E9CD3D /* KClosestPointsToOrigin.cpp in Sources */,
 				E68BC0DA22FED17100563809 /* MinimumPathSum.cpp in Sources */,
 				E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */,
+				E622EF562307E5AD00CE42EE /* Triangle.cpp in Sources */,
 				E6E79CF922D4EF3A008A66AB /* LongestPalindromicSubstring.cpp in Sources */,
 				E61E5E6722D0377400534509 /* SortLinkedList.cpp in Sources */,
 				E6B9FBCC22A20C4500361BFE /* WildcardMatching.cpp in Sources */,
@@ -424,6 +431,7 @@
 				E6DC592A22F6C65600E9CD3D /* LongestCommonSubsequence.cpp in Sources */,
 				E628DD8F22E7616300FCB4DB /* CombinationSum.cpp in Sources */,
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
+				E68BC0DC22FED8C500563809 /* ClimbingStairs.cpp in Sources */,
 				E6567E7322E44E5E0080AB05 /* Pow.cpp in Sources */,
 				E628DD9522E7616300FCB4DB /* RemoveNthFromEnd.cpp in Sources */,
 				E6567E6022E20B0A0080AB05 /* ShiftingLetters.cpp in Sources */,
