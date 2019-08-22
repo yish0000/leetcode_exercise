@@ -87,7 +87,3 @@ protected:
 		bool bVal = (expr); \
 		assertTest(bVal, #expr, __FILE__, __LINE__); \
 	}
-
-size_t UnitTestCount();
-TestCase* GetTestCase(size_t i);
-void CleanTestCase();
