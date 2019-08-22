@@ -250,6 +250,27 @@
     <ClCompile Include="GenerateRandomPointInCircle.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PlaceBrick.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePathsII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePaths.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTrees.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumPathSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

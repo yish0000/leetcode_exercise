@@ -154,6 +154,7 @@
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NQueens.cpp" />
@@ -190,6 +192,7 @@
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="PlaceBrick.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
@@ -220,7 +223,11 @@
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UniqueBinarySearchTrees.cpp" />
+    <ClCompile Include="UniquePaths.cpp" />
+    <ClCompile Include="UniquePathsII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
