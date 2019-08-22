@@ -16,6 +16,7 @@
 		E622EF562307E5AD00CE42EE /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E622EF552307E5AD00CE42EE /* Triangle.cpp */; };
 		E622EF58230A522F00CE42EE /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E622EF57230A522F00CE42EE /* UniqueBinarySearchTrees.cpp */; };
 		E622EF5A230AC3BE00CE42EE /* UniquePathsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E622EF59230AC3BE00CE42EE /* UniquePathsII.cpp */; };
+		E622EF5C230EE92700CE42EE /* CoinChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E622EF5B230EE92700CE42EE /* CoinChange.cpp */; };
 		E628DD8F22E7616300FCB4DB /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8622E7616200FCB4DB /* CombinationSum.cpp */; };
 		E628DD9022E7616300FCB4DB /* LetterCombinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8722E7616200FCB4DB /* LetterCombinations.cpp */; };
 		E628DD9122E7616300FCB4DB /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8822E7616300FCB4DB /* GroupAnagrams.cpp */; };
@@ -118,6 +119,7 @@
 		E622EF552307E5AD00CE42EE /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		E622EF57230A522F00CE42EE /* UniqueBinarySearchTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTrees.cpp; sourceTree = "<group>"; };
 		E622EF59230AC3BE00CE42EE /* UniquePathsII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathsII.cpp; sourceTree = "<group>"; };
+		E622EF5B230EE92700CE42EE /* CoinChange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CoinChange.cpp; sourceTree = "<group>"; };
 		E628DD8622E7616200FCB4DB /* CombinationSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSum.cpp; sourceTree = "<group>"; };
 		E628DD8722E7616200FCB4DB /* LetterCombinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterCombinations.cpp; sourceTree = "<group>"; };
 		E628DD8822E7616300FCB4DB /* GroupAnagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				E622EF552307E5AD00CE42EE /* Triangle.cpp */,
 				E622EF57230A522F00CE42EE /* UniqueBinarySearchTrees.cpp */,
 				E622EF59230AC3BE00CE42EE /* UniquePathsII.cpp */,
+				E622EF5B230EE92700CE42EE /* CoinChange.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
+				E622EF5C230EE92700CE42EE /* CoinChange.cpp in Sources */,
 				E6DC592A22F6C65600E9CD3D /* LongestCommonSubsequence.cpp in Sources */,
 				E628DD8F22E7616300FCB4DB /* CombinationSum.cpp in Sources */,
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
