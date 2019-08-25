@@ -62,6 +62,7 @@
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
 		E6DADD5123120DD80093038F /* Treap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD5023120DD80093038F /* Treap.cpp */; };
 		E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD52231226E40093038F /* SpiralMatrix.cpp */; };
+		E6DADD552312720B0093038F /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD542312720B0093038F /* SameTree.cpp */; };
 		E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */; };
 		E6DC590C22ED9AC100E9CD3D /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */; };
 		E6DC590D22ED9AC100E9CD3D /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */; };
@@ -169,6 +170,7 @@
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
 		E6DADD5023120DD80093038F /* Treap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Treap.cpp; sourceTree = "<group>"; };
 		E6DADD52231226E40093038F /* SpiralMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
+		E6DADD542312720B0093038F /* SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
 		E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8Queens.cpp; sourceTree = "<group>"; };
 		E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SudokuSolver.cpp; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				E622EF5B230EE92700CE42EE /* CoinChange.cpp */,
 				E6DADD5023120DD80093038F /* Treap.cpp */,
 				E6DADD52231226E40093038F /* SpiralMatrix.cpp */,
+				E6DADD542312720B0093038F /* SameTree.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
 				E6E79D0722D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp in Sources */,
+				E6DADD552312720B0093038F /* SameTree.cpp in Sources */,
 				E628DD9622E7616300FCB4DB /* TeemoAttacking.cpp in Sources */,
 				E6DC591C22F1E0A600E9CD3D /* ReverseString.cpp in Sources */,
 				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
