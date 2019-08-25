@@ -104,6 +104,28 @@ public:
         }
     }
     
+    bool isBST(TreeNode* root)
+    {
+        if (!root) return true;
+        if (!root->left && !root->right)
+            return true;
+        
+        int curMax = 0;
+        return isBSTHelper(root, curMax);
+    }
+    
+    bool isBSTHelper(TreeNode* root, int& curMax)
+    {
+        if (!root) return true;
+        if (!isBSTHelper(root->left, curMax))
+            return false;
+        if (root->val > curMax)
+            curMax = root->val;
+        else
+            return false;
+        return isBSTHelper(root->right, curMax);
+    }
+    
     bool TreeEqual(TreeNode* root, const std::vector<int>& result)
     {
         std::vector<int> out;
