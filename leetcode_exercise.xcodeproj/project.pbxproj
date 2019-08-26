@@ -60,6 +60,11 @@
 		E6BC6BD622C2638D007B920D /* PalindromeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD522C2638D007B920D /* PalindromeList.cpp */; };
 		E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD722C26679007B920D /* InsertSortList.cpp */; };
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
+		E6DADD5123120DD80093038F /* Treap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD5023120DD80093038F /* Treap.cpp */; };
+		E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD52231226E40093038F /* SpiralMatrix.cpp */; };
+		E6DADD552312720B0093038F /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD542312720B0093038F /* SameTree.cpp */; };
+		E6DADD57231274410093038F /* Search2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD56231274410093038F /* Search2DMatrix.cpp */; };
+		E6DADD59231278850093038F /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD58231278850093038F /* 4Sum.cpp */; };
 		E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */; };
 		E6DC590C22ED9AC100E9CD3D /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */; };
 		E6DC590D22ED9AC100E9CD3D /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */; };
@@ -165,6 +170,11 @@
 		E6BC6BD522C2638D007B920D /* PalindromeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeList.cpp; sourceTree = "<group>"; };
 		E6BC6BD722C26679007B920D /* InsertSortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSortList.cpp; sourceTree = "<group>"; };
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		E6DADD5023120DD80093038F /* Treap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Treap.cpp; sourceTree = "<group>"; };
+		E6DADD52231226E40093038F /* SpiralMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
+		E6DADD542312720B0093038F /* SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
+		E6DADD56231274410093038F /* Search2DMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search2DMatrix.cpp; sourceTree = "<group>"; };
+		E6DADD58231278850093038F /* 4Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8Queens.cpp; sourceTree = "<group>"; };
 		E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SudokuSolver.cpp; sourceTree = "<group>"; };
@@ -322,6 +332,11 @@
 				E622EF57230A522F00CE42EE /* UniqueBinarySearchTrees.cpp */,
 				E622EF59230AC3BE00CE42EE /* UniquePathsII.cpp */,
 				E622EF5B230EE92700CE42EE /* CoinChange.cpp */,
+				E6DADD5023120DD80093038F /* Treap.cpp */,
+				E6DADD52231226E40093038F /* SpiralMatrix.cpp */,
+				E6DADD542312720B0093038F /* SameTree.cpp */,
+				E6DADD56231274410093038F /* Search2DMatrix.cpp */,
+				E6DADD58231278850093038F /* 4Sum.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -396,8 +411,10 @@
 				E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
 				E6E79D0722D8CCFE008A66AB /* BinaryTreeInorderTraversal.cpp in Sources */,
+				E6DADD552312720B0093038F /* SameTree.cpp in Sources */,
 				E628DD9622E7616300FCB4DB /* TeemoAttacking.cpp in Sources */,
 				E6DC591C22F1E0A600E9CD3D /* ReverseString.cpp in Sources */,
+				E6DADD57231274410093038F /* Search2DMatrix.cpp in Sources */,
 				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
 				E6DC593022F7150700E9CD3D /* GenerateRandomPointInCircle.cpp in Sources */,
 				E6567E6122E20B0A0080AB05 /* SubArrayKDifferent.cpp in Sources */,
@@ -413,6 +430,7 @@
 				E6B9FBCB22A20C4500361BFE /* AddTwoNumbers.cpp in Sources */,
 				E6567E6D22E3DBE70080AB05 /* SwapNodesPairs.cpp in Sources */,
 				E6DC591922F0A5BE00E9CD3D /* KClosestPointsToOrigin.cpp in Sources */,
+				E6DADD5123120DD80093038F /* Treap.cpp in Sources */,
 				E68BC0DA22FED17100563809 /* MinimumPathSum.cpp in Sources */,
 				E6B9FBCA22A20C4500361BFE /* MultiplyStrings.cpp in Sources */,
 				E622EF562307E5AD00CE42EE /* Triangle.cpp in Sources */,
@@ -425,6 +443,7 @@
 				E6E79D0422D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp in Sources */,
 				E6DC592C22F6D60700E9CD3D /* 4SumII.cpp in Sources */,
 				E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */,
+				E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */,
 				E6DC592222F4A93A00E9CD3D /* SubarraySumEqualsK.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
 				E6DC590C22ED9AC100E9CD3D /* ValidSudoku.cpp in Sources */,
@@ -437,6 +456,7 @@
 				E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */,
 				E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */,
 				E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */,
+				E6DADD59231278850093038F /* 4Sum.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
 				E622EF5C230EE92700CE42EE /* CoinChange.cpp in Sources */,
