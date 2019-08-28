@@ -8,14 +8,14 @@ public:
     int coinChange(vector<int>& coins, int amount) {
         if (amount == 0) return 0;
         vector<int> dp(amount+1, 0);
-        for(int i=0; i<coins.size(); i++)
+        for(int i=0; i<(int)coins.size(); i++)
             if (coins[i] < amount+1)
                 dp[coins[i]] = 1;
         for(int i=1; i<=amount; i++)
         {
             int cur = i;
             int count = 0;
-            for (int j=0; j<coins.size(); j++)
+            for (int j=0; j<(int)coins.size(); j++)
             {
                 if (cur < coins[j]) continue;
                 if (cur == coins[j])

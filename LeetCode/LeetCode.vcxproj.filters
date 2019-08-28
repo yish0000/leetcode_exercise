@@ -271,6 +271,27 @@
     <ClCompile Include="ClimbingStairs.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="CoinChange.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WordBreak.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Treap.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Search2DMatrix.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SameTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="4Sum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

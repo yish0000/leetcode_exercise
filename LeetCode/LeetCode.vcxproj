@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
+    <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="4SumII.cpp" />
     <ClCompile Include="8Queens.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
@@ -208,11 +210,14 @@
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateImage.cpp" />
+    <ClCompile Include="SameTree.cpp" />
+    <ClCompile Include="Search2DMatrix.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
@@ -223,6 +228,7 @@
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
+    <ClCompile Include="Treap.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
@@ -231,6 +237,7 @@
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
+    <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
