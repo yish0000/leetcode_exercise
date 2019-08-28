@@ -247,6 +247,51 @@
     <ClCompile Include="4SumII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="GenerateRandomPointInCircle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaceBrick.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePathsII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePaths.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTrees.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumPathSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinChange.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WordBreak.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Treap.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Search2DMatrix.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SameTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="4Sum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

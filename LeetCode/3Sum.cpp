@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution3Sum {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         set<vector<int>> s;
@@ -50,7 +50,7 @@ public:
 
 RUN_TESTCASE(3Sum)
 {
-	Solution sln;
+	Solution3Sum sln;
     vector<int> nums = {-1, 0, 1, 2, -1, -4};
     vector<int> result1 = {-1, -1, 2};
     vector<int> result2 = {-1, 0, 1};
@@ -65,7 +65,4 @@ RUN_TESTCASE(3Sum)
     vector<int> nums2 = {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
     vector<vector<int>> ret2 = sln.threeSum(nums2);
     TESTCASE_ASSERT(ret2.size() == 6);
-    
-    vector<int> empty;
-    sln.threeSum(empty);
 }
