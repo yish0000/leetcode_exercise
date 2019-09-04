@@ -22,7 +22,10 @@ public:
 RUN_TESTCASE(WordBreak)
 {
 	SolutionWordBreak sln;
-	TESTCASE_ASSERT(sln.wordBreak("leetcode", vector<string>({"leet", "code"})));
-	TESTCASE_ASSERT(sln.wordBreak("applepenapple", vector<string>({"apple", "pen"})));
-	TESTCASE_ASSERT(!sln.wordBreak("catsandog", vector<string>({"cats", "dog", "sand", "and", "cat"})));
+    vector<string> arr1({"leet", "code"});
+	TESTCASE_ASSERT(sln.wordBreak("leetcode", arr1));
+    vector<string> arr2({"apple", "pen"});
+	TESTCASE_ASSERT(sln.wordBreak("applepenapple", arr2));
+    vector<string> arr3({"cats", "dog", "sand", "and", "cat"});
+	TESTCASE_ASSERT(!sln.wordBreak("catsandog", arr3));
 }
