@@ -163,6 +163,7 @@
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
