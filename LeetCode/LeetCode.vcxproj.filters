@@ -292,6 +292,15 @@
     <ClCompile Include="4Sum.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="DecodeString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestor.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSearchII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

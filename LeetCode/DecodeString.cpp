@@ -14,7 +14,7 @@ public:
         stack<int> stk;
         int i = 0;
         int num = 0;
-        while(i < s.length())
+        while(i < (int)s.length())
         {
             if (isdigit(s[i]) && stk.empty())
                 num = num * 10 + (s[i] - '0');

@@ -163,6 +163,7 @@
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
@@ -238,6 +240,7 @@
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordSearchII.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
