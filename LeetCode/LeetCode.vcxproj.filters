@@ -301,6 +301,9 @@
     <ClCompile Include="WordSearchII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="WordSubsets.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
