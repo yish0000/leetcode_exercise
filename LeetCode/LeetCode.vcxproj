@@ -202,6 +202,7 @@
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
+    <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveLinkedList.cpp" />
