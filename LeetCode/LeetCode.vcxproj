@@ -181,6 +181,7 @@
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
+    <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />

@@ -307,6 +307,9 @@
     <ClCompile Include="RandomPickWithWeight.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MagicSquaresInGrid.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
