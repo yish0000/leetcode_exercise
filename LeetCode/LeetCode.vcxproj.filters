@@ -313,6 +313,9 @@
     <ClCompile Include="ShortestCompletingWord.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LongestMountain.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
