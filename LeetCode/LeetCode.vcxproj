@@ -179,6 +179,7 @@
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
+    <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
@@ -220,6 +221,7 @@
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
+    <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
