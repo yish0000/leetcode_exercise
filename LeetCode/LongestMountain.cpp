@@ -49,7 +49,10 @@ public:
 						{
 							int len = r - l + 1;
 							max_len = std::max(max_len, len);
-							l = r;
+                            if (A[r] != A[i])
+                                l = r;
+                            else
+                                l = i;
 							peak = i;
 							r = -1;
 						}
@@ -91,4 +94,11 @@ RUN_TESTCASE(LongestMountain)
 
 	vector<int> arr7 = { 81,54,72,92,9,86,24,63,28,12 };
 	TESTCASE_ASSERT(sln.longestMountain(arr7) == 4);
+    
+    vector<int> arr8 = {
+        0,1,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1,1,0,1,1,1,1,1,0,0,1,
+        0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,
+        0,1,0,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0,0,1,0,1,1
+    };
+    TESTCASE_ASSERT(sln.longestMountain(arr8) == 3);
 }

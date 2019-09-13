@@ -67,6 +67,13 @@
 		E6DADD59231278850093038F /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD58231278850093038F /* 4Sum.cpp */; };
 		E6DADD5B23200CD40093038F /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD5A23200CD40093038F /* WordBreak.cpp */; };
 		E6DADD5D23200E2A0093038F /* DecodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD5C23200E2A0093038F /* DecodeString.cpp */; };
+		E6DADD6B232A9D680093038F /* MagicSquaresInGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD64232A9D680093038F /* MagicSquaresInGrid.cpp */; };
+		E6DADD6C232A9D680093038F /* LowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD65232A9D680093038F /* LowestCommonAncestor.cpp */; };
+		E6DADD6D232A9D680093038F /* WordSubsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD66232A9D680093038F /* WordSubsets.cpp */; };
+		E6DADD6E232A9D680093038F /* RandomPickWithWeight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD67232A9D680093038F /* RandomPickWithWeight.cpp */; };
+		E6DADD6F232A9D680093038F /* WordSearchII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD68232A9D680093038F /* WordSearchII.cpp */; };
+		E6DADD70232A9D680093038F /* ShortestCompletingWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD69232A9D680093038F /* ShortestCompletingWord.cpp */; };
+		E6DADD71232A9D680093038F /* LongestMountain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD6A232A9D680093038F /* LongestMountain.cpp */; };
 		E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */; };
 		E6DC590C22ED9AC100E9CD3D /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */; };
 		E6DC590D22ED9AC100E9CD3D /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */; };
@@ -179,6 +186,13 @@
 		E6DADD58231278850093038F /* 4Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		E6DADD5A23200CD40093038F /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
 		E6DADD5C23200E2A0093038F /* DecodeString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeString.cpp; sourceTree = "<group>"; };
+		E6DADD64232A9D680093038F /* MagicSquaresInGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSquaresInGrid.cpp; sourceTree = "<group>"; };
+		E6DADD65232A9D680093038F /* LowestCommonAncestor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowestCommonAncestor.cpp; sourceTree = "<group>"; };
+		E6DADD66232A9D680093038F /* WordSubsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordSubsets.cpp; sourceTree = "<group>"; };
+		E6DADD67232A9D680093038F /* RandomPickWithWeight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomPickWithWeight.cpp; sourceTree = "<group>"; };
+		E6DADD68232A9D680093038F /* WordSearchII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordSearchII.cpp; sourceTree = "<group>"; };
+		E6DADD69232A9D680093038F /* ShortestCompletingWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestCompletingWord.cpp; sourceTree = "<group>"; };
+		E6DADD6A232A9D680093038F /* LongestMountain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestMountain.cpp; sourceTree = "<group>"; };
 		E6DC590822E8BFE400E9CD3D /* 8Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8Queens.cpp; sourceTree = "<group>"; };
 		E6DC590A22ED9AC100E9CD3D /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		E6DC590B22ED9AC100E9CD3D /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SudokuSolver.cpp; sourceTree = "<group>"; };
@@ -246,6 +260,13 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6DADD6A232A9D680093038F /* LongestMountain.cpp */,
+				E6DADD65232A9D680093038F /* LowestCommonAncestor.cpp */,
+				E6DADD64232A9D680093038F /* MagicSquaresInGrid.cpp */,
+				E6DADD67232A9D680093038F /* RandomPickWithWeight.cpp */,
+				E6DADD69232A9D680093038F /* ShortestCompletingWord.cpp */,
+				E6DADD68232A9D680093038F /* WordSearchII.cpp */,
+				E6DADD66232A9D680093038F /* WordSubsets.cpp */,
 				E6DADD5A23200CD40093038F /* WordBreak.cpp */,
 				E6DC591E22F4A93A00E9CD3D /* PathSumII.cpp */,
 				E6DC592022F4A93A00E9CD3D /* SingleElementInSortedArray.cpp */,
@@ -413,6 +434,7 @@
 				E6E79CF722D4EF3A008A66AB /* IntegerToRoman.cpp in Sources */,
 				E6FDBC6322BF70ED00ACB295 /* RandomizedSelection.cpp in Sources */,
 				E6567E6222E20B0A0080AB05 /* Sqrt.cpp in Sources */,
+				E6DADD6F232A9D680093038F /* WordSearchII.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
 				E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
@@ -427,6 +449,7 @@
 				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E6DC591322EFB4AB00E9CD3D /* NQueensII.cpp in Sources */,
 				E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */,
+				E6DADD6D232A9D680093038F /* WordSubsets.cpp in Sources */,
 				E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
 				E6DC591D22F1E0A600E9CD3D /* MostCommonWord.cpp in Sources */,
@@ -448,9 +471,11 @@
 				E628DD9122E7616300FCB4DB /* GroupAnagrams.cpp in Sources */,
 				E6BC6BD422C262DC007B920D /* RemoveLinkedList.cpp in Sources */,
 				E6E79D0422D8CCFE008A66AB /* BinaryTreePreorderTraversal.cpp in Sources */,
+				E6DADD71232A9D680093038F /* LongestMountain.cpp in Sources */,
 				E6DC592C22F6D60700E9CD3D /* 4SumII.cpp in Sources */,
 				E6DADD5B23200CD40093038F /* WordBreak.cpp in Sources */,
 				E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */,
+				E6DADD6C232A9D680093038F /* LowestCommonAncestor.cpp in Sources */,
 				E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */,
 				E6DC592222F4A93A00E9CD3D /* SubarraySumEqualsK.cpp in Sources */,
 				E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */,
@@ -461,10 +486,12 @@
 				E6FDBC5F22BA8E7700ACB295 /* PalindromeNumber.cpp in Sources */,
 				E6567E6B22E30AE30080AB05 /* RemoveDuplicates.cpp in Sources */,
 				E628DD9022E7616300FCB4DB /* LetterCombinations.cpp in Sources */,
+				E6DADD6E232A9D680093038F /* RandomPickWithWeight.cpp in Sources */,
 				E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */,
 				E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */,
 				E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */,
 				E6DADD59231278850093038F /* 4Sum.cpp in Sources */,
+				E6DADD70232A9D680093038F /* ShortestCompletingWord.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
 				E622EF5C230EE92700CE42EE /* CoinChange.cpp in Sources */,
@@ -475,6 +502,7 @@
 				E6567E7322E44E5E0080AB05 /* Pow.cpp in Sources */,
 				E628DD9522E7616300FCB4DB /* RemoveNthFromEnd.cpp in Sources */,
 				E6567E6022E20B0A0080AB05 /* ShiftingLetters.cpp in Sources */,
+				E6DADD6B232A9D680093038F /* MagicSquaresInGrid.cpp in Sources */,
 				E61E5E6622D0377400534509 /* MergeTwoSortedList.cpp in Sources */,
 				E628DD9422E7616300FCB4DB /* RotateImage.cpp in Sources */,
 				E61E5E6322D0377400534509 /* InsertSort.cpp in Sources */,
