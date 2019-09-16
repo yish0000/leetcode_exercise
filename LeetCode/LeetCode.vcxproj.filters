@@ -316,6 +316,9 @@
     <ClCompile Include="LongestMountain.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MergeKSortedLists.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
