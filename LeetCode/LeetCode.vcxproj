@@ -172,6 +172,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />

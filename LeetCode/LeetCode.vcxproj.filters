@@ -319,6 +319,9 @@
     <ClCompile Include="MergeKSortedLists.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="JumpGame.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
