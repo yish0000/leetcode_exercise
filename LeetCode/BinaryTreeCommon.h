@@ -24,24 +24,30 @@ public:
         size_t index = 0;
         TreeNode* root = new TreeNode(arr[index++]);
         queue.push(root);
-        while(queue.size() > 0 && index + 2 <= arr.size())
+        while(queue.size() > 0)
         {
             TreeNode* curNode = queue.front();
             queue.pop();
             
-            int curValue = arr[index++];
-            if (curValue != -1)
-            {
-                curNode->left = new TreeNode(curValue);
-                queue.push(curNode->left);
-            }
-            
-            curValue = arr[index++];
-            if (curValue != -1)
-            {
-                curNode->right = new TreeNode(curValue);
-                queue.push(curNode->right);
-            }
+			if (index + 1 <= arr.size())
+			{
+				int curValue = arr[index++];
+				if (curValue != -1)
+				{
+					curNode->left = new TreeNode(curValue);
+					queue.push(curNode->left);
+				}
+			}
+
+			if (index + 1 <= arr.size())
+			{
+				int curValue = arr[index++];
+				if (curValue != -1)
+				{
+					curNode->right = new TreeNode(curValue);
+					queue.push(curNode->right);
+				}
+			}
         }
         
         return root;
