@@ -328,6 +328,9 @@
     <ClCompile Include="AddOneRowToTree.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="StreamOfCharacters.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -228,6 +228,7 @@
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
