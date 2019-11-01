@@ -331,6 +331,9 @@
     <ClCompile Include="StreamOfCharacters.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RandomWithBlackList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
