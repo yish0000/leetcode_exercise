@@ -22,10 +22,10 @@ public:
 		while (l < r)
 		{
 			int mid = l + (r - l) / 2;
-			if ((n >= m_blackList[mid] - mid) &&
-				(mid == bnum - 1 || (mid != bnum - 1 && n < m_blackList[mid + 1] - mid - 1)))
+			if ((n + mid >= m_blackList[mid]) &&
+				(mid == bnum - 1 || (mid != bnum - 1 && n + mid + 1 < m_blackList[mid + 1])))
 				return n + 1 + mid;
-			else if (n < m_blackList[mid] - mid)
+			else if (n + mid < m_blackList[mid])
 				r = mid - 1;
 			else
 				l = mid + 1;
