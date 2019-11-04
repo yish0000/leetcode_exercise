@@ -334,6 +334,9 @@
     <ClCompile Include="RandomWithBlackList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SimplifyPath.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

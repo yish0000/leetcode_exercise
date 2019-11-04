@@ -46,4 +46,5 @@ RUN_TESTCASE(RandomWithBlackList)
 	 * Solution* obj = new Solution(N, blacklist);
 	 * int param_1 = obj->pick();
 	 */
+	TESTCASE_ASSERT(false);
 }
