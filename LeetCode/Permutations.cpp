@@ -26,6 +26,27 @@ public:
 				permute_helper(ret, newNums, newPath);
 		}
 	}
+
+	vector<vector<int>> permuteFast(vector<int>& nums) {
+		vector<vector<int>> ret;
+		permute_helper_fast(ret, nums, 0, (int)nums.size() - 1);
+		return ret;
+	}
+
+	void permute_helper_fast(vector<vector<int>>& ret, vector<int>& nums, int l, int r)
+	{
+		if (l == r)
+			ret.emplace_back(nums);
+		else
+		{
+			for (int i = l; i <= r; i++)
+			{
+				std::swap(nums[i], nums[l]);
+				permute_helper_fast(ret, nums, l + 1, r);
+				std::swap(nums[i], nums[l]);
+			}
+		}
+	}
 };
 
 RUN_TESTCASE(Permutations)
