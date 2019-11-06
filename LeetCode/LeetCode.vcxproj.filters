@@ -337,6 +337,12 @@
     <ClCompile Include="SimplifyPath.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SortColors.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

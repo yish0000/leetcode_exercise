@@ -159,6 +159,7 @@
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
+    <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
@@ -229,6 +230,7 @@
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
+    <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
