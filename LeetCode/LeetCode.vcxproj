@@ -201,6 +201,7 @@
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PlaceBrick.cpp" />
     <ClCompile Include="PlusOne.cpp" />
