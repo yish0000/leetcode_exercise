@@ -76,7 +76,8 @@ RUN_TESTCASE(StreamOfCharacters)
 	* bool param_1 = obj->query(letter);
 	*/
 
-	StreamChecker streamChecker(vector<string>({ "cd", "f", "kl" }));
+    vector<string> arr({ "cd", "f", "kl" });
+	StreamChecker streamChecker(arr);
 	TESTCASE_ASSERT(!streamChecker.query('a'));
 	TESTCASE_ASSERT(!streamChecker.query('b'));
 	TESTCASE_ASSERT(!streamChecker.query('c'));
