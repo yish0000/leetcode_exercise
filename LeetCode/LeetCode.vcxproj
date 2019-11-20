@@ -242,6 +242,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
+    <ClCompile Include="TargetSum.cpp" />
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
