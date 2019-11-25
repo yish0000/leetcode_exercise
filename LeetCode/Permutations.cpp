@@ -14,7 +14,7 @@ public:
 
 	void permute_helper(vector<vector<int>>& ret, vector<int>& nums, vector<int>& path)
 	{
-		for (int i = 0; i < nums.size(); i++)
+		for (int i = 0; i < (int)nums.size(); i++)
 		{
 			vector<int> newNums(nums);
 			newNums.erase(newNums.begin() + i);

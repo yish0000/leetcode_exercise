@@ -346,6 +346,12 @@
     <ClCompile Include="Permutations.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="NextPermutation.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
