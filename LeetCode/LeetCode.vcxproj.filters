@@ -352,6 +352,9 @@
     <ClCompile Include="TargetSum.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

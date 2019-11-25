@@ -189,6 +189,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
