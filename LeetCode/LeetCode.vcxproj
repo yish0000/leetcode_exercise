@@ -178,6 +178,7 @@
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
