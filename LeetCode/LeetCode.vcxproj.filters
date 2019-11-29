@@ -361,6 +361,9 @@
     <ClCompile Include="RemoveSubFoldersFromFS.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="StringCompression.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

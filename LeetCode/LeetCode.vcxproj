@@ -238,6 +238,7 @@
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
+    <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
