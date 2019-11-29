@@ -178,6 +178,7 @@
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
@@ -189,6 +190,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
@@ -216,6 +218,7 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveLinkedList.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
+    <ClCompile Include="RemoveSubFoldersFromFS.cpp" />
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
@@ -235,6 +238,7 @@
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
+    <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
