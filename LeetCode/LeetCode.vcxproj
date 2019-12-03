@@ -151,7 +151,10 @@
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="4SumII.cpp" />
     <ClCompile Include="8Queens.cpp" />
+    <ClCompile Include="AddArrayFormInteger.cpp" />
+    <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddOneRowToTree.cpp" />
+    <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -214,6 +217,7 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RemoveDupFromSortedList.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveLinkedList.cpp" />
