@@ -370,6 +370,9 @@
     <ClCompile Include="AddArrayFormInteger.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AddStrings.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

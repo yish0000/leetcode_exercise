@@ -154,6 +154,7 @@
     <ClCompile Include="AddArrayFormInteger.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddOneRowToTree.cpp" />
+    <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
