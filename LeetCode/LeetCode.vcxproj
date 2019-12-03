@@ -217,6 +217,7 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RemoveDupFromSortedList.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveLinkedList.cpp" />
