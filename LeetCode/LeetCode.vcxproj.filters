@@ -367,6 +367,9 @@
     <ClCompile Include="AddBinary.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AddArrayFormInteger.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
