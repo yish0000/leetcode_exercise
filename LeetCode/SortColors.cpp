@@ -7,7 +7,7 @@ class SolutionSortColors
 public:
 	void sortColors(vector<int>& nums) {
 		int l = 0;
-		int r = nums.size() - 1;
+		int r = (int)nums.size() - 1;
 		int mid = 0;
 		while (mid <= r)
 		{

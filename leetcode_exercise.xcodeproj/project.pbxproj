@@ -48,6 +48,17 @@
 		E6567E7122E42E1A0080AB05 /* CountAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E7022E42E1A0080AB05 /* CountAndSay.cpp */; };
 		E6567E7322E44E5E0080AB05 /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6567E7222E44E5E0080AB05 /* Pow.cpp */; };
 		E675680A232D3E140021F696 /* MergeKSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6756809232D3E140021F696 /* MergeKSortedLists.cpp */; };
+		E67E63F6239898D900239BD6 /* AddArrayFormInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63EB239898D800239BD6 /* AddArrayFormInteger.cpp */; };
+		E67E63F7239898D900239BD6 /* RemoveDupFromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63EC239898D800239BD6 /* RemoveDupFromSortedListII.cpp */; };
+		E67E63F8239898D900239BD6 /* RemoveSubFoldersFromFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63ED239898D800239BD6 /* RemoveSubFoldersFromFS.cpp */; };
+		E67E63F9239898D900239BD6 /* StringCompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63EE239898D800239BD6 /* StringCompression.cpp */; };
+		E67E63FA239898D900239BD6 /* RemoveDupFromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63EF239898D800239BD6 /* RemoveDupFromSortedList.cpp */; };
+		E67E63FB239898D900239BD6 /* AddBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F0239898D800239BD6 /* AddBinary.cpp */; };
+		E67E63FC239898D900239BD6 /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F1239898D800239BD6 /* NextPermutation.cpp */; };
+		E67E63FD239898D900239BD6 /* AddStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F2239898D800239BD6 /* AddStrings.cpp */; };
+		E67E63FE239898D900239BD6 /* TargetSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F3239898D800239BD6 /* TargetSum.cpp */; };
+		E67E63FF239898D900239BD6 /* LengthOfLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F4239898D800239BD6 /* LengthOfLastWord.cpp */; };
+		E67E6400239898D900239BD6 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E67E63F5239898D800239BD6 /* SortColors.cpp */; };
 		E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D522FCE26100563809 /* PlaceBrick.cpp */; };
 		E68BC0D822FEBFD100563809 /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D722FEBFD100563809 /* UniquePaths.cpp */; };
 		E68BC0DA22FED17100563809 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E68BC0D922FED17100563809 /* MinimumPathSum.cpp */; };
@@ -175,6 +186,17 @@
 		E6567E7022E42E1A0080AB05 /* CountAndSay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountAndSay.cpp; sourceTree = "<group>"; };
 		E6567E7222E44E5E0080AB05 /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
 		E6756809232D3E140021F696 /* MergeKSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKSortedLists.cpp; sourceTree = "<group>"; };
+		E67E63EB239898D800239BD6 /* AddArrayFormInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddArrayFormInteger.cpp; sourceTree = "<group>"; };
+		E67E63EC239898D800239BD6 /* RemoveDupFromSortedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDupFromSortedListII.cpp; sourceTree = "<group>"; };
+		E67E63ED239898D800239BD6 /* RemoveSubFoldersFromFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveSubFoldersFromFS.cpp; sourceTree = "<group>"; };
+		E67E63EE239898D800239BD6 /* StringCompression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringCompression.cpp; sourceTree = "<group>"; };
+		E67E63EF239898D800239BD6 /* RemoveDupFromSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDupFromSortedList.cpp; sourceTree = "<group>"; };
+		E67E63F0239898D800239BD6 /* AddBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddBinary.cpp; sourceTree = "<group>"; };
+		E67E63F1239898D800239BD6 /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
+		E67E63F2239898D800239BD6 /* AddStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddStrings.cpp; sourceTree = "<group>"; };
+		E67E63F3239898D800239BD6 /* TargetSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TargetSum.cpp; sourceTree = "<group>"; };
+		E67E63F4239898D800239BD6 /* LengthOfLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLastWord.cpp; sourceTree = "<group>"; };
+		E67E63F5239898D800239BD6 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
 		E68BC0D522FCE26100563809 /* PlaceBrick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaceBrick.cpp; sourceTree = "<group>"; };
 		E68BC0D722FEBFD100563809 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		E68BC0D922FED17100563809 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
@@ -280,6 +302,17 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E67E63EB239898D800239BD6 /* AddArrayFormInteger.cpp */,
+				E67E63F0239898D800239BD6 /* AddBinary.cpp */,
+				E67E63F2239898D800239BD6 /* AddStrings.cpp */,
+				E67E63F4239898D800239BD6 /* LengthOfLastWord.cpp */,
+				E67E63F1239898D800239BD6 /* NextPermutation.cpp */,
+				E67E63EF239898D800239BD6 /* RemoveDupFromSortedList.cpp */,
+				E67E63EC239898D800239BD6 /* RemoveDupFromSortedListII.cpp */,
+				E67E63ED239898D800239BD6 /* RemoveSubFoldersFromFS.cpp */,
+				E67E63F5239898D800239BD6 /* SortColors.cpp */,
+				E67E63EE239898D800239BD6 /* StringCompression.cpp */,
+				E67E63F3239898D800239BD6 /* TargetSum.cpp */,
 				E644003C23764EC4002488B1 /* AddOneRowToTree.cpp */,
 				E644003823764EC3002488B1 /* CombinationSumII.cpp */,
 				E644003A23764EC3002488B1 /* JumpGame.cpp */,
@@ -465,6 +498,7 @@
 				E6FDBC6322BF70ED00ACB295 /* RandomizedSelection.cpp in Sources */,
 				E6567E6222E20B0A0080AB05 /* Sqrt.cpp in Sources */,
 				E6DADD6F232A9D680093038F /* WordSearchII.cpp in Sources */,
+				E67E63FE239898D900239BD6 /* TargetSum.cpp in Sources */,
 				E6AAE7F322A5759B00A071F3 /* TimeBasedKVStore.cpp in Sources */,
 				E6567E5B22DF7B3E0080AB05 /* KeysAndRooms.cpp in Sources */,
 				E6AAE7F722A81DBD00A071F3 /* MaximumSubArray.cpp in Sources */,
@@ -473,6 +507,7 @@
 				E628DD9622E7616300FCB4DB /* TeemoAttacking.cpp in Sources */,
 				E6DC591C22F1E0A600E9CD3D /* ReverseString.cpp in Sources */,
 				E6DADD57231274410093038F /* Search2DMatrix.cpp in Sources */,
+				E67E63F6239898D900239BD6 /* AddArrayFormInteger.cpp in Sources */,
 				E6FDBC5E22BA8E7700ACB295 /* HeapSort.cpp in Sources */,
 				E6DC593022F7150700E9CD3D /* GenerateRandomPointInCircle.cpp in Sources */,
 				E6567E6122E20B0A0080AB05 /* SubArrayKDifferent.cpp in Sources */,
@@ -482,6 +517,7 @@
 				E6DADD6D232A9D680093038F /* WordSubsets.cpp in Sources */,
 				E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
+				E67E63FA239898D900239BD6 /* RemoveDupFromSortedList.cpp in Sources */,
 				E6DC591D22F1E0A600E9CD3D /* MostCommonWord.cpp in Sources */,
 				E6DADD5D23200E2A0093038F /* DecodeString.cpp in Sources */,
 				E6DC590922E8BFE400E9CD3D /* 8Queens.cpp in Sources */,
@@ -512,6 +548,7 @@
 				E6DADD5B23200CD40093038F /* WordBreak.cpp in Sources */,
 				E6E79CFB22D4FA31008A66AB /* ContainerMostWater.cpp in Sources */,
 				E6DADD6C232A9D680093038F /* LowestCommonAncestor.cpp in Sources */,
+				E67E63FF239898D900239BD6 /* LengthOfLastWord.cpp in Sources */,
 				E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */,
 				E644003E23764EC4002488B1 /* StreamOfCharacters.cpp in Sources */,
 				E6DC592222F4A93A00E9CD3D /* SubarraySumEqualsK.cpp in Sources */,
@@ -529,6 +566,7 @@
 				E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */,
 				E6567E6322E20B0A0080AB05 /* PermutationsII.cpp in Sources */,
 				E6DADD59231278850093038F /* 4Sum.cpp in Sources */,
+				E67E63FD239898D900239BD6 /* AddStrings.cpp in Sources */,
 				E6DADD70232A9D680093038F /* ShortestCompletingWord.cpp in Sources */,
 				E6B9FBD022A2157300361BFE /* BST2GST.cpp in Sources */,
 				E6B9FBCD22A20C4500361BFE /* main.cpp in Sources */,
@@ -538,6 +576,7 @@
 				E6AAE7F922A81EEA00A071F3 /* QuickSort.cpp in Sources */,
 				E68BC0DC22FED8C500563809 /* ClimbingStairs.cpp in Sources */,
 				E6567E7322E44E5E0080AB05 /* Pow.cpp in Sources */,
+				E67E63FB239898D900239BD6 /* AddBinary.cpp in Sources */,
 				E628DD9522E7616300FCB4DB /* RemoveNthFromEnd.cpp in Sources */,
 				E6567E6022E20B0A0080AB05 /* ShiftingLetters.cpp in Sources */,
 				E6DADD6B232A9D680093038F /* MagicSquaresInGrid.cpp in Sources */,
@@ -545,12 +584,14 @@
 				E628DD9422E7616300FCB4DB /* RotateImage.cpp in Sources */,
 				E61E5E6322D0377400534509 /* InsertSort.cpp in Sources */,
 				E6E79D0522D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp in Sources */,
+				E67E63F8239898D900239BD6 /* RemoveSubFoldersFromFS.cpp in Sources */,
 				E6DC591722EFB89A00E9CD3D /* 3SumClosest.cpp in Sources */,
 				E6DC592E22F6DE1E00E9CD3D /* Knapsack.cpp in Sources */,
 				E6567E7122E42E1A0080AB05 /* CountAndSay.cpp in Sources */,
 				E644004223764EC4002488B1 /* JumpGame.cpp in Sources */,
 				E6AAE7F122A5759B00A071F3 /* StrStr.cpp in Sources */,
 				E6DC592322F4A93A00E9CD3D /* SingleElementInSortedArray.cpp in Sources */,
+				E67E6400239898D900239BD6 /* SortColors.cpp in Sources */,
 				E68BC0D822FEBFD100563809 /* UniquePaths.cpp in Sources */,
 				E6B9FBCE22A20C4500361BFE /* TwoSum.cpp in Sources */,
 				E6DC591422EFB4AB00E9CD3D /* PlusOne.cpp in Sources */,
@@ -559,12 +600,15 @@
 				E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */,
 				E61E5E6422D0377400534509 /* ReverseLinkedList.cpp in Sources */,
 				E6BC6BD622C2638D007B920D /* PalindromeList.cpp in Sources */,
+				E67E63F9239898D900239BD6 /* StringCompression.cpp in Sources */,
 				E6E79CFD22D64160008A66AB /* ConstructBinaryTree.cpp in Sources */,
 				E6567E6F22E3E25A0080AB05 /* SearchInsert.cpp in Sources */,
+				E67E63FC239898D900239BD6 /* NextPermutation.cpp in Sources */,
 				E6DC590F22EDAAAC00E9CD3D /* SearchRotatedSortedArray.cpp in Sources */,
 				E6B9FBC922A20C4500361BFE /* TestCase.cpp in Sources */,
 				E6DC590D22ED9AC100E9CD3D /* SudokuSolver.cpp in Sources */,
 				E6E79CF822D4EF3A008A66AB /* ZigZagConversion.cpp in Sources */,
+				E67E63F7239898D900239BD6 /* RemoveDupFromSortedListII.cpp in Sources */,
 				E6567E6722E2CBD20080AB05 /* ValidParentheses.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
