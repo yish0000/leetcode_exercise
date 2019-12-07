@@ -2,3 +2,7 @@
 /LeetCode/Release
 /LeetCode/Debug
 /LeetCode/*.user
+/*.db
+/*.opendb
+/Debug
+/Release

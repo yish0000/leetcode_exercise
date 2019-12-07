@@ -196,6 +196,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
