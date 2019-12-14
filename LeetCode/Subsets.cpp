@@ -67,5 +67,5 @@ RUN_TESTCASE(Subsets)
 		{2,3},
 		{1,2,3},
 	};
-	TESTCASE_ASSERT(sln.subsets_bt(arr) == ret);
+	TESTCASE_ASSERT(sln.subsets(arr) == ret);
 }
