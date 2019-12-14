@@ -207,6 +207,7 @@
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
+    <ClCompile Include="PascalTriangle.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationsII.cpp" />

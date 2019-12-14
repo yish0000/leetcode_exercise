@@ -388,6 +388,9 @@
     <ClCompile Include="SubsetsII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PascalTriangle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
