@@ -22,7 +22,7 @@
     <ProjectGuid>{1051B995-D547-4C0B-BEBF-04DE11C5C7A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -196,6 +196,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
@@ -206,6 +207,7 @@
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PartionGet.cpp" />
+    <ClCompile Include="PascalTriangle.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
@@ -245,6 +247,8 @@
     <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
+    <ClCompile Include="Subsets.cpp" />
+    <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SortLinkedList.cpp" />
     <ClCompile Include="Sqrt.cpp" />
