@@ -394,10 +394,10 @@
     <ClCompile Include="PartitionList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
-    <ClCompile Include="SetMatrixZeros.cpp">
+    <ClCompile Include="LengthOfLongestSubstringII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
-    <ClCompile Include="LengthOfLongestSubstringII.cpp">
+    <ClCompile Include="SetMatrixZeroes.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
   </ItemGroup>

@@ -239,7 +239,7 @@
     <ClCompile Include="Search2DMatrix.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
-    <ClCompile Include="SetMatrixZeros.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="ShortestCompletingWord.cpp" />
