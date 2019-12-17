@@ -394,6 +394,12 @@
     <ClCompile Include="PartitionList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SetMatrixZeros.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLongestSubstringII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

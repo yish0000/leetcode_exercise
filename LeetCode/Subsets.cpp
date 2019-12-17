@@ -8,7 +8,7 @@ public:
 	vector<vector<int>> subsets(vector<int>& nums) {
 		vector<vector<int>> ret;
 		ret.push_back(vector<int>());
-		for (int i = 0; i < nums.size(); i++)
+		for (size_t i = 0; i < nums.size(); i++)
 		{
 			vector<int> n;
 			vector<vector<int>> arr;
@@ -27,7 +27,7 @@ public:
 		vector<vector<int>> ret;
 		vector<int> tmp;
 		ret.push_back(tmp);
-		for (int i = 1; i <= nums.size(); i++)
+		for (int i = 1; i <= (int)nums.size(); i++)
 		{
 			backtrack(ret, tmp, nums, i, 0);
 		}
@@ -37,11 +37,11 @@ public:
 protected:
 	void backtrack(vector<vector<int>>& out, vector<int>& tmp, vector<int>& nums, int k, int pos)
 	{
-		if (tmp.size() >= k)
+		if ((int)tmp.size() >= k)
 			out.push_back(tmp);
 		else
 		{
-			for (int i = pos; i < nums.size(); i++)
+			for (int i = pos; i < (int)nums.size(); i++)
 			{
 				tmp.push_back(nums[i]);
 				backtrack(out, tmp, nums, k, i + 1);
