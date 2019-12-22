@@ -7,8 +7,8 @@ class SolutionSetMatrixZeroes
 public:
 	void setZeroes(vector<vector<int>>& matrix) {
 		bool colZero = false;
-		int R = matrix.size();
-		int C = matrix[0].size();
+		int R = (int)matrix.size();
+		int C = (int)matrix[0].size();
 		for (int i = 0; i < R; i++)
 		{
 			if (matrix[i][0] == 0)
@@ -46,7 +46,6 @@ public:
 RUN_TESTCASE(SetMatrixZeroes)
 {
 	SolutionSetMatrixZeroes sln;
-
 	vector<vector<int>> arr1 = {
 		{1,2,3,0,5},
 		{2,2,4,4,4},
