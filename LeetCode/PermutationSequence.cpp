@@ -19,5 +19,4 @@ RUN_TESTCASE(PermutationSequence)
 {
 	SolutionPermutationSequence sln;
 	TESTCASE_ASSERT(sln.getPermutation(4, 9) == "2314");
-	TESTCASE_ASSERT(false);
 }
