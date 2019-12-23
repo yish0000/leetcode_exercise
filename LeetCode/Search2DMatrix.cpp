@@ -11,8 +11,8 @@ public:
         while(l < r)
         {
             int mid = l + (r - l) / 2;
-            int y = mid / matrix[0].size();
-            int x = mid % matrix[0].size();
+            int y = mid / (int)matrix[0].size();
+            int x = mid % (int)matrix[0].size();
             if (matrix[y][x] == target)
                 return true;
             else if (matrix[y][x] < target)

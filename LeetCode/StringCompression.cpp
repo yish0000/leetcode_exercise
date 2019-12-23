@@ -45,7 +45,7 @@ public:
 						chars[++lastIndex] = ('0' + arr[j]);
 					if (dupCount > (int)arr.size())
 						chars.erase(chars.begin() + (lastIndex + 1), chars.begin() + (lastIndex + 1 + dupCount - arr.size()));
-					i -= dupCount - arr.size();
+					i -= dupCount - (int)arr.size();
 					lastIndex = i;
 					dupCount = 0;
 				}
