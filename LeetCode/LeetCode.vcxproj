@@ -41,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -212,6 +212,7 @@
     <ClCompile Include="PascalTriangle.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PlaceBrick.cpp" />
     <ClCompile Include="PlusOne.cpp" />

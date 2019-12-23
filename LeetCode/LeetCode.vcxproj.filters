@@ -400,6 +400,9 @@
     <ClCompile Include="SetMatrixZeroes.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PermutationSequence.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
