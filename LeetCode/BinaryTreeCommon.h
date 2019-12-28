@@ -15,14 +15,14 @@ struct TreeNode {
 class BinaryTreeCommmon
 {
 public:
-    TreeNode* MakeTree(const std::vector<int>& arr)
+    TreeNode* MakeTree(const std::vector<std::string>& arr)
     {
         if (arr.size() <= 0) return nullptr;
         
         std::queue<TreeNode*> queue;
         
         size_t index = 0;
-        TreeNode* root = new TreeNode(arr[index++]);
+        TreeNode* root = new TreeNode(atoi(arr[index++].c_str()));
         queue.push(root);
         while(queue.size() > 0)
         {
@@ -31,20 +31,20 @@ public:
             
 			if (index + 1 <= arr.size())
 			{
-				int curValue = arr[index++];
-				if (curValue != -1)
+				std::string curValue = arr[index++];
+				if (curValue != "null")
 				{
-					curNode->left = new TreeNode(curValue);
+					curNode->left = new TreeNode(atoi(curValue.c_str()));
 					queue.push(curNode->left);
 				}
 			}
 
 			if (index + 1 <= arr.size())
 			{
-				int curValue = arr[index++];
-				if (curValue != -1)
+				std::string curValue = arr[index++];
+				if (curValue != "null")
 				{
-					curNode->right = new TreeNode(curValue);
+					curNode->right = new TreeNode(atoi(curValue.c_str()));
 					queue.push(curNode->right);
 				}
 			}

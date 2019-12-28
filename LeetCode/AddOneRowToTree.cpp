@@ -49,21 +49,21 @@ RUN_TESTCASE(AddOneRowToTree)
 {
 	SolutionAddOneRowToTree sln;
 
-	vector<int> arr1 = { 4,2,6,3,1,5,-1 };
+	vector<string> arr1 = { "4","2","6","3","1","5","null" };
 	vector<int> res1 = { 4,1,1,2,-1,-1,6,3,1,-1,-1,-1,-1,5,-1 };
 	TreeNode* tree1 = sln.MakeTree(arr1);
 	tree1 = sln.addOneRow(tree1, 1, 2);
 	TESTCASE_ASSERT(sln.TreeEqual(tree1, res1));
 	sln.FreeTree(tree1);
 
-	vector<int> arr2 = { 4,2,-1,3,1,-1,-1 };
+	vector<string> arr2 = { "4","2","null","3","1","null","null" };
 	vector<int> res2 = { 4,2,-1,1,1,-1,-1,3,-1,-1,1,-1,-1,-1,-1 };
 	TreeNode* tree2 = sln.MakeTree(arr2);
 	tree2 = sln.addOneRow(tree2, 1, 3);
 	TESTCASE_ASSERT(sln.TreeEqual(tree2, res2));
 	sln.FreeTree(tree2);
 
-	vector<int> arr3 = { 1,2,3,4 };
+	vector<string> arr3 = { "1","2","3","4" };
 	vector<int> res3 = { 1,2,3,4,-1,-1,-1,5,5,-1,-1,-1,-1,-1,-1 };
 	TreeNode* tree3 = sln.MakeTree(arr3);
 	tree3 = sln.addOneRow(tree3, 5, 4);

@@ -32,7 +32,7 @@ RUN_TESTCASE(LowestCommonAncestor)
 {
 	SolutionLowestCommonAncestor sln;
 
-	std::vector<int> arr = { 3,5,1,6,2,0,8,-1,-1,7,4 };
+	vector<string> arr = { "3","5","1","6","2","0","8","null","null","7","4" };
 	TreeNode* root = sln.MakeTree(arr);
 	TESTCASE_ASSERT(sln.lowestCommonAncestor(root, root->left, root->right) == root);
 

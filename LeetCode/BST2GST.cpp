@@ -1,6 +1,8 @@
 #include "TestCase.h"
 #include "BinaryTreeCommon.h"
 
+using namespace std;
+
 class SolutionBST2GST : public BinaryTreeCommmon
 {
 public:
@@ -35,7 +37,7 @@ public:
 RUN_TESTCASE(BST2GST)
 {
     SolutionBST2GST sln;
-    std::vector<int> arr = {4,1,6,0,2,5,7,-1,-1,-1,3,-1,-1,-1,8};
+	vector<string> arr = { "4","1","6","0","2","5","7","null","null","null","3","null","null","null","8" };
     TreeNode* tree = sln.MakeTree(arr);
     sln.PrintTree(tree);
     sln.bstToGst(tree);
