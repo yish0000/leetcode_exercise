@@ -47,7 +47,7 @@ public:
 RUN_TESTCASE(BinaryTreePreorderTraversal)
 {
 	SolutionBinaryTreePreorderTraversal sln;
-	vector<int> inputs = { 1,2,3,4,5,6,7,-1,-1,-1,-1,8,9,10,11 };
+	vector<string> inputs = { "1","2","3","4","5","6","7","null","null","null","null","8","9","10","11" };
 	TreeNode* treeNode = sln.MakeTree(inputs);
 	vector<int> results = sln.preorderTraversalIterative(treeNode);
 	vector<int> results2 = { 1, 2, 4, 5, 3, 6, 8, 9, 7, 10, 11 };

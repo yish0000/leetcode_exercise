@@ -56,7 +56,7 @@ RUN_TESTCASE(PathSumII)
 {
 	SolutionPathSumII sln;
 
-	vector<int> tree = { 5,4,8,11,-1,13,4,7,2,-1,-1,5,1 };
+	vector<string> tree = { "5","4","8","11","null","13","4","7","2","null","null","5","1" };
 	TreeNode* root = sln.MakeTree(tree);
 	vector<vector<int>> res = {
 		{5,4,11,2},
