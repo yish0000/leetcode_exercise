@@ -406,6 +406,12 @@
     <ClCompile Include="BinaryTreeMaxPathSum.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Combinations.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateBinarySearchTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

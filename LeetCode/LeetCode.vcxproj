@@ -162,6 +162,7 @@
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
+    <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
@@ -270,6 +271,7 @@
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
