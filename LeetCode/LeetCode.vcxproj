@@ -162,6 +162,7 @@
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
+    <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
