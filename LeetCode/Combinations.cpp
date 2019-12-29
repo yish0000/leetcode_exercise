@@ -33,5 +33,8 @@ RUN_TESTCASE(Combinations)
 {
 	SolutionCombinations sln;
 
-	sln.combine(5, 3);
+	vector<vector<int>> arr1 = {
+		{1,2},{1,3},{1,4},{2,3},{2,4},{3,4}
+	};
+	TESTCASE_ASSERT(sln.combine(4, 2) == arr1);
 }
