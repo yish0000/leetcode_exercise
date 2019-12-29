@@ -276,6 +276,7 @@
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="WordSearchII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
