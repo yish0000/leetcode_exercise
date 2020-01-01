@@ -415,6 +415,9 @@
     <ClCompile Include="WordSearch.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="GrayCode.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
