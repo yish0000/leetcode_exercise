@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1BitAnd2BitCharacters.cpp" />
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
