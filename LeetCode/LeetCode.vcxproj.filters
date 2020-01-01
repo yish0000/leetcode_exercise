@@ -418,6 +418,9 @@
     <ClCompile Include="GrayCode.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="1BitAnd2BitCharacters.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
