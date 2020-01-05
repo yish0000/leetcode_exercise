@@ -41,7 +41,7 @@ RUN_TESTCASE(ConstructBinaryTree)
     SolutionConstructBinaryTree sln;
     std::vector<int> arr1 = {9,3,15,20,7};
     std::vector<int> arr2 = {9,15,7,20,3};
-    std::vector<int> result = {3,9,20,-1,-1,15,7};
+    std::vector<string> result = {"3","9","20","null","null","15","7"};
     TreeNode* tree = sln.buildTree(arr1, arr2);
     sln.PrintTree(tree);
     TESTCASE_ASSERT(sln.TreeEqual(tree, result));

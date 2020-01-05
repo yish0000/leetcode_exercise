@@ -42,6 +42,6 @@ RUN_TESTCASE(BST2GST)
     sln.PrintTree(tree);
     sln.bstToGst(tree);
     sln.PrintTree(tree);
-    TESTCASE_ASSERT(sln.TreeEqual(tree, {30,36,21,36,35,26,15,-1,-1,-1,33,-1,-1,-1,8}))
+    TESTCASE_ASSERT(sln.TreeEqual(tree, {"30","36","21","36","35","26","15","null","null","null","33","null","null","null","8"}))
     sln.FreeTree(tree);
 }

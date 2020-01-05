@@ -271,6 +271,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
