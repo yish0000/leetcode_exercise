@@ -78,7 +78,7 @@ public:
         return std::max(leftDepth, rightDepth);
     }
     
-    void Tree2Vector(TreeNode* root, std::vector<int>& out)
+    void Tree2Vector(TreeNode* root, std::vector<std::string>& out)
     {
         std::queue<TreeNode*> queue;
         if (root)
@@ -91,11 +91,15 @@ public:
                 TreeNode* curNode = queue.front();
                 queue.pop();
                 count -= 1;
-                if (curNode)
-                    out.push_back(curNode->val);
+				if (curNode)
+				{
+					char szText[200];
+					snprintf(szText, 200, "%d", curNode->val);
+					out.push_back(szText);
+				}
                 else
                 {
-                    out.push_back(-1);
+                    out.push_back("null");
                 }
                 
                 if (curNode && curNode->left)
@@ -132,24 +136,21 @@ public:
         return isBSTHelper(root->right, curMax);
     }
     
-    bool TreeEqual(TreeNode* root, const std::vector<int>& result)
+    bool TreeEqual(TreeNode* root, const std::vector<std::string>& result)
     {
-        std::vector<int> out;
+        std::vector<std::string> out;
         Tree2Vector(root, out);
         return out == result;
     }
     
     void PrintTree(TreeNode* root)
     {
-        std::vector<int> out;
+        std::vector<std::string> out;
         Tree2Vector(root, out);
         std::cout << "[";
         for (size_t i=0; i<out.size(); i++)
         {
-            if (out[i] >= 0)
-                std::cout << out[i] << ",";
-            else
-                std::cout << "null,";
+            std::cout << out[i] << ",";
         }
         std::cout << "]" << std::endl;
     }
