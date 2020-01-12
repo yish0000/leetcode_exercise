@@ -427,6 +427,9 @@
     <ClCompile Include="RestoreIPAddress.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="DecodeWays.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
