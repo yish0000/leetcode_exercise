@@ -424,6 +424,9 @@
     <ClCompile Include="UniqueBinarySearchTreesII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RestoreIPAddress.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
