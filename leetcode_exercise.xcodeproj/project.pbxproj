@@ -93,6 +93,8 @@
 		E6BC6BD822C26679007B920D /* InsertSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BC6BD722C26679007B920D /* InsertSortList.cpp */; };
 		E6BED2D6238A690F0004F082 /* MedianOfTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BED2D4238A690F0004F082 /* MedianOfTwoSortedArrays.cpp */; };
 		E6C8501422B63AD000C3B767 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */; };
+		E6CEAC1F23C1C04F00B43F1F /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6CEAC1D23C1C04E00B43F1F /* GrayCode.cpp */; };
+		E6CEAC2023C1C04F00B43F1F /* 1BitAnd2BitCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6CEAC1E23C1C04F00B43F1F /* 1BitAnd2BitCharacters.cpp */; };
 		E6DADD5123120DD80093038F /* Treap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD5023120DD80093038F /* Treap.cpp */; };
 		E6DADD53231226E40093038F /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD52231226E40093038F /* SpiralMatrix.cpp */; };
 		E6DADD552312720B0093038F /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DADD542312720B0093038F /* SameTree.cpp */; };
@@ -245,6 +247,8 @@
 		E6BC6BD722C26679007B920D /* InsertSortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSortList.cpp; sourceTree = "<group>"; };
 		E6BED2D4238A690F0004F082 /* MedianOfTwoSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MedianOfTwoSortedArrays.cpp; sourceTree = "<group>"; };
 		E6C8501322B63AD000C3B767 /* PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		E6CEAC1D23C1C04E00B43F1F /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
+		E6CEAC1E23C1C04F00B43F1F /* 1BitAnd2BitCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1BitAnd2BitCharacters.cpp; sourceTree = "<group>"; };
 		E6DADD5023120DD80093038F /* Treap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Treap.cpp; sourceTree = "<group>"; };
 		E6DADD52231226E40093038F /* SpiralMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
 		E6DADD542312720B0093038F /* SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
@@ -326,6 +330,8 @@
 		E6B9FBBF22A20C4500361BFE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6CEAC1E23C1C04F00B43F1F /* 1BitAnd2BitCharacters.cpp */,
+				E6CEAC1D23C1C04E00B43F1F /* GrayCode.cpp */,
 				E6128FF923B8936800BD91DD /* BinaryTreeMaxPathSum.cpp */,
 				E6128FF123B8936700BD91DD /* Combinations.cpp */,
 				E6128FFB23B8936800BD91DD /* LengthOfLongestSubstringII.cpp */,
@@ -552,6 +558,7 @@
 				E6567E6122E20B0A0080AB05 /* SubArrayKDifferent.cpp in Sources */,
 				E6E79D0622D8CCFE008A66AB /* ShoppingOffers.cpp in Sources */,
 				E6DC591322EFB4AB00E9CD3D /* NQueensII.cpp in Sources */,
+				E6CEAC1F23C1C04F00B43F1F /* GrayCode.cpp in Sources */,
 				E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */,
 				E6DADD6D232A9D680093038F /* WordSubsets.cpp in Sources */,
 				E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */,
@@ -625,6 +632,7 @@
 				E6DADD6B232A9D680093038F /* MagicSquaresInGrid.cpp in Sources */,
 				E61E5E6622D0377400534509 /* MergeTwoSortedList.cpp in Sources */,
 				E628DD9422E7616300FCB4DB /* RotateImage.cpp in Sources */,
+				E6CEAC2023C1C04F00B43F1F /* 1BitAnd2BitCharacters.cpp in Sources */,
 				E61E5E6322D0377400534509 /* InsertSort.cpp in Sources */,
 				E6E79D0522D8CCFE008A66AB /* CountNumbersUniqueDigits.cpp in Sources */,
 				E67E63F8239898D900239BD6 /* RemoveSubFoldersFromFS.cpp in Sources */,
