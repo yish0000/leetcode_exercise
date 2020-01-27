@@ -40,6 +40,7 @@
 		E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E628DD8E22E7616300FCB4DB /* GenerateParenthesis.cpp */; };
 		E63789AA23DDB92E00B47832 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E63789A923DDB92E00B47832 /* RotateList.cpp */; };
 		E63789AC23DDC10A00B47832 /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E63789AB23DDC10A00B47832 /* SpiralMatrixII.cpp */; };
+		E63789AF23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E63789AD23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp */; };
 		E644003E23764EC4002488B1 /* StreamOfCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E644003623764EC3002488B1 /* StreamOfCharacters.cpp */; };
 		E644003F23764EC4002488B1 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E644003723764EC3002488B1 /* Permutations.cpp */; };
 		E644004023764EC4002488B1 /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E644003823764EC3002488B1 /* CombinationSumII.cpp */; };
@@ -194,6 +195,7 @@
 		E628DD8E22E7616300FCB4DB /* GenerateParenthesis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateParenthesis.cpp; sourceTree = "<group>"; };
 		E63789A923DDB92E00B47832 /* RotateList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateList.cpp; sourceTree = "<group>"; };
 		E63789AB23DDC10A00B47832 /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
+		E63789AD23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDupFromSortedArrayII.cpp; sourceTree = "<group>"; };
 		E644003623764EC3002488B1 /* StreamOfCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamOfCharacters.cpp; sourceTree = "<group>"; };
 		E644003723764EC3002488B1 /* Permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
 		E644003823764EC3002488B1 /* CombinationSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSumII.cpp; sourceTree = "<group>"; };
@@ -475,6 +477,7 @@
 				E6BED2D4238A690F0004F082 /* MedianOfTwoSortedArrays.cpp */,
 				E63789A923DDB92E00B47832 /* RotateList.cpp */,
 				E63789AB23DDC10A00B47832 /* SpiralMatrixII.cpp */,
+				E63789AD23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -568,6 +571,7 @@
 				E628DD9722E7616300FCB4DB /* GenerateParenthesis.cpp in Sources */,
 				E6DADD6D232A9D680093038F /* WordSubsets.cpp in Sources */,
 				E6DC592122F4A93A00E9CD3D /* PathSumII.cpp in Sources */,
+				E63789AF23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
 				E67E63FA239898D900239BD6 /* RemoveDupFromSortedList.cpp in Sources */,
 				E6DC591D22F1E0A600E9CD3D /* MostCommonWord.cpp in Sources */,
