@@ -22,7 +22,7 @@ public:
                 pilot = mid;
                 break;
             }
-            //1，3，1，1，1
+
             if (nums[mid] > nums.back())
                 l = mid + 1;
             else if (nums[mid] < nums.front())
