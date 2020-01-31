@@ -460,6 +460,9 @@
     <ClCompile Include="MinDepthOfBinaryTree.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
