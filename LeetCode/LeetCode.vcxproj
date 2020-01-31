@@ -200,6 +200,7 @@
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
@@ -207,6 +208,7 @@
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
+    <ClCompile Include="MinDepthOfBinaryTree.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
