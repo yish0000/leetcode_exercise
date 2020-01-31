@@ -8,7 +8,7 @@ using namespace std;
 class SolutionSymmetricTree : public BinaryTreeCommmon
 {
 public:
-	bool isSymmetric(TreeNode* root) {
+	bool isSymmetricIterative(TreeNode* root) {
 		if (!root)
 			return true;
 
@@ -42,6 +42,26 @@ public:
 		}
 
 		return s.empty();
+	}
+
+	bool isSymmetric(TreeNode* root) {
+		if (!root)
+			return true;
+		return isMirror(root->left, root->right);
+	}
+
+	bool isMirror(TreeNode* l, TreeNode* r)
+	{
+		if (!l && !r)
+			return true;
+		else if (l && r)
+		{
+			if (l->val != r->val)
+				return false;
+			return isMirror(l->right, r->left) && isMirror(l->left, r->right);
+		}
+		else
+			return false;
 	}
 };
 
