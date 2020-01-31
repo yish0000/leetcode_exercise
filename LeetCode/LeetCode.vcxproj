@@ -158,6 +158,7 @@
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Atoi.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
