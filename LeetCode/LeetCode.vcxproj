@@ -158,6 +158,7 @@
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Atoi.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -199,6 +200,7 @@
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
@@ -206,6 +208,7 @@
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
+    <ClCompile Include="MinDepthOfBinaryTree.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
@@ -217,6 +220,7 @@
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />
+    <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
@@ -257,6 +261,8 @@
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
+    <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
@@ -284,6 +290,7 @@
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />

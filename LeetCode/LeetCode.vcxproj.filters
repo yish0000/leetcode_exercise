@@ -451,6 +451,27 @@
     <ClCompile Include="SymmetricTree.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxDepthOfBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinDepthOfBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPalindrome.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
