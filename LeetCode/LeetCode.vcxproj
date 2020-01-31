@@ -157,6 +157,7 @@
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -173,6 +174,7 @@
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
@@ -227,6 +229,7 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
     <ClCompile Include="RemoveDupFromSortedList.cpp" />
     <ClCompile Include="RemoveDupFromSortedListII.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
@@ -242,10 +245,12 @@
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
+    <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="Search2DMatrix.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
+    <ClCompile Include="SearchRotatedSortedArrayII.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
@@ -254,6 +259,7 @@
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
@@ -265,6 +271,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
+    <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TargetSum.cpp" />
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
