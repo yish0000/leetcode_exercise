@@ -430,6 +430,27 @@
     <ClCompile Include="DecodeWays.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Atoi.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideTwoIntegers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDupFromSortedArrayII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRotatedSortedArrayII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrixII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SymmetricTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

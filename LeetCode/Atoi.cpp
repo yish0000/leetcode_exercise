@@ -83,6 +83,6 @@ RUN_TESTCASE(Atoi)
     TESTCASE_ASSERT(sln.myAtoi("   -42") == -42);
     TESTCASE_ASSERT(sln.myAtoi("4193 with words") == 4193);
     TESTCASE_ASSERT(sln.myAtoi("words and 987") == 0);
-    TESTCASE_ASSERT(sln.myAtoi("-91283472332") == -2147483648);
+    TESTCASE_ASSERT(sln.myAtoi("-91283472332") == INT_MIN);
     TESTCASE_ASSERT(sln.myAtoi("  0000000000012345678") == 12345678);
 }
