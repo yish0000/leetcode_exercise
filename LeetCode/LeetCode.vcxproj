@@ -288,6 +288,7 @@
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />

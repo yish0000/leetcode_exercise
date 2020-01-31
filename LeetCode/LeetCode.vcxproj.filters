@@ -463,6 +463,9 @@
     <ClCompile Include="PathSum.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ValidPalindrome.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
