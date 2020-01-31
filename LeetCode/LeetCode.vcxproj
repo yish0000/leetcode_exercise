@@ -261,6 +261,7 @@
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
+    <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />

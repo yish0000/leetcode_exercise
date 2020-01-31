@@ -466,6 +466,9 @@
     <ClCompile Include="ValidPalindrome.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
