@@ -484,6 +484,9 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
