@@ -472,6 +472,12 @@
     <ClCompile Include="SingleNumberII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedArrayToBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -160,6 +160,7 @@
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
@@ -264,6 +265,7 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SortColors.cpp" />
+    <ClCompile Include="SortedArrayToBST.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
