@@ -221,6 +221,7 @@
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />
+    <ClCompile Include="PascalTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
