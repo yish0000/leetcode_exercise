@@ -283,6 +283,7 @@
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
+    <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TargetSum.cpp" />
