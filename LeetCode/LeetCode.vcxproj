@@ -165,6 +165,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
@@ -196,6 +197,7 @@
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LengthOfLongestSubstringII.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
+    <ClCompile Include="LinkedListCycle.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
@@ -281,6 +283,7 @@
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
+    <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TargetSum.cpp" />
