@@ -271,6 +271,7 @@
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SortedArrayToBST.cpp" />
+    <ClCompile Include="SortedListToBST.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
