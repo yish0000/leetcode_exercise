@@ -6,7 +6,7 @@ using namespace std;
 
 #define USE_CPP 1
 
-class Solution {
+class SolutionWildcardMatching {
 public:
 	bool isMatch(string s, string p) {
 #if USE_CPP == 0
@@ -92,7 +92,7 @@ public:
 
 RUN_TESTCASE(WildcardMatching)
 {
-	Solution sln;
+	SolutionWildcardMatching sln;
 	TESTCASE_ASSERT(!sln.isMatch("aa", "a"));
 	TESTCASE_ASSERT(sln.isMatch("aa", "*"));
 	TESTCASE_ASSERT(!sln.isMatch("cb", "?a"));
