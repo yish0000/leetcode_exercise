@@ -499,6 +499,15 @@
     <ClCompile Include="SortedListToBST.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RegularExpressionMatching.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
