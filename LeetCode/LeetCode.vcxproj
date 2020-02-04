@@ -173,6 +173,7 @@
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
@@ -239,6 +240,7 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
     <ClCompile Include="RemoveDupFromSortedList.cpp" />
     <ClCompile Include="RemoveDupFromSortedListII.cpp" />

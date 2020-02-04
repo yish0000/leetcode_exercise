@@ -148,9 +148,11 @@ public:
         std::vector<std::string> out;
         Tree2Vector(root, out);
         std::cout << "[";
-        for (size_t i=0; i<out.size(); i++)
+		for (size_t i = 0; i < out.size(); i++)
         {
-            std::cout << out[i] << ",";
+			std::cout << out[i];
+			if (i < out.size() - 1)
+				std::cout << ",";
         }
         std::cout << "]" << std::endl;
     }
