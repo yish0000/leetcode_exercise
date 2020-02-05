@@ -182,6 +182,7 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
