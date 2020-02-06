@@ -511,6 +511,9 @@
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedListCycleII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

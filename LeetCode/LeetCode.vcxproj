@@ -200,6 +200,7 @@
     <ClCompile Include="LengthOfLongestSubstringII.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
+    <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
