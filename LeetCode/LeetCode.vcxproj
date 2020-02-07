@@ -226,6 +226,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />
