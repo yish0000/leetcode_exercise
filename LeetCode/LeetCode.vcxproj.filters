@@ -514,6 +514,12 @@
     <ClCompile Include="LinkedListCycleII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioning.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

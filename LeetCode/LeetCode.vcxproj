@@ -160,6 +160,7 @@
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
@@ -225,6 +226,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />

@@ -52,7 +52,12 @@ public:
 			else if (t2.empty())
 				return false;
 			else
-				return t1[0] < t2[0];
+			{
+				if (t1.size() != t2.size())
+					return t1.size() < t2.size();
+				else
+					return t1[0] < t2[0];
+			}
 		};
 
 		std::sort(v1.begin(), v1.end(), compare_func);
