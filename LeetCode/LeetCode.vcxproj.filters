@@ -526,6 +526,9 @@
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
