@@ -239,6 +239,7 @@
     <ClCompile Include="PlaceBrick.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
+    <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
