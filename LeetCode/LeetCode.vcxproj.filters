@@ -520,6 +520,12 @@
     <ClCompile Include="PalindromePartitioning.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNode.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNodeII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
