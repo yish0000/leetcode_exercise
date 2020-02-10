@@ -170,6 +170,7 @@
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="Candy.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
@@ -323,6 +324,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTreeCommon.h" />
+    <ClInclude Include="GraphCommon.h" />
     <ClInclude Include="LinkedListCommon.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>
