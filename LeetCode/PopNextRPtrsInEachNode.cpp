@@ -4,22 +4,23 @@
 
 using namespace std;
 
-struct Node {
-	int val;
-	Node *left;
-	Node *right;
-	Node *next;
-	Node(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
-};
-
 class SolutionPopNextRPtrsInEachNode
 {
 public:
-	Node* Prev = nullptr;
+	struct Node {
+		int val;
+		Node *left;
+		Node *right;
+		Node *next;
+		Node(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
+	};
 
+public:
 	Node* connect(Node* root) {
 		if (!root)
 			return root;
+
+		Node* Prev = nullptr;
 		queue<Node*> q;
 		q.push(root);
 		int n = 0;
@@ -41,22 +42,6 @@ public:
 		}
 		return root;
 	}
-
-	/*
-	void connectHelper(Node* node, int depth)
-	{
-		if (!node)
-			return;
-
-		if (Prev)
-			Prev->next = node;
-
-		Prev = ((n + 1) & n) == 0 ? nullptr : node;
-
-		connectHelper(node->left, ++n);
-		connectHelper(node->right, ++n);
-	}
-	*/
 
 public:
 	Node* MakeTree(const std::vector<std::string>& arr)
@@ -111,7 +96,7 @@ RUN_TESTCASE(PopNextRPtrsInEachNode)
 	SolutionPopNextRPtrsInEachNode sln;
 
 	vector<string> arr1 = { "1","2","3","4","5","6","7" };
-	Node* root1 = sln.MakeTree(arr1);
+	SolutionPopNextRPtrsInEachNode::Node* root1 = sln.MakeTree(arr1);
 	sln.connect(root1);
 	TESTCASE_ASSERT(root1->next == nullptr);
 	TESTCASE_ASSERT(root1->left->next == root1->right && root1->right->next == nullptr);

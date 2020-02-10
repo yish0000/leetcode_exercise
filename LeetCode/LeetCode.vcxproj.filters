@@ -526,6 +526,18 @@
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneGraph.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
@@ -535,6 +547,9 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreeCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCommon.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

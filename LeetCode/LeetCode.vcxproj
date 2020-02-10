@@ -168,7 +168,9 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="Candy.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
@@ -181,9 +183,11 @@
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
@@ -320,6 +324,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTreeCommon.h" />
+    <ClInclude Include="GraphCommon.h" />
     <ClInclude Include="LinkedListCommon.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>
