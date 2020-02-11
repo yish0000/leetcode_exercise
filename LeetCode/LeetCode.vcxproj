@@ -213,6 +213,7 @@
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
@@ -223,6 +224,7 @@
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinDepthOfBinaryTree.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
@@ -261,6 +263,7 @@
     <ClCompile Include="RemoveNthFromEnd.cpp" />
     <ClCompile Include="RemoveSubFoldersFromFS.cpp" />
     <ClCompile Include="RestoreIPAddress.cpp" />
+    <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
