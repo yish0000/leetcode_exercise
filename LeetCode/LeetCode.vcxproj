@@ -261,6 +261,7 @@
     <ClCompile Include="RemoveNthFromEnd.cpp" />
     <ClCompile Include="RemoveSubFoldersFromFS.cpp" />
     <ClCompile Include="RestoreIPAddress.cpp" />
+    <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
