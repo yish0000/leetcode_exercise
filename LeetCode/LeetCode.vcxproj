@@ -223,6 +223,7 @@
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinDepthOfBinaryTree.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />

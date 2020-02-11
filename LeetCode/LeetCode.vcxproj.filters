@@ -541,6 +541,9 @@
     <ClCompile Include="ReverseBits.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
