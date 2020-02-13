@@ -87,7 +87,7 @@ public:
 
 RUN_TESTCASE(RegularExpressionMatching)
 {
-    SolutionRegularExpressionMatching sln;
+    //SolutionRegularExpressionMatching sln;
     
-    TESTCASE_ASSERT(sln.isMatch("aab", "aa*ab"));
+    //TESTCASE_ASSERT(sln.isMatch("aab", "aa*ab"));
 }
