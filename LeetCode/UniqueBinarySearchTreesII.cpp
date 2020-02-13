@@ -74,11 +74,11 @@ RUN_TESTCASE(UniqueBinarySearchTreesII)
 	SolutionUniqueBinarySearchTreesII sln;
 
 	vector<vector<string>> res1 = {
-		{"1","null","2","null","null","null","3"},
-		{"1","null","3","null","null","2","null"},
+		{"1","null","2","null","3"},
+		{"1","null","3","2","null"},
 		{"2","1","3"},
-		{"3","1","null","null","2","null","null"},
-		{"3","2","null","1","null","null","null"},
+		{"3","1","null","null","2"},
+		{"3","2","null","1","null"},
 	};
 
 	vector<TreeNode*> trees = sln.generateTrees(3);

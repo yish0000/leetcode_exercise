@@ -160,6 +160,7 @@
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
@@ -167,20 +168,26 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="Candy.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
@@ -198,6 +205,7 @@
     <ClCompile Include="LengthOfLongestSubstringII.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
+    <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
@@ -205,6 +213,7 @@
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
@@ -215,6 +224,7 @@
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinDepthOfBinaryTree.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
@@ -222,6 +232,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PartionGet.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />
@@ -233,12 +244,16 @@
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PlaceBrick.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
+    <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="ReorderList.cpp" />
+    <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
     <ClCompile Include="RemoveDupFromSortedList.cpp" />
     <ClCompile Include="RemoveDupFromSortedListII.cpp" />
@@ -248,6 +263,7 @@
     <ClCompile Include="RemoveNthFromEnd.cpp" />
     <ClCompile Include="RemoveSubFoldersFromFS.cpp" />
     <ClCompile Include="RestoreIPAddress.cpp" />
+    <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInt.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
@@ -311,6 +327,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTreeCommon.h" />
+    <ClInclude Include="GraphCommon.h" />
     <ClInclude Include="LinkedListCommon.h" />
     <ClInclude Include="TestCase.h" />
   </ItemGroup>

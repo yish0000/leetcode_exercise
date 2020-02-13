@@ -499,6 +499,54 @@
     <ClCompile Include="SortedListToBST.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RegularExpressionMatching.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListCycleII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioning.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNode.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNodeII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneGraph.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseBits.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
@@ -508,6 +556,9 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreeCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCommon.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

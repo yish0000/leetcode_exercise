@@ -80,17 +80,17 @@ public:
     
     void Tree2Vector(TreeNode* root, std::vector<std::string>& out)
     {
-        std::queue<TreeNode*> queue;
+        std::queue<std::pair<TreeNode*, int>> queue;
         if (root)
         {
             int max_depth = CalcDepth(root);
-            int count = (int)pow(2, max_depth) - 1;
-            queue.push(root);
-            while (queue.size() > 0 && count > 0)
+            queue.push(std::make_pair(root, 1));
+            while (queue.size() > 0)
             {
-                TreeNode* curNode = queue.front();
+				std::pair<TreeNode*, int> item = queue.front();
+                TreeNode* curNode = item.first;
+				int cur_depth = item.second;
                 queue.pop();
-                count -= 1;
 				if (curNode)
 				{
 					char szText[200];
@@ -102,17 +102,25 @@ public:
                     out.push_back("null");
                 }
                 
-                if (curNode && curNode->left)
-                    queue.push(curNode->left);
-                else
-                    queue.push(nullptr);
-                if (curNode && curNode->right)
-                    queue.push(curNode->right);
-                else
-                    queue.push(nullptr);
+				if (curNode && cur_depth < max_depth)
+				{
+					if (curNode->left)
+						queue.push(std::make_pair(curNode->left, cur_depth + 1));
+					else
+						queue.push(std::make_pair(nullptr, cur_depth + 1));
+					if (curNode->right)
+						queue.push(std::make_pair(curNode->right, cur_depth + 1));
+					else
+						queue.push(std::make_pair(nullptr, cur_depth + 1));
+				}
             }
         }
     }
+
+	bool isLeaf(TreeNode* node)
+	{
+		return node && !node->left && !node->right;
+	}
     
     bool isBST(TreeNode* root)
     {
@@ -148,9 +156,11 @@ public:
         std::vector<std::string> out;
         Tree2Vector(root, out);
         std::cout << "[";
-        for (size_t i=0; i<out.size(); i++)
+		for (size_t i = 0; i < out.size(); i++)
         {
-            std::cout << out[i] << ",";
+			std::cout << out[i];
+			if (i < out.size() - 1)
+				std::cout << ",";
         }
         std::cout << "]" << std::endl;
     }
