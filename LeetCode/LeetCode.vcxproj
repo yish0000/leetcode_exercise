@@ -217,6 +217,7 @@
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
+    <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
