@@ -547,6 +547,12 @@
     <ClCompile Include="MajorityElement.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseWordsInString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProductSubarray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

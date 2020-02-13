@@ -217,6 +217,7 @@
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
+    <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
@@ -268,6 +269,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseWordsInString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
