@@ -559,6 +559,9 @@
     <ClCompile Include="CompareVersionNumbers.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="FindPeakElements.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
