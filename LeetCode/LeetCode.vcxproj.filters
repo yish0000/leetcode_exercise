@@ -553,6 +553,18 @@
     <ClCompile Include="MaxProductSubarray.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="IntersectionOfTwoLinkedLists.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareVersionNumbers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPeakElements.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTreeIterator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
