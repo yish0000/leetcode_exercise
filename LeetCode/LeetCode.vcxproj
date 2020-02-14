@@ -205,6 +205,7 @@
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
+    <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LengthOfLongestSubstringII.cpp" />
