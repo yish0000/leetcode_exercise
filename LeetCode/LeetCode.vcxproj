@@ -187,6 +187,7 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
