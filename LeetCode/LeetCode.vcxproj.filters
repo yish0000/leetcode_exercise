@@ -571,6 +571,9 @@
     <ClCompile Include="LargestNumber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="WordLadder.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
