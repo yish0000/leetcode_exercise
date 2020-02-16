@@ -181,6 +181,7 @@
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
+    <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="DecodeString.cpp" />
@@ -217,6 +218,7 @@
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
@@ -328,6 +330,7 @@
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="WordSearchII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />
