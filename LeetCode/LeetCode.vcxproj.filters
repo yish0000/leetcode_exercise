@@ -574,6 +574,9 @@
     <ClCompile Include="WordLadder.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

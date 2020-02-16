@@ -217,6 +217,7 @@
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
