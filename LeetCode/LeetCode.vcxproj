@@ -181,6 +181,7 @@
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
+    <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="DecodeString.cpp" />
