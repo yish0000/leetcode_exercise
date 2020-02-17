@@ -9,7 +9,7 @@ public:
 		int down = 0;
 		int cur = 1;
 		int count = 1;
-		for (int i = 1; i < ratings.size(); i++)
+		for (int i = 1; i < (int)ratings.size(); i++)
 		{
 			if (ratings[i] < ratings[i - 1])
 			{

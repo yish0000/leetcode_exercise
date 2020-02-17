@@ -60,7 +60,7 @@ public:
 			return;
 		}
 
-		if (_map.size() < _capacity)
+		if ((int)_map.size() < _capacity)
 		{
 			LinkedNode* newNode = new LinkedNode(key, value);
 			_map[key] = newNode;

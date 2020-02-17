@@ -13,7 +13,7 @@ public:
 		int last_max = nums[0];
 		int last_min = nums[0];
 
-		for (int i = 1; i < nums.size(); i++)
+		for (int i = 1; i < (int)nums.size(); i++)
 		{
 			if (nums[i] > 0)
 			{

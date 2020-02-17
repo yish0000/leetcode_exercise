@@ -18,7 +18,7 @@ public:
 	void cloneGraphHelper(Node* node, vector<Node*>& allNodes)
 	{
 		bool existed = false;
-		if (node->val > allNodes.size())
+		if (node->val > (int)allNodes.size())
 		{
 			allNodes.resize(node->val, nullptr);
 			allNodes[node->val - 1] = new Node(node->val);

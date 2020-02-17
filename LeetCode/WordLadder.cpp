@@ -50,7 +50,7 @@ public:
 	void getWordWildcard(string& word, vector<string>& wildcards)
 	{
 		wildcards.clear();
-		for (int i=0; i<word.size(); i++)
+		for (int i=0; i<(int)word.size(); i++)
 		{
 			string wildcard = word;
 			wildcard[i] = '*';
@@ -77,5 +77,5 @@ RUN_TESTCASE(WordLadder)
 		"no","bi","di","hi","qa","pi","os","uh","wm","an","me","mo","na","la","st",
 		"er","sc","ne","mn","mi","am","ex","pt","io","be","fm","ta","tb","ni","mr",
 		"pa","he","lr","sq","ye" };
-	TESTCASE_ASSERT(sln.ladderLength("qa", "sq", arr3));
+	TESTCASE_ASSERT(sln.ladderLength("qa", "sq", arr3) == 5);
 }

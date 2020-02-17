@@ -13,12 +13,12 @@ public:
 		int size = (int)std::max(v1.size(), v2.size());
 		for (int i = 0; i < size; i++)
 		{
-			if (i < v1.size() && i < v2.size())
+			if (i < (int)v1.size() && i < (int)v2.size())
 			{
 				if (v1[i] != v2[i])
 					return v1[i] < v2[i] ? -1 : 1;
 			}
-			else if (i < v1.size())
+			else if (i < (int)v1.size())
 			{
 				if (v1[i] != 0)
 					return 1;
