@@ -430,6 +430,156 @@
     <ClCompile Include="DecodeWays.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Atoi.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideTwoIntegers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDupFromSortedArrayII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRotatedSortedArrayII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrixII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SymmetricTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxDepthOfBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinDepthOfBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPalindrome.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedArrayToBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalTriangleII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListCycle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SumRootToLeafNumbers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedListToBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularExpressionMatching.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListCycleII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioning.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNode.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PopNextRPtrsInEachNodeII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneGraph.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseBits.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseWordsInString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProductSubarray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionOfTwoLinkedLists.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareVersionNumbers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPeakElements.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTreeIterator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelSheetColumnNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WordLadder.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyListWithRandomPointer.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
@@ -439,6 +589,9 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreeCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCommon.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

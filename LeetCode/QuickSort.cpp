@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Solution
+class SolutionQuickSort
 {
 public:
     void GenArray(int min, int max, int n, vector<int>& arr)
@@ -47,7 +47,7 @@ public:
 
 RUN_TESTCASE(QuickSort)
 {
-    Solution sln;
+	SolutionQuickSort sln;
     vector<int> arr = { -59,-33,34,0,69,24,-22,58,62,-36,5,45,-19,-73,61,-9,95,42,-73,-64 };
     sln.QuickSort(arr);
     for (size_t i=0; i<arr.size(); ++i)
