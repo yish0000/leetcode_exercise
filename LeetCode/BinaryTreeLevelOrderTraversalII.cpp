@@ -20,7 +20,7 @@ public:
 		if (!node)
 			return;
 
-		if (depth >= out.size())
+		if (depth >= (int)out.size())
 			out.push_back(vector<int>());
 
 		out[depth].push_back(node->val);

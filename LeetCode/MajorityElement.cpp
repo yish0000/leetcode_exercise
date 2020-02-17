@@ -12,7 +12,7 @@ public:
 		int count = 1;
 		int candidate = nums[0];
 
-		for (int i = 1; i < nums.size(); i++)
+		for (int i = 1; i < (int)nums.size(); i++)
 		{
 			if (count == 0)
 				candidate = nums[i];

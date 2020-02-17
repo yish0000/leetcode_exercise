@@ -11,17 +11,17 @@ public:
 
 		int profit = 0;
 		int cur = std::numeric_limits<int>::min();
-		for (int i = 0; i < prices.size(); i++)
+		for (int i = 0; i < (int)prices.size(); i++)
 		{
 			if (cur == std::numeric_limits<int>::min())
 			{
-				if (i + 1 < prices.size() && prices[i + 1] > prices[i])
+				if (i + 1 < (int)prices.size() && prices[i + 1] > prices[i])
 					cur = prices[i];
 			}
 			else
 			{
-				if ((i + 1 < prices.size() && prices[i + 1] < prices[i]) ||
-					i + 1 == prices.size())
+				if ((i + 1 < (int)prices.size() && prices[i + 1] < prices[i]) ||
+					i + 1 == (int)prices.size())
 				{
 					profit += prices[i] - cur;
 					cur = std::numeric_limits<int>::min();

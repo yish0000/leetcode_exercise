@@ -23,7 +23,7 @@ public:
 
 	TreeNode* buildTreeHelper(vector<int>& preorder, vector<int>& inorder, int stop)
 	{
-		if (pre >= preorder.size())
+		if (pre >= (int)preorder.size())
 			return nullptr;
 
 		if (stop == inorder[in])

@@ -32,7 +32,7 @@ public:
 	{
 		std::vector<Node*> arr(adjList.size(), nullptr);
 
-		for (int i = 0; i < adjList.size(); i++)
+		for (int i = 0; i < (int)adjList.size(); i++)
 		{
 			if (arr[i] == nullptr)
 				arr[i] = new Node(i + 1);
@@ -73,11 +73,11 @@ protected:
 		std::vector<Node*> allNodes;
 		CollectAllNodes(node, allNodes);
 		std::string str = "[";
-		for (int i = 0; i < allNodes.size(); i++)
+		for (int i = 0; i < (int)allNodes.size(); i++)
 		{
 			std::stringstream cur;
 			cur << "[";
-			for (int n = 0; n < allNodes[i]->neighbors.size(); n++)
+			for (int n = 0; n < (int)allNodes[i]->neighbors.size(); n++)
 			{
 				cur << allNodes[i]->neighbors[n]->val;
 				if (n != allNodes[i]->neighbors.size() - 1)
@@ -98,7 +98,7 @@ protected:
 			return;
 
 		bool existed = false;
-		if (node->val > allNodes.size())
+		if (node->val > (int)allNodes.size())
 		{
 			allNodes.resize(node->val, nullptr);
 			allNodes[node->val - 1] = node;
