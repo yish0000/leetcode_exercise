@@ -311,6 +311,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TargetSum.cpp" />

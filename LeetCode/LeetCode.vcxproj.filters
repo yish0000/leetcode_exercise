@@ -580,6 +580,9 @@
     <ClCompile Include="CopyListWithRandomPointer.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SurroundedRegions.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
