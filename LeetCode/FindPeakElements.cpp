@@ -12,7 +12,7 @@ public:
 		bool up = true;
 		int cur = nums[0];
 		int index = 0;
-		for (int i = 1; i < nums.size(); i++)
+		for (int i = 1; i < (int)nums.size(); i++)
 		{
 			if (nums[i] > cur)
 			{

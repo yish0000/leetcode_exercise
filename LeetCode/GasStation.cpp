@@ -9,7 +9,7 @@ public:
 		int index = -1;
 		int all_cost = 0;
 		int cur_cost = 0;
-		for (int i = 0; i < gas.size(); i++)
+		for (int i = 0; i < (int)gas.size(); i++)
 		{
 			int cur = (gas[i] - cost[i]);
 			if (cur >= 0)

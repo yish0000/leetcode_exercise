@@ -12,7 +12,7 @@ public:
 		vector<int> dp(s.length() + 1, 0);
 		dp[0] = 1;
 		dp[1] = 1;
-		for (int i = 1; i < s.length(); i++)
+		for (int i = 1; i < (int)s.length(); i++)
 		{
 			if (s[i] == '0')
 			{

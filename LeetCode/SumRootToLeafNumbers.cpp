@@ -24,7 +24,7 @@ public:
 		{
 			int num = 0;
 			int ten = 1;
-			for (int i = 0; i < path.size(); i++)
+			for (int i = 0; i < (int)path.size(); i++)
 			{
 				num += path[path.size() - 1 - i] * ten;
 				if (i < 9) ten *= 10;

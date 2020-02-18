@@ -16,13 +16,13 @@ public:
 	{
 		if (cur_ip.size() == 4)
 		{
-			if (index >= s.length())
+			if (index >= (int)s.length())
 			{
 				string ret;
-				for (int i = 0; i < cur_ip.size(); i++)
+				for (int i = 0; i < (int)cur_ip.size(); i++)
 				{
 					ret += cur_ip[i];
-					if (i < cur_ip.size() - 1)
+					if (i < (int)cur_ip.size() - 1)
 						ret += '.';
 				}
 				out.push_back(ret);
@@ -33,7 +33,7 @@ public:
 
 		for (int i = 1; i <= 3; i++)
 		{
-			if (index + i > s.length())
+			if (index + i > (int)s.length())
 				continue;
 
 			if (i > 1)
