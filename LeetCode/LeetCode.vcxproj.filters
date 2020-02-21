@@ -586,6 +586,12 @@
     <ClCompile Include="EvaluateReversePolishNotation.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LetterCasePermutation.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationInString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

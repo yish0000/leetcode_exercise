@@ -211,6 +211,7 @@
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LengthOfLongestSubstringII.cpp" />
+    <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
     <ClCompile Include="LinkedListCycleII.cpp" />
@@ -249,6 +250,7 @@
     <ClCompile Include="PascalTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="PermutationInString.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
