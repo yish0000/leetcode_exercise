@@ -190,8 +190,10 @@
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
+    <ClCompile Include="ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
