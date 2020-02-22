@@ -592,6 +592,15 @@
     <ClCompile Include="PermutationInString.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseNodesInKGroup.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstMissingPositive.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelSheetColumnTitle.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
