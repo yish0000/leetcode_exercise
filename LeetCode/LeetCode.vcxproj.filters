@@ -604,6 +604,9 @@
     <ClCompile Include="2SumII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="HouseRobber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
