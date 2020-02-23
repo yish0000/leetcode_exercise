@@ -616,6 +616,9 @@
     <ClCompile Include="BinaryTreeRightSideView.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="NumberOfIslands.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

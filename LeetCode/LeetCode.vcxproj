@@ -248,6 +248,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
+    <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
