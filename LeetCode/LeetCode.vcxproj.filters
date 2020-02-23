@@ -607,6 +607,9 @@
     <ClCompile Include="HouseRobber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="FactorialTrailingZeroes.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -192,6 +192,7 @@
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExcelSheetColumnTitle.cpp" />
+    <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
