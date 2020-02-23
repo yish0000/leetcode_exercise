@@ -168,6 +168,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="Candy.cpp" />

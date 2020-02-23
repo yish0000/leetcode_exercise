@@ -613,6 +613,9 @@
     <ClCompile Include="FindMinInRotatedSortedArray.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
