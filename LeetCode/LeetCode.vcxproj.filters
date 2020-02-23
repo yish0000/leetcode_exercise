@@ -601,6 +601,24 @@
     <ClCompile Include="ExcelSheetColumnTitle.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="2SumII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseRobber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialTrailingZeroes.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMinInRotatedSortedArray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberOfIslands.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

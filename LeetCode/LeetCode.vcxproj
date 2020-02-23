@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1BitAnd2BitCharacters.cpp" />
+    <ClCompile Include="2SumII.cpp" />
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="Candy.cpp" />
@@ -191,7 +193,9 @@
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExcelSheetColumnTitle.cpp" />
+    <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
@@ -201,6 +205,7 @@
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
@@ -243,6 +248,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
+    <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
