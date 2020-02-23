@@ -194,6 +194,7 @@
     <ClCompile Include="ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />

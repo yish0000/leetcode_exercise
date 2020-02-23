@@ -15,22 +15,6 @@ public:
 		}
 		return zeroes;
 	}
-
-	int trail(int n, int& zeroes)
-	{
-		if (n == 0)
-			return 1;
-		if (n == 1)
-			return 1;
-		int tail = n * trail(n - 1, zeroes);
-		while (tail % 10 == 0)
-		{
-			tail /= 10;
-			zeroes++;
-		}
-		tail %= 10;
-		return tail;
-	}
 };
 
 RUN_TESTCASE(FactorialTrailingZeroes)
