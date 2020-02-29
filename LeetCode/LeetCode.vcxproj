@@ -260,6 +260,7 @@
     <ClCompile Include="PascalTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationInString.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
