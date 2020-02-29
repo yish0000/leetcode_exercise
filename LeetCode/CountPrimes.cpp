@@ -10,7 +10,7 @@ public:
 	int countPrimes(int n) {
 		vector<char> primes((n >> 3) + 1, 0);
 		int count = 0;
-		for (int i = 2; i < n; i++)
+		for (uint64_t i = 2; i < n; i++)
 		{
 			if (TEST_BITS(i))
 				continue;

@@ -625,6 +625,9 @@
     <ClCompile Include="CountPrimes.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="UglyNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
