@@ -186,6 +186,7 @@
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
@@ -204,6 +205,7 @@
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertSort.cpp" />
