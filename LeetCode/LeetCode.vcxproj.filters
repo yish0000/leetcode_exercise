@@ -643,6 +643,9 @@
     <ClCompile Include="MaximalSquare.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RectangleArea.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
