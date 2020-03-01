@@ -619,6 +619,45 @@
     <ClCompile Include="NumberOfIslands.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="HappyNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CountPrimes.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UglyNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="UglyNumberII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectSquares.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IsomorphicStrings.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainsDuplicate.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximalSquare.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleArea.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CousinsInBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerOfTwo.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BitwiseAndOfNumbersRange.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

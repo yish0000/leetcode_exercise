@@ -170,6 +170,7 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="Candy.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
@@ -182,10 +183,13 @@
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
+    <ClCompile Include="CountPrimes.cpp" />
+    <ClCompile Include="CousinsInBinaryTree.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
@@ -204,12 +208,15 @@
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="InvertBinaryTree.cpp" />
+    <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
@@ -232,6 +239,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MaximalSquare.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MaxProductSubarray.cpp" />
@@ -258,6 +266,7 @@
     <ClCompile Include="PascalTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationInString.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
@@ -267,11 +276,13 @@
     <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
+    <ClCompile Include="PowerOfTwo.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RectangleArea.cpp" />
     <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
@@ -333,6 +344,8 @@
     <ClCompile Include="Treap.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UglyNumber.cpp" />
+    <ClCompile Include="UglyNumberII.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
