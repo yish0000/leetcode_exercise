@@ -646,6 +646,9 @@
     <ClCompile Include="RectangleArea.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

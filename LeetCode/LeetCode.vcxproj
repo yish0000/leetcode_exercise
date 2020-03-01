@@ -213,6 +213,7 @@
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
