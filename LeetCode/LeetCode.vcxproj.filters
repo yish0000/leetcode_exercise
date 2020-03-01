@@ -652,6 +652,9 @@
     <ClCompile Include="CousinsInBinaryTree.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PowerOfTwo.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
