@@ -38,11 +38,14 @@ RUN_TESTCASE(LetterCasePermutation)
 	SolutionLetterCasePermutation sln;
 
 	vector<string> arr1 = { "a1b2", "a1B2", "A1b2", "A1B2" };
-	TESTCASE_ASSERT(vectorComboEqual(sln.letterCasePermutation("a1b2"), arr1));
+    vector<string> ret1 = sln.letterCasePermutation("a1b2");
+	TESTCASE_ASSERT(vectorComboEqual(ret1, arr1));
 
 	vector<string> arr2 = { "3z4", "3Z4" };
-	TESTCASE_ASSERT(vectorComboEqual(sln.letterCasePermutation("3z4"), arr2));
+    vector<string> ret2 = sln.letterCasePermutation("3z4");
+	TESTCASE_ASSERT(vectorComboEqual(ret2, arr2));
 
 	vector<string> arr3 = { "12345" };
-	TESTCASE_ASSERT(vectorComboEqual(sln.letterCasePermutation("12345"), arr3));
+    vector<string> ret3 = sln.letterCasePermutation("12345");
+	TESTCASE_ASSERT(vectorComboEqual(ret3, arr3));
 }
