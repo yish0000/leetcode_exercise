@@ -79,6 +79,7 @@
 		54A40F87240BE99B00F8D78D /* ReverseWordsInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F53240BE99B00F8D78D /* ReverseWordsInString.cpp */; };
 		54A40F88240BE99B00F8D78D /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F54240BE99B00F8D78D /* MinStack.cpp */; };
 		54A40F89240BE99B00F8D78D /* RectangleArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F55240BE99B00F8D78D /* RectangleArea.cpp */; };
+		54A40F8B240BECEF00F8D78D /* CountCompleteTreeNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */; };
 		E6128FFD23B8936800BD91DD /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF123B8936700BD91DD /* Combinations.cpp */; };
 		E6128FFE23B8936800BD91DD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF223B8936800BD91DD /* MergeSortedArray.cpp */; };
 		E6128FFF23B8936800BD91DD /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF323B8936800BD91DD /* PascalTriangle.cpp */; };
@@ -310,6 +311,7 @@
 		54A40F53240BE99B00F8D78D /* ReverseWordsInString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsInString.cpp; sourceTree = "<group>"; };
 		54A40F54240BE99B00F8D78D /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		54A40F55240BE99B00F8D78D /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
+		54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountCompleteTreeNodes.cpp; sourceTree = "<group>"; };
 		E6128FF123B8936700BD91DD /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
 		E6128FF223B8936800BD91DD /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		E6128FF323B8936800BD91DD /* PascalTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
@@ -708,6 +710,7 @@
 				E63789B223DFF53000B47832 /* DivideTwoIntegers.cpp */,
 				E63789B423E10C3800B47832 /* Atoi.cpp */,
 				E63789B623E139FB00B47832 /* RegularExpressionMatching.cpp */,
+				54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -738,7 +741,7 @@
 		E6B9FB9F22A20BB900361BFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "侯周楚";
 				TargetAttributes = {
 					E6B9FBA622A20BB900361BFE = {
@@ -783,6 +786,7 @@
 				E6AAE7F622A81DBD00A071F3 /* PartionGet.cpp in Sources */,
 				54A40F6A240BE99B00F8D78D /* CompareVersionNumbers.cpp in Sources */,
 				E628DD9322E7616300FCB4DB /* MergeIntervals.cpp in Sources */,
+				54A40F8B240BECEF00F8D78D /* CountCompleteTreeNodes.cpp in Sources */,
 				E612900523B8936800BD91DD /* BinaryTreeMaxPathSum.cpp in Sources */,
 				E6E79CF722D4EF3A008A66AB /* IntegerToRoman.cpp in Sources */,
 				54A40F1F23F51ECC00F8D78D /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
@@ -1104,6 +1108,7 @@
 		E6B9FBAF22A20BBA00361BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1112,6 +1117,7 @@
 		E6B9FBB022A20BBA00361BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -56,11 +56,12 @@ RUN_TESTCASE(PalindromePartitioning)
 {
 	SolutionPalindromePartitioning sln;
 
-	vector<vector<string>> ret1 = {
+	vector<vector<string>> arr1 = {
 		{"aba","cc"},
 		{"aba","c","c"},
 		{"a","b","a","cc"},
 		{"a","b","a","c","c"},
 	};
-	TESTCASE_ASSERT(vectorComboEqual(sln.partition("abacc"), ret1));
+    vector<vector<string>> ret1 = sln.partition("abacc");
+	TESTCASE_ASSERT(vectorComboEqual(arr1, ret1));
 }
