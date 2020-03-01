@@ -182,6 +182,7 @@
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
