@@ -26,5 +26,5 @@ RUN_TESTCASE(CountPrimes)
 {
 	SolutionCountPrimes sln;
 	TESTCASE_ASSERT(sln.countPrimes(10) == 4);
-	TESTCASE_ASSERT(sln.countPrimes(499979) == 0);
+	TESTCASE_ASSERT(sln.countPrimes(499979) == 41537);
 }
