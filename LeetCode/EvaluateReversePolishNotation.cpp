@@ -39,7 +39,12 @@ RUN_TESTCASE(EvaluateReversePolishNotation)
 {
 	SolutionEvaluateReversePolishNotation sln;
 
-	TESTCASE_ASSERT(sln.evalRPN(vector<string>({ "2", "1", "+", "3", "*" })) == 9);
-	TESTCASE_ASSERT(sln.evalRPN(vector<string>({ "4", "13", "5", "/", "+" })) == 6);
-	TESTCASE_ASSERT(sln.evalRPN(vector<string>({ "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" })) == 22);
+    vector<string> tokens1({ "2", "1", "+", "3", "*" });
+	TESTCASE_ASSERT(sln.evalRPN(tokens1) == 9);
+    
+    vector<string> tokens2({ "4", "13", "5", "/", "+" });
+	TESTCASE_ASSERT(sln.evalRPN(tokens2) == 6);
+    
+    vector<string> tokens3({ "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" });
+	TESTCASE_ASSERT(sln.evalRPN(tokens3) == 22);
 }
