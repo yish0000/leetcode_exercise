@@ -6,37 +6,37 @@ using namespace std;
 class SolutionRecoverBinarySearchTree : public BinaryTreeCommmon
 {
 public:
+	TreeNode* first = nullptr;
+	TreeNode* second = nullptr;
+	TreeNode* prev = nullptr;
 	void recoverTree(TreeNode* root) {
-		vector<TreeNode*> v;
-		traverse(v, root);
+		first = second = prev = nullptr;
+		traverse(root);
 
-		int first = -1, second = -1;
-		for (int i = 0; i < v.size(); i++)
-		{
-			if (i + 1 < v.size() && v[i + 1]->val < v[i]->val)
-			{
-				if (first == -1)
-				{
-					first = i;
-					second = i + 1;
-				}
-				else
-				{
-					second = i + 1;
-					break;
-				}
-			}
-		}
-
-		std::swap(v[first]->val, v[second]->val);
+		if (first && second)
+			std::swap(first->val, second->val);
 	}
 
-	void traverse(vector<TreeNode*>& arr, TreeNode* node)
+	void traverse(TreeNode* node)
 	{
-		if (!node) return;
-		traverse(arr, node->left);
-		arr.push_back(node);
-		traverse(arr, node->right);
+		if (!node)
+			return;
+
+		traverse(node->left);
+
+		if (node && prev && node->val < prev->val)
+		{
+			if (!first)
+			{
+				first = prev;
+				second = node;
+			}
+			else
+				second = node;
+		}
+
+		prev = node;
+		traverse(node->right);
 	}
 };
 
