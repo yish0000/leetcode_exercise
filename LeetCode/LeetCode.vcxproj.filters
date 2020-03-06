@@ -661,6 +661,9 @@
     <ClCompile Include="RecoverBInarySearchTree.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LowestCommonAncestorOfBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
