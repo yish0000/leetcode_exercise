@@ -189,6 +189,7 @@
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
+    <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="CousinsInBinaryTree.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
@@ -234,6 +235,7 @@
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
+    <ClCompile Include="LowestCommonAncestorOfBST.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MagicSquaresInGrid.cpp" />
     <ClCompile Include="main.cpp" />
@@ -282,6 +284,7 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RecoverBInarySearchTree.cpp" />
     <ClCompile Include="RectangleArea.cpp" />
     <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
