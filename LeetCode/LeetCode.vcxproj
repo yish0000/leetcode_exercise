@@ -193,6 +193,7 @@
     <ClCompile Include="CousinsInBinaryTree.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DeleteNodeInLinkedList.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
