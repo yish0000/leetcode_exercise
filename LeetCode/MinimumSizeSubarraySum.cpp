@@ -6,18 +6,17 @@ class SolutionMinimumSizeSubarraySum
 {
 public:
 	int minSubArrayLen(int s, vector<int>& nums) {
-		int l = 0, r = -1;
+		int l = 0;
 		int cur = 0;
 		int minLen = std::numeric_limits<int>::max();
 		for (int i = 0; i < nums.size(); i++)
 		{
 			cur += nums[i];
-			r = i;
 
 			if (cur >= s)
 			{
 				int t = cur - s;
-				while (l < r)
+				while (l < i)
 				{
 					if (t >= nums[l])
 					{
@@ -29,7 +28,7 @@ public:
 						break;
 				}
 
-				minLen = std::min(r - l + 1, minLen);
+				minLen = std::min(i - l + 1, minLen);
 			}
 		}
 
