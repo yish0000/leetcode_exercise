@@ -160,6 +160,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
