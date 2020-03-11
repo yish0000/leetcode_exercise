@@ -185,6 +185,7 @@
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
     <ClCompile Include="ContainerMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
+    <ClCompile Include="ContainsDuplicateII.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
@@ -214,6 +215,7 @@
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
@@ -283,6 +285,7 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerOfTwo.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
+    <ClCompile Include="ProductOfArrayExceptSelf.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />

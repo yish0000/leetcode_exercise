@@ -676,6 +676,15 @@
     <ClCompile Include="BasicCalculator.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ContainsDuplicateII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOfArrayExceptSelf.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementTrie.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
