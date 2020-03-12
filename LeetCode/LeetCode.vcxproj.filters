@@ -685,6 +685,9 @@
     <ClCompile Include="ImplementTrie.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="CourseScheduleII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
