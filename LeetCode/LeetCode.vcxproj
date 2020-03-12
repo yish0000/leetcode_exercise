@@ -153,6 +153,7 @@
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="4SumII.cpp" />
     <ClCompile Include="8Queens.cpp" />
+    <ClCompile Include="AddAndSearchWord.cpp" />
     <ClCompile Include="AddArrayFormInteger.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddOneRowToTree.cpp" />
