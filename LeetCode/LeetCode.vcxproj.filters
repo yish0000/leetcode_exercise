@@ -691,6 +691,18 @@
     <ClCompile Include="AddAndSearchWord.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ImplementStackUsingQueues.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementQueueUsingStacks.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidAnagram.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseRobberII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

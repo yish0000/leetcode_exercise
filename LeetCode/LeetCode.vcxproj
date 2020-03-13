@@ -217,6 +217,9 @@
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="HouseRobberII.cpp" />
+    <ClCompile Include="ImplementQueueUsingStacks.cpp" />
+    <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
@@ -361,6 +364,7 @@
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
+    <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
