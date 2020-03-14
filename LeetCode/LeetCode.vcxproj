@@ -321,6 +321,7 @@
     <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="Search2DMatrix.cpp" />
+    <ClCompile Include="Search2DMatrixII.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="SearchRotatedSortedArrayII.cpp" />

@@ -703,6 +703,9 @@
     <ClCompile Include="HouseRobberII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Search2DMatrixII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
