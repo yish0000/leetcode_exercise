@@ -5,6 +5,7 @@ using namespace std;
 class SolutionSearch2DMatrixII
 {
 public:
+	// O(M+N)
 	bool searchMatrix(vector<vector<int>>& matrix, int target) {
 		if (matrix.size() <= 0 || matrix[0].size() <= 0)
 			return false;
@@ -25,6 +26,7 @@ public:
 		return false;
 	}
 	/*
+	// O(M*logN)
 	bool searchMatrix(vector<vector<int>>& matrix, int target) {
 		if (matrix.empty() || matrix[0].empty())
 			return false;
