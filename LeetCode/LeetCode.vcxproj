@@ -196,6 +196,7 @@
     <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="CourseScheduleII.cpp" />
     <ClCompile Include="CousinsInBinaryTree.cpp" />
+    <ClCompile Include="DayOfWeek.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteNodeInLinkedList.cpp" />
@@ -316,6 +317,7 @@
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp" />
     <ClCompile Include="ReverseWordsInString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
