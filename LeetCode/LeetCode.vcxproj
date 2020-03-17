@@ -162,6 +162,7 @@
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
+    <ClCompile Include="BasicCalculatorII.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
@@ -225,6 +226,7 @@
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
+    <ClCompile Include="IntCalculator.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />

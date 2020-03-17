@@ -718,6 +718,12 @@
     <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BasicCalculatorII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IntCalculator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
