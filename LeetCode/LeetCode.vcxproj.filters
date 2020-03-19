@@ -724,6 +724,9 @@
     <ClCompile Include="IntCalculator.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="KthSmallestElementInBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
