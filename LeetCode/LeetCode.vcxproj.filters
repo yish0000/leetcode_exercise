@@ -703,6 +703,33 @@
     <ClCompile Include="HouseRobberII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="Search2DMatrixII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="KthLargestElementInArray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumIII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="DayOfWeek.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCalculatorII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IntCalculator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallestElementInBST.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

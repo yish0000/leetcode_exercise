@@ -162,6 +162,7 @@
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
+    <ClCompile Include="BasicCalculatorII.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
@@ -169,6 +170,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
@@ -181,6 +183,7 @@
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="CombinationSumIII.cpp" />
     <ClCompile Include="CompareVersionNumbers.cpp" />
     <ClCompile Include="ConstructBinaryTree.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreIn.cpp" />
@@ -195,6 +198,7 @@
     <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="CourseScheduleII.cpp" />
     <ClCompile Include="CousinsInBinaryTree.cpp" />
+    <ClCompile Include="DayOfWeek.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteNodeInLinkedList.cpp" />
@@ -223,6 +227,7 @@
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
+    <ClCompile Include="IntCalculator.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
@@ -231,6 +236,8 @@
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
+    <ClCompile Include="KthLargestElementInArray.cpp" />
+    <ClCompile Include="KthSmallestElementInBST.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
@@ -314,6 +321,7 @@
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp" />
     <ClCompile Include="ReverseWordsInString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
@@ -321,6 +329,7 @@
     <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="Search2DMatrix.cpp" />
+    <ClCompile Include="Search2DMatrixII.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="SearchRotatedSortedArrayII.cpp" />
