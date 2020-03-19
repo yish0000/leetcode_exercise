@@ -727,6 +727,9 @@
     <ClCompile Include="KthSmallestElementInBST.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

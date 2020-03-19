@@ -1,5 +1,6 @@
 #include "TestCase.h"
 #include "BinaryTreeCommon.h"
+#include <stack>
 
 using namespace std;
 
@@ -7,9 +8,10 @@ class SolutionKthSmallestElementInBST : public BinaryTreeCommmon
 {
 public:
 	int kthSmallest(TreeNode* root, int k) {
-		int ret = 0;
-		dfs(root, k, ret);
-		return ret;
+		//int ret = 0;
+		//dfs(root, k, ret);
+		//return ret;
+		return bfs(root, k);
 	}
 
 	bool dfs(TreeNode* node, int& k, int& val)
@@ -25,6 +27,31 @@ public:
 			return true;
 		}
 		return dfs(node->right, k, val);
+	}
+
+	int bfs(TreeNode* node, int k)
+	{
+		stack<TreeNode*> s;
+		while (true)
+		{
+			while (node)
+			{
+				s.push(node);
+				node = node->left;
+			}
+
+			if (s.empty())
+				break;
+
+			TreeNode* item = s.top();
+			s.pop();
+			if (--k == 0)
+				return item->val;
+
+			node = item->right;
+		}
+
+		return 0;
 	}
 };
 

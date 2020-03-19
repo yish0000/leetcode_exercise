@@ -1,5 +1,6 @@
 #include "TestCase.h"
 #include "BinaryTreeCommon.h"
+#include <stack>
 
 using namespace std;
 
@@ -8,7 +9,8 @@ class SolutionBinaryTreeInorderTraversal : public BinaryTreeCommmon
 public:
 	vector<int> inorderTraversal(TreeNode* root) {
 		vector<int> arr;
-		inorderTraversalInner(root, arr);
+		//inorderTraversalInner(root, arr);
+		bfs(arr, root);
 		return arr;
 	}
 
@@ -18,6 +20,28 @@ public:
 		inorderTraversalInner(root->left, arr);
 		arr.push_back(root->val);
 		inorderTraversalInner(root->right, arr);
+	}
+
+	void bfs(vector<int>& out, TreeNode* node)
+	{
+		stack<TreeNode*> s;
+		while (true)
+		{
+			while (node)
+			{
+				s.push(node);
+				node = node->left;
+			}
+
+			if (s.empty())
+				break;
+
+			TreeNode* item = s.top();
+			s.pop();
+			out.push_back(item->val);
+
+			node = item->right;
+		}
 	}
 };
 
