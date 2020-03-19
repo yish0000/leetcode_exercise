@@ -25,29 +25,27 @@ public:
 
 	void bfs(vector<int>& out, TreeNode* node)
 	{
-		stack<TreeNode*> s;
-		unordered_map<TreeNode*, bool> r;
+		stack<pair<TreeNode*, bool>> s;
 		while (true)
 		{
 			while (node)
 			{
-				s.push(node);
-				r[node] = (node->right == nullptr);
+				s.push(std::make_pair(node, node->right == nullptr));
 				node = node->left;
 			}
 
 			if (s.empty())
 				break;
 
-			TreeNode* item = s.top();
-			if (!r[item])
+			pair<TreeNode*, bool>& item = s.top();
+			if (!item.second)
 			{
-				node = item->right;
-				r[item] = true;
+				node = item.first->right;
+				item.second = true;
 			}
 			else
 			{
-				out.push_back(item->val);
+				out.push_back(item.first->val);
 				s.pop();
 			}
 		}
