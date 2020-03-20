@@ -730,6 +730,9 @@
     <ClCompile Include="BinaryTreePostorderTraversal.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="TrappingRainWater.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
