@@ -43,5 +43,5 @@ RUN_TESTCASE(HouseRobberII)
 	TESTCASE_ASSERT(sln.rob(arr2) == 4);
 
 	vector<int> arr3 = { 4,1,2,7,5,3,1 };
-	TESTCASE_ASSERT(sln.rob(arr3));
+	TESTCASE_ASSERT(sln.rob(arr3) == 14);
 }
