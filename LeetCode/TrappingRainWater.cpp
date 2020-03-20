@@ -20,7 +20,7 @@ public:
 
 		// Right.
 		int right_max = numeric_limits<int>::min();
-		for (int i = height.size() - 1; i >= 0; i--)
+		for (int i = (int)height.size() - 1; i >= 0; i--)
 		{
 			if (right_max > height[i])
 				dp2[i] = right_max - height[i];
