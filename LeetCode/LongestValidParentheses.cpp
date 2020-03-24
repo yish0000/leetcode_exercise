@@ -84,7 +84,7 @@ public:
 			}
 		}
 		left = right = 0;
-		for (int i = s.length() - 1; i >= 0; i--) {
+		for (int i = (int)s.length() - 1; i >= 0; i--) {
 			if (s[i] == '(') {
 				left++;
 			}
