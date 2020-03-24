@@ -733,6 +733,12 @@
     <ClCompile Include="TrappingRainWater.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="LongestValidParentheses.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidTriangleNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

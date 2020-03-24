@@ -250,6 +250,7 @@
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="LowestCommonAncestorOfBST.cpp" />
     <ClCompile Include="LRUCache.cpp" />
@@ -379,6 +380,7 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
+    <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />
