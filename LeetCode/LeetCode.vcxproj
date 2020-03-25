@@ -170,6 +170,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
+    <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
@@ -213,6 +214,7 @@
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="GameOfLife.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
@@ -233,6 +235,7 @@
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
@@ -250,6 +253,7 @@
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="LowestCommonAncestorOfBST.cpp" />
     <ClCompile Include="LRUCache.cpp" />
@@ -270,6 +274,7 @@
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="MissingNumber.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
@@ -379,6 +384,7 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
+    <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />
