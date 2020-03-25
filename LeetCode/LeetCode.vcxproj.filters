@@ -742,6 +742,9 @@
     <ClCompile Include="GameOfLife.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MissingNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
