@@ -745,6 +745,12 @@
     <ClCompile Include="MissingNumber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="JumpGameII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePaths.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -22,7 +22,7 @@
     <ProjectGuid>{1051B995-D547-4C0B-BEBF-04DE11C5C7A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -170,6 +170,7 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreeMaxPathSum.cpp" />
+    <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
@@ -234,6 +235,7 @@
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="KClosestPointsToOrigin.cpp" />
     <ClCompile Include="KeysAndRooms.cpp" />
     <ClCompile Include="Knapsack.cpp" />
