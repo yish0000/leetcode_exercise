@@ -769,6 +769,9 @@
     <ClCompile Include="SummaryRanges.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ShortestPalindrome.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
