@@ -293,6 +293,7 @@
     <ClCompile Include="PascalTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="PeekingIterator.cpp" />
     <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationInString.cpp" />
     <ClCompile Include="Permutations.cpp" />
@@ -345,6 +346,7 @@
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="ShortestCompletingWord.cpp" />
+    <ClCompile Include="ShortestPalindrome.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
@@ -364,6 +366,7 @@
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
+    <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
@@ -391,6 +394,7 @@
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />
+    <ClCompile Include="WordPattern.cpp" />
     <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="WordSearchII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />

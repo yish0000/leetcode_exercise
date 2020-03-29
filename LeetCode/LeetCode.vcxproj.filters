@@ -760,6 +760,18 @@
     <ClCompile Include="HIndex.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PeekingIterator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WordPattern.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SummaryRanges.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPalindrome.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
