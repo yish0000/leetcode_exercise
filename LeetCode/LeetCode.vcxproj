@@ -365,6 +365,7 @@
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
+    <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />

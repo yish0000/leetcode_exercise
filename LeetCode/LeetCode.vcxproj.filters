@@ -766,6 +766,9 @@
     <ClCompile Include="WordPattern.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SummaryRanges.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
