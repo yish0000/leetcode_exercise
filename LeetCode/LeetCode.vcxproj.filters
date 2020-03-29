@@ -751,6 +751,15 @@
     <ClCompile Include="BinaryTreePaths.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="FindDupNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDigits.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="HIndex.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
