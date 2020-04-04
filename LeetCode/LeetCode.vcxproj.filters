@@ -778,6 +778,9 @@
     <ClCompile Include="FirstBadVersion.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="GuessNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
