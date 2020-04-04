@@ -214,6 +214,7 @@
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
+    <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GameOfLife.cpp" />
