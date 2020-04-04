@@ -281,6 +281,7 @@
     <ClCompile Include="MostCommonWord.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
+    <ClCompile Include="NimGame.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
