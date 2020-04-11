@@ -346,6 +346,7 @@
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="SearchRotatedSortedArrayII.cpp" />
+    <ClCompile Include="SerializeDeserializeBinaryTree.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />

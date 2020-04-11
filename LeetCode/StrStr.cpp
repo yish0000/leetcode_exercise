@@ -31,6 +31,20 @@ public:
 			return -1;
 		}
 	}
+
+	int strStrKMP(string haystack, string needle)
+	{
+		if (needle.empty())
+			return 0;
+		if (needle.length() > haystack.length())
+			return -1;
+		else if (needle.length() == haystack.length())
+			return (haystack == needle) ? 0 : -1;
+		else
+		{
+			return 0;
+		}
+	}
 };
 
 RUN_TESTCASE(StrStr)
