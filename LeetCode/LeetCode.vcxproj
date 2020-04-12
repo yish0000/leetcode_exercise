@@ -268,6 +268,7 @@
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MaximumSwap.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />

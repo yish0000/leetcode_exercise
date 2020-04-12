@@ -796,6 +796,9 @@
     <ClCompile Include="SuperUglyNumber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumSwap.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
