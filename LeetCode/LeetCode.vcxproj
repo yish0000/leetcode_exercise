@@ -276,6 +276,7 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MinimumHeightTrees.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinStack.cpp" />
@@ -308,6 +309,7 @@
     <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
+    <ClCompile Include="PowerOfThree.cpp" />
     <ClCompile Include="PowerOfTwo.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="ProductOfArrayExceptSelf.cpp" />
