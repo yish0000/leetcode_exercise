@@ -793,6 +793,9 @@
     <ClCompile Include="MinimumHeightTrees.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="SuperUglyNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

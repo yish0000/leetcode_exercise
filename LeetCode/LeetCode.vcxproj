@@ -375,6 +375,7 @@
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="SuperUglyNumber.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />

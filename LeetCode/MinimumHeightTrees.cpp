@@ -47,7 +47,7 @@ public:
 			res.push_back(q.front());
 			q.pop();
 		}
-		return res;
+		return res.empty() ? vector<int>({ 0 }) : res;
 	}
 };
 
