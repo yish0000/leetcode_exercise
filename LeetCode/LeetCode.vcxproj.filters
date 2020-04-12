@@ -772,6 +772,33 @@
     <ClCompile Include="ShortestPalindrome.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="NimGame.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstBadVersion.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="GuessNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZeroes.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeDeserializeBinaryTree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerOfThree.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumHeightTrees.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperUglyNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumSwap.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

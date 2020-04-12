@@ -214,6 +214,7 @@
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
     <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
+    <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GameOfLife.cpp" />
@@ -222,6 +223,7 @@
     <ClCompile Include="GenerateRandomPointInCircle.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
+    <ClCompile Include="GuessNumber.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="HIndex.cpp" />
@@ -266,6 +268,7 @@
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
+    <ClCompile Include="MaximumSwap.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
     <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
@@ -274,13 +277,16 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedList.cpp" />
     <ClCompile Include="MinDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MinimumHeightTrees.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
     <ClCompile Include="MostCommonWord.cpp" />
+    <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
+    <ClCompile Include="NimGame.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
@@ -304,6 +310,7 @@
     <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
+    <ClCompile Include="PowerOfThree.cpp" />
     <ClCompile Include="PowerOfTwo.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="ProductOfArrayExceptSelf.cpp" />
@@ -342,6 +349,7 @@
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchRotatedSortedArray.cpp" />
     <ClCompile Include="SearchRotatedSortedArrayII.cpp" />
+    <ClCompile Include="SerializeDeserializeBinaryTree.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="ShiftingLetters.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
@@ -368,6 +376,7 @@
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="SuperUglyNumber.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesPairs.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
