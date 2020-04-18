@@ -160,6 +160,7 @@
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="AsteroidCollision.cpp" />
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />

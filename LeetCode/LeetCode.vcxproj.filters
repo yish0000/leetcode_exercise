@@ -799,6 +799,9 @@
     <ClCompile Include="MaximumSwap.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AsteroidCollision.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
