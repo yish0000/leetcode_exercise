@@ -799,6 +799,18 @@
     <ClCompile Include="MaximumSwap.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AsteroidCollision.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CanPlaceFlowers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestUnsortedContinuousSubarray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumProductOfWordLengths.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

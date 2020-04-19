@@ -160,6 +160,7 @@
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="AsteroidCollision.cpp" />
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="Candy.cpp" />
+    <ClCompile Include="CanPlaceFlowers.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CoinChange.cpp" />
@@ -267,6 +269,7 @@
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
+    <ClCompile Include="MaximumProductOfWordLengths.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaximumSwap.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
@@ -355,6 +358,7 @@
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="ShortestPalindrome.cpp" />
+    <ClCompile Include="ShortestUnsortedContinuousSubarray.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
