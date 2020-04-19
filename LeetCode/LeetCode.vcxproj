@@ -357,6 +357,7 @@
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="ShortestCompletingWord.cpp" />
     <ClCompile Include="ShortestPalindrome.cpp" />
+    <ClCompile Include="ShortestUnsortedContinuousSubarray.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
