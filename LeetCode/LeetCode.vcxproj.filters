@@ -808,6 +808,9 @@
     <ClCompile Include="ShortestUnsortedContinuousSubarray.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumProductOfWordLengths.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

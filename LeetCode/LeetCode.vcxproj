@@ -269,6 +269,7 @@
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
+    <ClCompile Include="MaximumProductOfWordLengths.cpp" />
     <ClCompile Include="MaximumSubArray.cpp" />
     <ClCompile Include="MaximumSwap.cpp" />
     <ClCompile Include="MaxIncreaseKeepSkyline.cpp" />
