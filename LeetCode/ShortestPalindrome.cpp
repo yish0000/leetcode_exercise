@@ -34,7 +34,7 @@ public:
 		return str + s;
 		*/
 
-		int n = s.size();
+		int n = (int)s.size();
 		int i = 0;
 		for (int j = n - 1; j >= 0; j--) {
 			if (s[i] == s[j])

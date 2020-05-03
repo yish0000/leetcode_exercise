@@ -24,7 +24,7 @@ public:
 			for (int j = i + 1; j < nums.size(); j++)
 			{
 				int cur_len = nums[i] + nums[j];
-				int l = j + 1, r = nums.size() - 1;
+				int l = j + 1, r = (int)nums.size() - 1;
 				while (l <= r)
 				{
 					int mid = l + (r - l) / 2;
@@ -49,7 +49,7 @@ public:
 
 		for (int i = n; i < nums.size(); i++)
 		{
-			if (nums.size() - i >= 3 - cur_count && cur_count < 2 || nums[i] < cur_len)
+            if (((nums.size() - i >= 3 - cur_count) && (cur_count < 2)) || (nums[i] < cur_len))
 			{
 				++cur_count;
 				cur_len += nums[i];
