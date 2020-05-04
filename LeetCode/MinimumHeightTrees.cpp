@@ -31,7 +31,7 @@ public:
 			n -= layer_size;
 			for (int i = 0; i < layer_size; i++)
 			{
-				int cur = q.front();
+				//int cur = q.front();
 				q.pop();
 				for (auto k : nb[i])
 				{
