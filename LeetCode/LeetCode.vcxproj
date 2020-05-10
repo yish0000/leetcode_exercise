@@ -179,6 +179,7 @@
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="BulbSwitcher.cpp" />
     <ClCompile Include="Candy.cpp" />
     <ClCompile Include="CanPlaceFlowers.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
