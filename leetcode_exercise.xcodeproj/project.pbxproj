@@ -132,6 +132,7 @@
 		54A40F88240BE99B00F8D78D /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F54240BE99B00F8D78D /* MinStack.cpp */; };
 		54A40F89240BE99B00F8D78D /* RectangleArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F55240BE99B00F8D78D /* RectangleArea.cpp */; };
 		54A40F8B240BECEF00F8D78D /* CountCompleteTreeNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */; };
+		54BA5539246797A8003B6E68 /* BullsAndCows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54BA5538246797A8003B6E68 /* BullsAndCows.cpp */; };
 		E6128FFD23B8936800BD91DD /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF123B8936700BD91DD /* Combinations.cpp */; };
 		E6128FFE23B8936800BD91DD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF223B8936800BD91DD /* MergeSortedArray.cpp */; };
 		E6128FFF23B8936800BD91DD /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6128FF323B8936800BD91DD /* PascalTriangle.cpp */; };
@@ -416,6 +417,7 @@
 		54A40F54240BE99B00F8D78D /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		54A40F55240BE99B00F8D78D /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
 		54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountCompleteTreeNodes.cpp; sourceTree = "<group>"; };
+		54BA5538246797A8003B6E68 /* BullsAndCows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BullsAndCows.cpp; sourceTree = "<group>"; };
 		E6128FF123B8936700BD91DD /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
 		E6128FF223B8936800BD91DD /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		E6128FF323B8936800BD91DD /* PascalTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
@@ -867,6 +869,7 @@
 				E63789B623E139FB00B47832 /* RegularExpressionMatching.cpp */,
 				54A40F8A240BECEF00F8D78D /* CountCompleteTreeNodes.cpp */,
 				549BC847245EF8D600DC5A27 /* DiffWaysToAddParentheses.cpp */,
+				54BA5538246797A8003B6E68 /* BullsAndCows.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1002,6 +1005,7 @@
 				549BC827245EF61700DC5A27 /* MinimumHeightTrees.cpp in Sources */,
 				E63789AF23DE793A00B47832 /* RemoveDupFromSortedArrayII.cpp in Sources */,
 				549BC81C245EF61700DC5A27 /* HIndex.cpp in Sources */,
+				54BA5539246797A8003B6E68 /* BullsAndCows.cpp in Sources */,
 				E61E5E6222D0377400534509 /* ReverseLinkedListII.cpp in Sources */,
 				54A40F67240BE99B00F8D78D /* FactorialTrailingZeroes.cpp in Sources */,
 				54A40F1A23F51ECC00F8D78D /* SymmetricTree.cpp in Sources */,
