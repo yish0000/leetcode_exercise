@@ -198,6 +198,7 @@
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
+    <ClCompile Include="CountingBits.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />

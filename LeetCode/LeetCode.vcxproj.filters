@@ -811,6 +811,12 @@
     <ClCompile Include="MaximumProductOfWordLengths.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BulbSwitcher.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingBits.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
