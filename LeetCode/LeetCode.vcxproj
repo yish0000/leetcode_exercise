@@ -179,6 +179,8 @@
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
+    <ClCompile Include="BulbSwitcher.cpp" />
+    <ClCompile Include="BullsAndCows.cpp" />
     <ClCompile Include="Candy.cpp" />
     <ClCompile Include="CanPlaceFlowers.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
@@ -197,6 +199,8 @@
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
+    <ClCompile Include="CountCompleteTreeNodes.cpp" />
+    <ClCompile Include="CountingBits.cpp" />
     <ClCompile Include="CountNumbersUniqueDigits.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />
@@ -206,6 +210,7 @@
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteNodeInLinkedList.cpp" />
+    <ClCompile Include="DiffWaysToAddParentheses.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
@@ -258,6 +263,7 @@
     <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
+    <ClCompile Include="LongestIncreasingSubSeqence.cpp" />
     <ClCompile Include="LongestMountain.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />

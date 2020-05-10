@@ -1,4 +1,4 @@
-//
+﻿//
 //  LongestIncreasingSubSeqence.cpp
 //  leetcode_exercise
 //
@@ -31,6 +31,19 @@ public:
         }
         return max_len;
     }
+
+	int lengthOfLISFast(vector<int>& nums) {
+		vector<int> lis;
+		for (auto num : nums)
+		{
+			auto it = std::lower_bound(lis.begin(), lis.end(), num);
+			if (it == lis.end())
+				lis.push_back(num);
+			else if (*it > num)
+				*it = num;
+		}
+		return (int)lis.size();
+	}
 };
 
 RUN_TESTCASE(LongestIncreasingSubsequence)
@@ -38,11 +51,11 @@ RUN_TESTCASE(LongestIncreasingSubsequence)
     SolutionLongestIncreasingSubsequence sln;
     
     vector<int> arr1 = {10,9,2,5,3,7,101,18};
-    TESTCASE_ASSERT(sln.lengthOfLIS(arr1) == 4);
+    TESTCASE_ASSERT(sln.lengthOfLISFast(arr1) == 4);
     
     vector<int> arr2 = {4,10,4,3,8,9};
-    TESTCASE_ASSERT(sln.lengthOfLIS(arr2) == 3);
+    TESTCASE_ASSERT(sln.lengthOfLISFast(arr2) == 3);
     
     vector<int> arr3 = {1,3,6,7,9,4,10,5,6};
-    TESTCASE_ASSERT(sln.lengthOfLIS(arr3) == 6);
+    TESTCASE_ASSERT(sln.lengthOfLISFast(arr3) == 6);
 }
