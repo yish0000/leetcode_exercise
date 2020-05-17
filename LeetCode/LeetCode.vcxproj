@@ -177,6 +177,7 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="BulbSwitcher.cpp" />
@@ -299,6 +300,7 @@
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
+    <ClCompile Include="NumberToHex.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
@@ -319,6 +321,7 @@
     <ClCompile Include="PopNextRPtrsInEachNode.cpp" />
     <ClCompile Include="PopNextRPtrsInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
+    <ClCompile Include="PowerOfFour.cpp" />
     <ClCompile Include="PowerOfThree.cpp" />
     <ClCompile Include="PowerOfTwo.cpp" />
     <ClCompile Include="PriorityQueue.cpp" />
@@ -369,6 +372,7 @@
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
+    <ClCompile Include="SingleNumberIII.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SortedArrayToBST.cpp" />
     <ClCompile Include="SortedListToBST.cpp" />
@@ -404,6 +408,7 @@
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePathsII.cpp" />
+    <ClCompile Include="UTF8Validation.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
