@@ -835,6 +835,9 @@
     <ClCompile Include="PowerOfFour.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="NumberToHex.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
