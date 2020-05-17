@@ -832,6 +832,9 @@
     <ClCompile Include="SingleNumberIII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="PowerOfFour.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
