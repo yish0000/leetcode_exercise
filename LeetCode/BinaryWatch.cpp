@@ -34,14 +34,14 @@ public:
 			if (!(ss & (1 << i)))
 			{
 				ss |= (1 << i);
-				if (check_minute(ss))
+				if (check(ss))
 					dfs(out, num - 1, ss, i + 1);
 				ss &= ~(1 << i);
 			}
 		}
 	}
 
-	bool check_minute(int ss)
+	bool check(int ss)
 	{
 		int hour = 0;
 		int min = 0;
