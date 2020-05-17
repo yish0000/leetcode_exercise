@@ -841,6 +841,9 @@
     <ClCompile Include="UTF8Validation.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryWatch.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

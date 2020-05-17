@@ -177,6 +177,7 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryWatch.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="BST2GST.cpp" />
     <ClCompile Include="BulbSwitcher.cpp" />
