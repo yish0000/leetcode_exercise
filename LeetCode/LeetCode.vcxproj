@@ -369,6 +369,7 @@
     <ClCompile Include="SingleElementInSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
+    <ClCompile Include="SingleNumberIII.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SortedArrayToBST.cpp" />
     <ClCompile Include="SortedListToBST.cpp" />
