@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5454E059248CB3E700869B01 /* RangeSumQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454E058248CB3E700869B01 /* RangeSumQuery.cpp */; };
 		546F25CE248B2C4400E8D9C9 /* BulbSwitcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25C7248B2C4300E8D9C9 /* BulbSwitcher.cpp */; };
 		546F25CF248B2C4400E8D9C9 /* PowerOfFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25C8248B2C4300E8D9C9 /* PowerOfFour.cpp */; };
 		546F25D0248B2C4400E8D9C9 /* BinaryWatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25C9248B2C4300E8D9C9 /* BinaryWatch.cpp */; };
@@ -299,6 +300,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5454E058248CB3E700869B01 /* RangeSumQuery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RangeSumQuery.cpp; sourceTree = "<group>"; };
 		546F25C7248B2C4300E8D9C9 /* BulbSwitcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulbSwitcher.cpp; sourceTree = "<group>"; };
 		546F25C8248B2C4300E8D9C9 /* PowerOfFour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfFour.cpp; sourceTree = "<group>"; };
 		546F25C9248B2C4300E8D9C9 /* BinaryWatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryWatch.cpp; sourceTree = "<group>"; };
@@ -894,6 +896,7 @@
 				549BC847245EF8D600DC5A27 /* DiffWaysToAddParentheses.cpp */,
 				54BA5538246797A8003B6E68 /* BullsAndCows.cpp */,
 				54BA553A2467AD78003B6E68 /* LongestIncreasingSubSeqence.cpp */,
+				5454E058248CB3E700869B01 /* RangeSumQuery.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -971,6 +974,7 @@
 				549BC826245EF61700DC5A27 /* LowestCommonAncestorOfBST.cpp in Sources */,
 				549BC835245EF61700DC5A27 /* DeleteNodeInLinkedList.cpp in Sources */,
 				E622EF58230A522F00CE42EE /* UniqueBinarySearchTrees.cpp in Sources */,
+				5454E059248CB3E700869B01 /* RangeSumQuery.cpp in Sources */,
 				549BC819245EF61700DC5A27 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				E6AAE7F622A81DBD00A071F3 /* PartionGet.cpp in Sources */,
 				54A40F6A240BE99B00F8D78D /* CompareVersionNumbers.cpp in Sources */,
