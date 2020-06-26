@@ -302,6 +302,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="NumberToHex.cpp" />
+    <ClCompile Include="OddEvenLinkedList.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />

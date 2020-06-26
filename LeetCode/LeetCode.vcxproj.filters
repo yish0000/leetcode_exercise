@@ -847,6 +847,9 @@
     <ClCompile Include="AStar.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="OddEvenLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
