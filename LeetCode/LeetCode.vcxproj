@@ -380,6 +380,7 @@
     <ClCompile Include="SortedListToBST.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
+    <ClCompile Include="SplitLinkedListInParts.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
