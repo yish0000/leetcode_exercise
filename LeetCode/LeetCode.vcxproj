@@ -160,6 +160,7 @@
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="AStar.cpp" />
     <ClCompile Include="AsteroidCollision.cpp" />
     <ClCompile Include="Atoi.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
@@ -301,6 +302,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="NumberToHex.cpp" />
+    <ClCompile Include="OddEvenLinkedList.cpp" />
     <ClCompile Include="PalindromeList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
@@ -378,6 +380,7 @@
     <ClCompile Include="SortedListToBST.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
+    <ClCompile Include="SplitLinkedListInParts.cpp" />
     <ClCompile Include="StreamOfCharacters.cpp" />
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />

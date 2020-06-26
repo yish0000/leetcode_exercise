@@ -844,6 +844,15 @@
     <ClCompile Include="BinaryWatch.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="OddEvenLinkedList.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitLinkedListInParts.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
