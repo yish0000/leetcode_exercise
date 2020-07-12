@@ -157,6 +157,7 @@
     <ClCompile Include="AddArrayFormInteger.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddDigits.cpp" />
+    <ClCompile Include="AdditiveNumber.cpp" />
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
