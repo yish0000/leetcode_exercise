@@ -856,6 +856,9 @@
     <ClCompile Include="AdditiveNumber.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="RangeSumQuery.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
