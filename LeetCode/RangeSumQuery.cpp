@@ -6,12 +6,15 @@ using namespace std;
 class NumArray {
 public:
 	NumArray(vector<int>& nums) {
-		int n = (int)nums.size();
-		int x = (int)ceil((log(n) / log(2)));
-		int maxSize = 2 * (int)pow(2, x) - 1;
-		_segTree.resize(maxSize);
-		_nums = nums;
-		buildTree(0, 0, n - 1);
+		if (nums.size() > 0)
+		{
+			int n = (int)nums.size();
+			int x = (int)ceil((log(n) / log(2)));
+			int maxSize = 2 * (int)pow(2, x) - 1;
+			_segTree.resize(maxSize);
+			_nums = nums;
+			buildTree(0, 0, n - 1);
+		}
 	}
 
 	void buildTree(int idx, int left, int right)
@@ -73,7 +76,7 @@ protected:
  */
 RUN_TESTCASE(RangeSumQuery)
 {
-	NumArray nums(vector<int>({ 1,3,5 }));
+	NumArray nums(vector<int>({  }));
 	TESTCASE_ASSERT(nums.sumRange(0, 2) == 9);
 	nums.update(1, 2);
 	TESTCASE_ASSERT(nums.sumRange(0, 2) == 8);
