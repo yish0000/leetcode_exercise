@@ -76,7 +76,7 @@ protected:
  */
 RUN_TESTCASE(RangeSumQuery)
 {
-	NumArray nums(vector<int>({  }));
+	NumArray nums(vector<int>({ 1,3,5 }));
 	TESTCASE_ASSERT(nums.sumRange(0, 2) == 9);
 	nums.update(1, 2);
 	TESTCASE_ASSERT(nums.sumRange(0, 2) == 8);
