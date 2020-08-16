@@ -403,6 +403,7 @@
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
+    <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Treap.cpp" />
     <ClCompile Include="Triangle.cpp" />
