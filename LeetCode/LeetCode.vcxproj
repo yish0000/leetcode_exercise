@@ -242,6 +242,7 @@
     <ClCompile Include="ImplementQueueUsingStacks.cpp" />
     <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
+    <ClCompile Include="IncreasingTripletSubsequence.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntCalculator.cpp" />
