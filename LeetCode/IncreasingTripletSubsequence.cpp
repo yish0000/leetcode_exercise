@@ -52,8 +52,11 @@ RUN_TESTCASE(IncreasingTripletSubsequence)
 	SolutionIncreasingTripletSubsequence sln;
 
 	vector<int> arr1 = { 1,2,3,4,5 };
-	TESTCASE_ASSERT(sln.increasingTriplet(arr1));
+	TESTCASE_ASSERT(sln.increasingTripletFast(arr1));
 
 	vector<int> arr2 = { 5,4,3,2,1 };
-	TESTCASE_ASSERT(!sln.increasingTriplet(arr2));
+	TESTCASE_ASSERT(!sln.increasingTripletFast(arr2));
+
+	vector<int> arr3 = { 5,6,2,1,0,3 };
+	TESTCASE_ASSERT(!sln.increasingTripletFast(arr3));
 }

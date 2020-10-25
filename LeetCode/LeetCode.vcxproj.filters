@@ -868,6 +868,9 @@
     <ClCompile Include="IncreasingTripletSubsequence.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseVowelsString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

@@ -355,6 +355,7 @@
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp" />
+    <ClCompile Include="ReverseVowelsString.cpp" />
     <ClCompile Include="ReverseWordsInString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
