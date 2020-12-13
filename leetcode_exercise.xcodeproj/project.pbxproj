@@ -11,6 +11,7 @@
 		540C0C97257C802C00DDA284 /* SplitLinkedListInParts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540C0C94257C802C00DDA284 /* SplitLinkedListInParts.cpp */; };
 		540C0C98257C802C00DDA284 /* AStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540C0C95257C802C00DDA284 /* AStar.cpp */; };
 		540C0C9B257C806300DDA284 /* RemoveDuplicateLetters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540C0C9A257C806300DDA284 /* RemoveDuplicateLetters.cpp */; };
+		5454446D2585D57C00DCB2BF /* IntegerBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */; };
 		5454E059248CB3E700869B01 /* RangeSumQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454E058248CB3E700869B01 /* RangeSumQuery.cpp */; };
 		5454E05B248CC55F00869B01 /* RangeSumQuery2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454E05A248CC55F00869B01 /* RangeSumQuery2D.cpp */; };
 		546F25CE248B2C4400E8D9C9 /* BulbSwitcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25C7248B2C4300E8D9C9 /* BulbSwitcher.cpp */; };
@@ -309,6 +310,7 @@
 		540C0C94257C802C00DDA284 /* SplitLinkedListInParts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplitLinkedListInParts.cpp; sourceTree = "<group>"; };
 		540C0C95257C802C00DDA284 /* AStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AStar.cpp; sourceTree = "<group>"; };
 		540C0C9A257C806300DDA284 /* RemoveDuplicateLetters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicateLetters.cpp; sourceTree = "<group>"; };
+		5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerBreak.cpp; sourceTree = "<group>"; };
 		5454E058248CB3E700869B01 /* RangeSumQuery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RangeSumQuery.cpp; sourceTree = "<group>"; };
 		5454E05A248CC55F00869B01 /* RangeSumQuery2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RangeSumQuery2D.cpp; sourceTree = "<group>"; };
 		546F25C7248B2C4300E8D9C9 /* BulbSwitcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulbSwitcher.cpp; sourceTree = "<group>"; };
@@ -912,6 +914,7 @@
 				5454E058248CB3E700869B01 /* RangeSumQuery.cpp */,
 				5454E05A248CC55F00869B01 /* RangeSumQuery2D.cpp */,
 				540C0C9A257C806300DDA284 /* RemoveDuplicateLetters.cpp */,
+				5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1245,6 +1248,7 @@
 				E67E63FC239898D900239BD6 /* NextPermutation.cpp in Sources */,
 				54A40F85240BE99B00F8D78D /* HouseRobber.cpp in Sources */,
 				549BC81D245EF61700DC5A27 /* ImplementQueueUsingStacks.cpp in Sources */,
+				5454446D2585D57C00DCB2BF /* IntegerBreak.cpp in Sources */,
 				549BC828245EF61700DC5A27 /* SuperUglyNumber.cpp in Sources */,
 				E6DC590F22EDAAAC00E9CD3D /* SearchRotatedSortedArray.cpp in Sources */,
 				E6B9FBC922A20C4500361BFE /* TestCase.cpp in Sources */,
