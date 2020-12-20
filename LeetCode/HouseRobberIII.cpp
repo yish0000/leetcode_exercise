@@ -1,6 +1,7 @@
 #include "TestCase.h"
 #include "BinaryTreeCommon.h"
 #include <unordered_map>
+#include <queue>
 
 using namespace std;
 
@@ -9,8 +10,9 @@ class SolutionHouseRobberIII : public BinaryTreeCommmon
 public:
 	unordered_map<TreeNode*, int> h;
 	int rob(TreeNode* root) {
-		h.clear();
-		return maxValue(root);
+		//h.clear();
+		//return maxValue(root);
+		return rob_dp(root);
 	}
 
 	int maxValue(TreeNode* node)
@@ -29,6 +31,55 @@ public:
 		int v2 = maxValue(node->left) + maxValue(node->right);
 		h[node] = std::max(v1, v2);
 		return h[node];
+	}
+
+	int rob_dp(TreeNode* root)
+	{
+		unordered_map<TreeNode*, int> node2Index;
+		vector<TreeNode*> nodeList;
+		queue<TreeNode*> q;
+		q.push(root);
+		while (q.size() > 0)
+		{
+			TreeNode* child = q.front();
+			q.pop();
+			node2Index[child] = (int)nodeList.size();
+			nodeList.push_back(child);
+			if (child->left)
+				q.push(child->left);
+			if (child->right)
+				q.push(child->right);
+		}
+
+		vector<int> dp_rob(node2Index.size(), 0);
+		vector<int> dp_not_rob(node2Index.size(), 0);
+		for (int i = (int)node2Index.size() - 1; i >= 0; i--)
+		{
+			TreeNode* node = nodeList[i];
+			if (!node->left && !node->right)
+			{
+				dp_rob[i] = node->val;
+				dp_not_rob[i] = 0;
+			}
+			else
+			{
+				dp_rob[i] = node->val;
+				if (node->left)
+				{
+					int index = node2Index[node->left];
+					dp_rob[i] += dp_not_rob[index];
+					dp_not_rob[i] += std::max(dp_rob[index], dp_not_rob[index]);
+				}
+				if (node->right)
+				{
+					int index = node2Index[node->right];
+					dp_rob[i] += dp_not_rob[index];
+					dp_not_rob[i] += std::max(dp_rob[index], dp_not_rob[index]);
+				}
+			}
+		}
+
+		return std::max(dp_rob[0], dp_not_rob[0]);
 	}
 };
 
