@@ -246,6 +246,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntCalculator.cpp" />
+    <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
@@ -335,8 +336,11 @@
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
     <ClCompile Include="RangeSumQuery.cpp" />
+    <ClCompile Include="RangeSumQuery2D.cpp" />
+    <ClCompile Include="ReconstructItinerary.cpp" />
     <ClCompile Include="RecoverBInarySearchTree.cpp" />
     <ClCompile Include="RectangleArea.cpp" />
+    <ClCompile Include="RemoveDuplicateLetters.cpp" />
     <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
