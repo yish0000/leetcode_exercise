@@ -853,6 +853,36 @@
     <ClCompile Include="SplitLinkedListInParts.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="AdditiveNumber.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSumQuery.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyPreorderSerializationOfBT.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="TopKFrequentElements.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreasingTripletSubsequence.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseVowelsString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerBreak.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSumQuery2D.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReconstructItinerary.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicateLetters.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

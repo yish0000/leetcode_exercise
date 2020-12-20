@@ -157,6 +157,7 @@
     <ClCompile Include="AddArrayFormInteger.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddDigits.cpp" />
+    <ClCompile Include="AdditiveNumber.cpp" />
     <ClCompile Include="AddOneRowToTree.cpp" />
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
@@ -241,9 +242,11 @@
     <ClCompile Include="ImplementQueueUsingStacks.cpp" />
     <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
+    <ClCompile Include="IncreasingTripletSubsequence.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="InsertSortList.cpp" />
     <ClCompile Include="IntCalculator.cpp" />
+    <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
@@ -332,8 +335,12 @@
     <ClCompile Include="RandomizedSelection.cpp" />
     <ClCompile Include="RandomPickWithWeight.cpp" />
     <ClCompile Include="RandomWithBlackList.cpp" />
+    <ClCompile Include="RangeSumQuery.cpp" />
+    <ClCompile Include="RangeSumQuery2D.cpp" />
+    <ClCompile Include="ReconstructItinerary.cpp" />
     <ClCompile Include="RecoverBInarySearchTree.cpp" />
     <ClCompile Include="RectangleArea.cpp" />
+    <ClCompile Include="RemoveDuplicateLetters.cpp" />
     <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDupFromSortedArrayII.cpp" />
@@ -352,6 +359,7 @@
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseSubarrayToMaxArrayValue.cpp" />
+    <ClCompile Include="ReverseVowelsString.cpp" />
     <ClCompile Include="ReverseWordsInString.cpp" />
     <ClCompile Include="RomanToNumber.cpp" />
     <ClCompile Include="RotateArray.cpp" />
@@ -401,6 +409,7 @@
     <ClCompile Include="TeemoAttacking.cpp" />
     <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="TimeBasedKVStore.cpp" />
+    <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Treap.cpp" />
     <ClCompile Include="Triangle.cpp" />
@@ -418,6 +427,7 @@
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidTriangleNumber.cpp" />
+    <ClCompile Include="VerifyPreorderSerializationOfBT.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />
