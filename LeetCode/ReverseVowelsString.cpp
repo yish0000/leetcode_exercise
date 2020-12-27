@@ -6,7 +6,7 @@ class SolutionReverseVowelsString
 {
 public:
 	string reverseVowels(string s) {
-		int cnt = 0;
+		//int cnt = 0;
 		string::iterator it1 = s.begin();
 		string::iterator it2 = s.end() - 1;
 		while (it1 < it2)

@@ -46,9 +46,11 @@ RUN_TESTCASE(TopKFrequentElements)
 
 	vector<int> arr1 = { 4,1,-1,2,-1,2,3 };
 	vector<int> ret1 = { -1,2 };
-	TESTCASE_ASSERT(vectorComboEqual(sln.topKFrequent(arr1, 2), ret1));
+    vector<int> ans1 = sln.topKFrequent(arr1, 2);
+	TESTCASE_ASSERT(vectorComboEqual(ans1, ret1));
 
 	vector<int> arr2 = { 1,1,1,2,2,3 };
 	vector<int> ret2 = { 1,2 };
-	TESTCASE_ASSERT(vectorComboEqual(sln.topKFrequent(arr2, 2), ret2));
+    vector<int> ans2 = sln.topKFrequent(arr2, 2);
+	TESTCASE_ASSERT(vectorComboEqual(ans2, ret2));
 }
