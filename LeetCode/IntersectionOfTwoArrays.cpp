@@ -39,5 +39,5 @@ RUN_TESTCASE(IntersectionOfTwoArrays)
     vector<int> arr1 = {1,2,2,1};
     vector<int> arr2 = {2,2};
     vector<int> ret1 = {2};
-    TESTCASE_ASSERT(sln.intersection(arr1, arr2) == ret1);
+    TESTCASE_ASSERT(vectorComboEqual(sln.intersection(arr1, arr2), ret1));
 }
