@@ -886,6 +886,12 @@
     <ClCompile Include="HouseRobberIII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="IntersectionOfTwoArrays.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionOfTwoArraysII.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

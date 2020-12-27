@@ -249,6 +249,8 @@
     <ClCompile Include="IntCalculator.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="IntersectionOfTwoArrays.cpp" />
+    <ClCompile Include="IntersectionOfTwoArraysII.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
