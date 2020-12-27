@@ -892,6 +892,9 @@
     <ClCompile Include="IntersectionOfTwoArraysII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="FlattenNestedListIterator.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

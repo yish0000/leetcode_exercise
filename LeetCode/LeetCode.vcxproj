@@ -227,6 +227,7 @@
     <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="GameOfLife.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
