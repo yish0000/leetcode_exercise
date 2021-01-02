@@ -213,6 +213,7 @@
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteNodeInLinkedList.cpp" />
+    <ClCompile Include="DesignTwiter.cpp" />
     <ClCompile Include="DiffWaysToAddParentheses.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
