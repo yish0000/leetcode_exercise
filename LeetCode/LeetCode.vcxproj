@@ -223,6 +223,7 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindDupNumber.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FindKPairsWithSmallestSums.cpp" />
     <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
@@ -405,6 +406,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SummaryRanges.cpp" />
+    <ClCompile Include="SumOfTwoIntegers.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SuperUglyNumber.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
@@ -430,6 +432,7 @@
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidPerfectSquare.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="VerifyPreorderSerializationOfBT.cpp" />
