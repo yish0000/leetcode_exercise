@@ -907,6 +907,9 @@
     <ClCompile Include="FindKPairsWithSmallestSums.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="InterleavingString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">
