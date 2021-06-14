@@ -910,6 +910,9 @@
     <ClCompile Include="InterleavingString.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="WaterAndJugProblem.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

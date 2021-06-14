@@ -437,6 +437,7 @@
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="VerifyPreorderSerializationOfBT.cpp" />
+    <ClCompile Include="WaterAndJugProblem.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />
