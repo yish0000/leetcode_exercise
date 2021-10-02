@@ -29,6 +29,7 @@
 		546F25D2248B2C4400E8D9C9 /* SingleNumberIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25CB248B2C4300E8D9C9 /* SingleNumberIII.cpp */; };
 		546F25D3248B2C4400E8D9C9 /* CountingBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25CC248B2C4400E8D9C9 /* CountingBits.cpp */; };
 		546F25D4248B2C4400E8D9C9 /* UTF8Validation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546F25CD248B2C4400E8D9C9 /* UTF8Validation.cpp */; };
+		548F3D422623391B0067C851 /* InterleavingString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 548F3D412623391B0067C851 /* InterleavingString.cpp */; };
 		549BC814245EF61700DC5A27 /* ShortestUnsortedContinuousSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549BC7E1245EF61400DC5A27 /* ShortestUnsortedContinuousSubarray.cpp */; };
 		549BC815245EF61700DC5A27 /* BinaryTreePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549BC7E2245EF61400DC5A27 /* BinaryTreePaths.cpp */; };
 		549BC816245EF61700DC5A27 /* BasicCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549BC7E3245EF61400DC5A27 /* BasicCalculator.cpp */; };
@@ -336,6 +337,7 @@
 		546F25CB248B2C4300E8D9C9 /* SingleNumberIII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumberIII.cpp; sourceTree = "<group>"; };
 		546F25CC248B2C4400E8D9C9 /* CountingBits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingBits.cpp; sourceTree = "<group>"; };
 		546F25CD248B2C4400E8D9C9 /* UTF8Validation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8Validation.cpp; sourceTree = "<group>"; };
+		548F3D412623391B0067C851 /* InterleavingString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterleavingString.cpp; sourceTree = "<group>"; };
 		549BC7E1245EF61400DC5A27 /* ShortestUnsortedContinuousSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestUnsortedContinuousSubarray.cpp; sourceTree = "<group>"; };
 		549BC7E2245EF61400DC5A27 /* BinaryTreePaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePaths.cpp; sourceTree = "<group>"; };
 		549BC7E3245EF61400DC5A27 /* BasicCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicCalculator.cpp; sourceTree = "<group>"; };
@@ -939,6 +941,7 @@
 				5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */,
 				5454446F2585F95D00DCB2BF /* ReconstructItinerary.cpp */,
 				5400C5CD2594E5F400981EA1 /* IntersectionOfTwoArrays.cpp */,
+				548F3D412623391B0067C851 /* InterleavingString.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1224,6 +1227,7 @@
 				E6567E6022E20B0A0080AB05 /* ShiftingLetters.cpp in Sources */,
 				549BC823245EF61700DC5A27 /* ShortestPalindrome.cpp in Sources */,
 				54A40F73240BE99B00F8D78D /* ContainsDuplicate.cpp in Sources */,
+				548F3D422623391B0067C851 /* InterleavingString.cpp in Sources */,
 				54A40F7E240BE99B00F8D78D /* InvertBinaryTree.cpp in Sources */,
 				E6DADD6B232A9D680093038F /* MagicSquaresInGrid.cpp in Sources */,
 				549BC843245EF61700DC5A27 /* MaximumProductOfWordLengths.cpp in Sources */,
