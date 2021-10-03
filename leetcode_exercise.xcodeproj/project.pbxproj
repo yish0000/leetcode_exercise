@@ -18,6 +18,7 @@
 		541A48DB259256CA004F5EDE /* VerifyPreorderSerializationOfBT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541A48D5259256CA004F5EDE /* VerifyPreorderSerializationOfBT.cpp */; };
 		541A48DC259256CA004F5EDE /* AdditiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541A48D6259256CA004F5EDE /* AdditiveNumber.cpp */; };
 		541A48DD259256CA004F5EDE /* IncreasingTripletSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541A48D7259256CA004F5EDE /* IncreasingTripletSubsequence.cpp */; };
+		544FB477270972D3003C95A5 /* SumOfLeftLeaves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544FB476270972D3003C95A5 /* SumOfLeftLeaves.cpp */; };
 		5454446D2585D57C00DCB2BF /* IntegerBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */; };
 		545444702585F95D00DCB2BF /* ReconstructItinerary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454446F2585F95D00DCB2BF /* ReconstructItinerary.cpp */; };
 		5454E059248CB3E700869B01 /* RangeSumQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5454E058248CB3E700869B01 /* RangeSumQuery.cpp */; };
@@ -326,6 +327,7 @@
 		541A48D5259256CA004F5EDE /* VerifyPreorderSerializationOfBT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerifyPreorderSerializationOfBT.cpp; sourceTree = "<group>"; };
 		541A48D6259256CA004F5EDE /* AdditiveNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdditiveNumber.cpp; sourceTree = "<group>"; };
 		541A48D7259256CA004F5EDE /* IncreasingTripletSubsequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IncreasingTripletSubsequence.cpp; sourceTree = "<group>"; };
+		544FB476270972D3003C95A5 /* SumOfLeftLeaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfLeftLeaves.cpp; sourceTree = "<group>"; };
 		5454446C2585D57C00DCB2BF /* IntegerBreak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerBreak.cpp; sourceTree = "<group>"; };
 		5454446F2585F95D00DCB2BF /* ReconstructItinerary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReconstructItinerary.cpp; sourceTree = "<group>"; };
 		5454E058248CB3E700869B01 /* RangeSumQuery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RangeSumQuery.cpp; sourceTree = "<group>"; };
@@ -942,6 +944,7 @@
 				5454446F2585F95D00DCB2BF /* ReconstructItinerary.cpp */,
 				5400C5CD2594E5F400981EA1 /* IntersectionOfTwoArrays.cpp */,
 				548F3D412623391B0067C851 /* InterleavingString.cpp */,
+				544FB476270972D3003C95A5 /* SumOfLeftLeaves.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1188,6 +1191,7 @@
 				54A40F5D240BE99B00F8D78D /* ExcelSheetColumnTitle.cpp in Sources */,
 				E68BC0D622FCE26100563809 /* PlaceBrick.cpp in Sources */,
 				E6567E6522E20DDE0080AB05 /* LongestCommonPrefix.cpp in Sources */,
+				544FB477270972D3003C95A5 /* SumOfLeftLeaves.cpp in Sources */,
 				E612900423B8936800BD91DD /* ValidateBinarySearchTree.cpp in Sources */,
 				E63789B123DF0CA200B47832 /* SearchRotatedSortedArrayII.cpp in Sources */,
 				54A40F2023F51ECC00F8D78D /* RestoreIPAddress.cpp in Sources */,
