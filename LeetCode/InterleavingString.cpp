@@ -5,7 +5,7 @@ using namespace std;
 class SolutionInterleavingString
 {
 public:
-	// 暴力
+	// 鏆村姏
 	bool isInterleave_Force(string s1, int i, string s2, int j, string cur, string s3) {
 		if (cur == s3 && i == s1.length() && j == s2.length())
 			return true;
@@ -22,7 +22,7 @@ public:
 		return false;
 	}
 
-	// 记录结果
+	// 璁板綍缁撴灉
 	bool isInterleave_MTable(string s1, int i, string s2, int j, string cur, string s3, vector<vector<int>>& mt) {
 		if (cur == s3 && i == s1.length() && j == s2.length())
 			return true;
