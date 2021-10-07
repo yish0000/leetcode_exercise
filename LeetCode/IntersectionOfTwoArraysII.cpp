@@ -32,10 +32,12 @@ RUN_TESTCASE(IntersectionOfTwoArraysII)
 	vector<int> arr1 = { 1,2,2,1 };
 	vector<int> arr2 = { 2,2 };
 	vector<int> ret1 = { 2,2 };
-	TESTCASE_ASSERT(vectorComboEqual(sln.intersect(arr1, arr2), ret1));
+    vector<int> ret2 = sln.intersect(arr1, arr2);
+	TESTCASE_ASSERT(vectorComboEqual(ret1, ret2));
 
 	vector<int> arr3 = { 4,9,5 };
 	vector<int> arr4 = { 9,4,9,8,4 };
-	vector<int> ret2 = { 4,9 };
-	TESTCASE_ASSERT(vectorComboEqual(sln.intersect(arr3, arr4), ret2));
+	vector<int> ret3 = { 4,9 };
+    vector<int> ret4 = sln.intersect(arr3, arr4);
+	TESTCASE_ASSERT(vectorComboEqual(ret3, ret4));
 }
