@@ -895,6 +895,24 @@
     <ClCompile Include="FlattenNestedListIterator.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="DesignTwiter.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPerfectSquare.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfTwoIntegers.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindKPairsWithSmallestSums.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="InterleavingString.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterAndJugProblem.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCase.h">

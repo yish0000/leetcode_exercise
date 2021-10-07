@@ -22,32 +22,32 @@
     <ProjectGuid>{1051B995-D547-4C0B-BEBF-04DE11C5C7A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -213,6 +213,7 @@
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DeleteNodeInLinkedList.cpp" />
+    <ClCompile Include="DesignTwiter.cpp" />
     <ClCompile Include="DiffWaysToAddParentheses.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
@@ -222,6 +223,7 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindDupNumber.cpp" />
     <ClCompile Include="FindFLPositionInSortedArray.cpp" />
+    <ClCompile Include="FindKPairsWithSmallestSums.cpp" />
     <ClCompile Include="FindMinInRotatedSortedArray.cpp" />
     <ClCompile Include="FindPeakElements.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
@@ -250,6 +252,7 @@
     <ClCompile Include="IntCalculator.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays.cpp" />
     <ClCompile Include="IntersectionOfTwoArraysII.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
@@ -404,6 +407,7 @@
     <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubArrayKDifferent.cpp" />
     <ClCompile Include="SummaryRanges.cpp" />
+    <ClCompile Include="SumOfTwoIntegers.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SuperUglyNumber.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
@@ -429,9 +433,11 @@
     <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidPerfectSquare.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="VerifyPreorderSerializationOfBT.cpp" />
+    <ClCompile Include="WaterAndJugProblem.cpp" />
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordLadder.cpp" />

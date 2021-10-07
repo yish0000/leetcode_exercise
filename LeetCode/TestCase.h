@@ -70,6 +70,14 @@ public:
 	float randomUniform();
 	float randomFloat(float low, float high);
 
+	template <class T>
+	void printVector(const std::vector<T>& arr)
+	{
+		for (auto i : arr)
+			std::cout << i << " ";
+		std::cout << std::endl;
+	}
+
 	static bool HaveAssetFailed();
 	static void PrintAssetFailed();
 
